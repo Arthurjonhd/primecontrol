@@ -387,6 +387,14 @@ hero is fully covered. The placeholder aerial has been replaced by the client's 
 - **Embedded BMS demo video** (YouTube) on the Building automation page behind a click-to-load facade,
   so nothing from YouTube loads until the visitor presses play.
 
+### Addendum (client request, 2026-09-13): video on phones
+
+The client wants the clips to play on phones as well. The desktop-only gate is removed: the hero and the
+bands play everywhere except under `prefers-reduced-motion: reduce` or when the browser reports data
+saver. Phones get the smaller WebM first with the original MP4 as a fallback for browsers that cannot
+play WebM (older iOS); desktop gets the MP4 first on the plant band for quality. Autoplay stays muted and
+inline; iOS Low Power Mode still blocks autoplay, in which case the poster shows.
+
 ## 5. Content principles
 
 - The outcome is the first sentence of every solution block and every solution page. Grouping stays by

@@ -79,13 +79,16 @@
   heroVideo = video;
   if (video) {
     var conn = navigator.connection || {};
-    var allow = desktop.matches && !reduceMotion.matches && !conn.saveData;
-    if (allow && video.canPlayType('video/webm')) {
+    // plays on phones too (client request); only reduced-motion and data-saver keep the still
+    var allow = !reduceMotion.matches && !conn.saveData;
+    if (allow) {
       video.poster = video.getAttribute('data-poster');
       var src = doc.createElement('source');
       src.src = video.getAttribute('data-src');
       src.type = 'video/webm';
       video.appendChild(src);
+      var hmp4 = video.getAttribute('data-src-mp4');
+      if (hmp4) { var hs4 = doc.createElement('source'); hs4.src = hmp4; hs4.type = 'video/mp4'; video.appendChild(hs4); }
       video.load();
       var p = video.play();
       if (p && p.then) p.then(function () { video.classList.add('is-playing'); }).catch(function () { /* poster stays */ });
@@ -95,12 +98,16 @@
 
   /* ---------- Media bands: lazy video on desktop, poster elsewhere ---------- */
   var bands = doc.querySelectorAll('[data-band-video]');
-  if (bands.length && desktop.matches && !reduceMotion.matches && !(navigator.connection || {}).saveData && 'IntersectionObserver' in window) {
+  if (bands.length && !reduceMotion.matches && !(navigator.connection || {}).saveData && 'IntersectionObserver' in window) {
     var loadBand = function (v) {
       if (v.dataset.loaded) return; v.dataset.loaded = '1';
       var mp4 = v.getAttribute('data-src-mp4');
-      if (mp4) { var s4 = doc.createElement('source'); s4.src = mp4; s4.type = 'video/mp4'; v.appendChild(s4); }
-      var s = doc.createElement('source'); s.src = v.getAttribute('data-src'); s.type = 'video/webm'; v.appendChild(s); v.load();
+      var s = doc.createElement('source'); s.src = v.getAttribute('data-src'); s.type = 'video/webm';
+      var s4 = null;
+      if (mp4) { s4 = doc.createElement('source'); s4.src = mp4; s4.type = 'video/mp4'; }
+      // desktop: the higher-quality MP4 first; phones: the smaller WebM first, MP4 only as a fallback
+      if (s4 && desktop.matches) { v.appendChild(s4); v.appendChild(s); } else { v.appendChild(s); if (s4) v.appendChild(s4); }
+      v.load();
       v.addEventListener('playing', function () { v.classList.add('is-playing'); }, { once: true });
     };
     var io = new IntersectionObserver(function (entries) {

@@ -75,3 +75,7 @@
 - Client confirmed ownership of the three project images from the previous site; prepared without upscaling (`prep-image.mjs` no longer enlarges) and placed in the experience tiles on Home and About.
 - About restructured: less copy, an image slot beside "Where we come from" and "What we hold ourselves to" (4:3), mission and vision as a full-width band with text over an image, experience as a three-up photo grid, team as photo cards. Prompts for the new slots added to `design/image-brief.md`.
 - About hero: Unsplash photo (Sean Pollock) with a softer scrim; page-hero photos load with high fetch priority.
+
+## Video on phones (2026-09-13)
+- Client request: clips now play on phones too. Only `prefers-reduced-motion` and data-saver keep the still. Phones load WebM first; MP4 originals (`hero-drone.mp4`, `band-ceiling.mp4`, `band-bms.mp4`) are fallbacks for browsers without WebM; desktop keeps MP4-first on the plant band. Plan §4 addendum.
+- Deployed to GitHub Pages: https://arthurjonhd.github.io/primecontrol/ via `.github/workflows/pages.yml`.
