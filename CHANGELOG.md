@@ -11,3 +11,7 @@
 - benchmarks.md: no typography taken from Trane (Inter not adopted); Siemens is a palette reference only and the layered-building illustration will be original; added the "group by system, lead with outcome" rule.
 - CLAUDE.md: src/ → scripts/build.mjs → dist/ (committed, deploy target); text-only wordmarks until dealer status is confirmed; Process and Publishing sections; research/ and design/ never deployed.
 - TODO.md: dealer-status and private-repo blockers.
+
+## Phase 1 — Design system and plan (2026-09-13)
+- `design/plan.md`: 6 colour tokens with computed AA contrast table, Archivo (width axis) + B612 typography with justification and 8-step fluid type scale, ASCII wireframes for Home (desktop + mobile), a Solutions page and Contact, original layered-building illustration spec, provisional wordmark spec, motion policy (hero only), content principles, and a review-against-the-brief table of template defaults replaced.
+- ui-ux-pro-max design-system output consulted and rejected (documented in plan §6).
