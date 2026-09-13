@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{page.title}}</title>
+<meta name="description" content="{{page.description}}">
+<link rel="canonical" href="{{site.url}}{{page.path}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{brand.name}}">
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:description" content="{{page.description}}">
+<meta property="og:url" content="{{site.url}}{{page.path}}">
+<meta property="og:image" content="{{site.url}}/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#15243B">
+<link rel="icon" href="{{root}}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="{{root}}assets/fonts/archivo-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{root}}assets/fonts/b612-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}assets/css/main.css">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "{{brand.legalName}}",
+  "url": "{{site.url}}/",
+  "telephone": "{{brand.phone}}",
+  "email": "{{brand.email}}",
+  "description": "{{brand.descriptor}}. Building management systems, Lutron lighting and shading, Crestron automation, access control and video, energy monitoring, indoor air quality, service and support.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{brand.address}}",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Miami"},
+    {"@type": "City", "name": "Fort Lauderdale"},
+    {"@type": "City", "name": "Palm Beach"},
+    {"@type": "AdministrativeArea", "name": "South Florida"}
+  ],
+  "knowsAbout": ["Building automation", "Building management systems", "Lutron lighting control", "Crestron automation", "Access control", "CCTV", "Energy monitoring", "Indoor air quality"]
+}
+</script>

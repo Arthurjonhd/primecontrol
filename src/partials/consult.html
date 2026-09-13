@@ -1,0 +1,61 @@
+<section class="consult" id="consult" aria-labelledby="consult-title">
+  <div class="container consult__inner">
+    <div class="consult__copy">
+      <h2 class="h2" id="consult-title">Talk to an engineer, not a salesperson.</h2>
+      <p class="lede">Tell us about the building and we call back within one business day.</p>
+      <h3 class="consult__sub">What happens next</h3>
+      <ol class="steps steps--compact">
+        <li><span class="steps__num">1</span><span>A call to understand the building and the problem.</span></li>
+        <li><span class="steps__num">2</span><span>A site walk-through.</span></li>
+        <li><span class="steps__num">3</span><span>A written proposal with scope and price.</span></li>
+      </ol>
+      <p class="consult__direct">Prefer to call? <a href="{{brand.phoneHref}}"><span class="ph">{{brand.phone}}</span></a> or <a href="mailto:{{brand.email}}"><span class="ph">{{brand.email}}</span></a>.</p>
+    </div>
+
+    <form class="form-card" action="https://api.web3forms.com/submit" method="POST" data-consult-form novalidate>
+      <input type="hidden" name="access_key" value="{{brand.web3formsKey}}">
+      <input type="hidden" name="subject" value="Consultation request from {{brand.name}} website">
+      <input type="hidden" name="from_name" value="{{brand.name}} website">
+      <div class="form-card__hp" aria-hidden="true">
+        <label for="botcheck">Leave this empty</label>
+        <input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="field">
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="f-phone">Phone</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-type">Property type</label>
+        <select id="f-type" name="property_type" required>
+          <option value="">Choose one</option>
+          <option>Single-family home</option>
+          <option>Condominium or HOA</option>
+          <option>Commercial office</option>
+          <option>Hospitality</option>
+          <option>Healthcare</option>
+          <option>Retail</option>
+          <option>Light industrial</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-message">Message <span class="field__opt">(optional)</span></label>
+        <textarea id="f-message" name="message" rows="4" placeholder=""></textarea>
+        <p class="field__help" id="f-message-help">Address, size of the building and what is not working today all help.</p>
+      </div>
+      <button class="btn btn--primary btn--block" type="submit">Send request</button>
+      <p class="form-card__status" data-form-status role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>

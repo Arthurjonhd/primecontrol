@@ -110,7 +110,7 @@ tighter, measure 45–75 characters.
 | 5 | `--t-h1` | 42 → 60 px | 1.05 | inner-page H1 |
 | 6 | `--t-hero` | 42 → 64 px | 1.0 | Home hero H1 only |
 
-Measure: `--measure: 62ch` on all prose; lede 48ch. Hero headline: the text is "One interface for every system in your building." (48 characters) set in a 24ch measure so it breaks as two balanced lines at 1440 ("One interface for every / system in your building.") and stays at two or three lines down to 1024. Verified by screenshot at 1440 and 1024 in Phase 2.
+Measure: `--measure: 62ch` on all prose; lede 48ch. Hero headline: the text is "One interface for every system in your building." (48 characters) set in a 30ch measure (Archivo at width 112 runs wider than the ch unit suggests) so it breaks as two balanced lines at 1440 ("One interface for every / system in your building.") and stays at two lines down to 1024. On desktop the headline spans the full hero width; the paragraph and buttons sit below it on the left with the layer diagram beside them on the right (the 7 + 5 copy/diagram split alone left only ~600 px for the headline). Verified by screenshot at 1440 and 1024 in Phase 2.
 Headline tracking: −0.015em at steps 4–6, 0 elsewhere. B612 labels: 13–15 px, tracking +0.02em, never
 all-caps (B612's lowercase is its legible form).
 

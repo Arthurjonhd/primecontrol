@@ -23,7 +23,8 @@
 - [ ] Team names / photos for About
 - [ ] Web3Forms access key → `[WEB3FORMS_KEY]`
 - [ ] Domain name and hosting choice (GitHub Pages / Cloudflare Pages / other)
-- [ ] Hero video: client drone footage, or approve the royalty-free placeholder
+- [ ] Hero video: client drone footage (WebM or MP4, under 4 MB, 16:9) to replace the placeholder push-in clip rendered from a CC BY-SA photo. When replaced, also replace the poster images in `src/assets/img/hero/` and remove the photo credit from the footer partial.
+- [ ] `siteUrl` in `src/partials/brand.json` is `https://primecontrol.example` so canonical/OG/sitemap URLs are valid; replace with the real domain
 - [ ] Spanish translation (structure is ready; copy not yet translated)
 
 ## Research follow-ups

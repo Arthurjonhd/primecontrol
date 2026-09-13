@@ -1,0 +1,62 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="brand brand--footer" href="{{root}}index.html" aria-label="{{brand.name}} home">
+          <svg class="brand__mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <rect x="1.5" y="1.5" width="21" height="21" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="1.5" y1="12" x2="22.5" y2="12" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="13" y="8.5" width="4" height="7" rx="1" class="brand__tick"/>
+          </svg>
+          <span class="brand__name">{{brand.name}}</span>
+        </a>
+        <p class="site-footer__blurb">{{brand.descriptor}}. Design, installation, programming and service for every system in the building.</p>
+      </div>
+
+      <nav class="site-footer__col" aria-labelledby="fnav-solutions">
+        <h2 class="site-footer__head" id="fnav-solutions">Solutions</h2>
+        <ul>
+          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+          <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading (Lutron)</a></li>
+          <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Home and commercial automation (Crestron)</a></li>
+          <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
+          <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></li>
+          <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></li>
+          <li><a href="{{root}}solutions/service-and-support/index.html">Service and support</a></li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer__col" aria-labelledby="fnav-company">
+        <h2 class="site-footer__head" id="fnav-company">Company</h2>
+        <ul>
+          <li><a href="{{root}}about/index.html">About</a></li>
+          <li><a href="{{root}}markets/index.html">Markets</a></li>
+          <li><a href="{{root}}contact/index.html">Contact</a></li>
+          <li><a href="{{root}}privacy/index.html">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__head">Contact</h2>
+        <ul>
+          <li><a href="{{brand.phoneHref}}"><span class="ph">{{brand.phone}}</span></a></li>
+          <li><a href="mailto:{{brand.email}}"><span class="ph">{{brand.email}}</span></a></li>
+          <li><span class="ph">{{brand.address}}</span></li>
+        </ul>
+        <h2 class="site-footer__head">Service area</h2>
+        <p class="site-footer__area">{{brand.serviceAreaShort}} <span class="ph">[confirm with client]</span></p>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <p class="site-footer__license">Florida contractor license <span class="ph">{{brand.license}}</span></p>
+      <ul class="site-footer__social" aria-label="Social media (placeholders)">
+        <li><a href="#" aria-disabled="true">LinkedIn <span class="ph">[link]</span></a></li>
+        <li><a href="#" aria-disabled="true">Instagram <span class="ph">[link]</span></a></li>
+      </ul>
+      <p class="site-footer__legal">© {{brand.year}} {{brand.legalName}}. <a href="{{root}}privacy/index.html">Privacy</a></p>
+      <p class="site-footer__credit">Placeholder aerial photo: Murray Foubister, <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license">CC BY-SA 2.0</a>, modified.</p>
+    </div>
+  </div>
+</footer>
+<script src="{{root}}assets/js/main.js" defer></script>

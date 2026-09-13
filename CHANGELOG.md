@@ -21,3 +21,12 @@
 - Middle dots removed from all wireframes; plan states the build uses rules and spacing, never "·".
 - §3.6: the "one interface" node is the Home & commercial automation (Crestron) family; all seven families are in the hero story.
 - Business commitments moved to TODO.md under "Claims the client must confirm".
+
+## Phase 2 — Home page (2026-09-13)
+- Build pipeline: `src/` → `scripts/build.mjs` → `dist/` (partials, brand tokens, per-page metadata, sitemap.xml, robots.txt, .nojekyll). `dist/` is committed and is the deploy target.
+- Partials: head (meta, OG, canonical, JSON-LD HomeAndConstructionBusiness), header (flat nav, phone, CTA, mobile panel with focus trap), footer (nav, contact placeholders, service area, license slot, photo credit), consult (band + Web3Forms form with honeypot, validation, plain-language success/error).
+- `src/assets/css/main.css`: tokens from the plan, Archivo (width axis) + B612 self-hosted, fluid type scale, all Home sections.
+- Home hero: graded CC BY-SA aerial poster (AVIF/WebP/JPEG at 768/1280/1920), 1.38 MB WebM push-in clip loaded only on desktop without reduced-motion or data-saver, original SVG layer diagram animating once (~2.8 s) on desktop, static on mobile and under reduced motion.
+- Hero headline restructured to span the full width on desktop so it sets as two lines at 1440 and 1024 (plan updated).
+- QA scripts: `scripts/shots.mjs` (390/820/1440 full pages, hero frames with and without reduced motion), `scripts/lighthouse.mjs` (mobile + desktop), `scripts/make-og.mjs`, `scripts/make-hero-video.mjs`.
+- Lighthouse Home: mobile 98 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100 (performance / accessibility / best practices / SEO). CLS 0. Home weight 203 KB mobile; 1.7 MB desktop including the 1.38 MB clip.

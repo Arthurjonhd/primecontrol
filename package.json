@@ -1,16 +1,23 @@
 {
-  "name": "primecontrol-v1",
+  "name": "primecontrol-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Prime Control marketing site (static HTML/CSS/JS)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "shots": "node scripts/build.mjs && node scripts/shots.mjs",
+    "hero": "node scripts/make-hero-video.mjs",
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "benchmark": "node scripts/benchmark.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
-    "playwright": "^1.63.0"
-  }
+    "lighthouse": "^12.8.2",
+    "playwright": "^1.63.0",
+    "sharp": "^0.34.3"
+  },
+  "private": true
 }
