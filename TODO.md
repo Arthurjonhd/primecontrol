@@ -30,7 +30,8 @@ Run `grep -rn "\[" src --include=*.html --include=*.json` before launch: it must
 
 ## Images and video to generate (see design/image-brief.md for prompts and file names)
 - [x] Received 2026-09-13: market-residential, -hospitality, -healthcare, -retail, -industrial; sol-lighting-and-shading, -home-and-commercial-automation, -access-control-and-video, -energy-monitoring, -service-and-support; markets-hero ("arriba"). Originals in `design/source/img/`.
-- [ ] Still missing: `market-commercial`, `market-condominiums` (interim: frames from the footage), `sol-building-automation`, `sol-indoor-air-quality`
+- [x] Received: about-founder, about-mission, about-values (2026-09-13). Delivered at 1200×896 and 1376×768, so no 1920 variants exist; fine for their slots.
+- [ ] Still missing: `market-commercial`, `market-condominiums` (interim: frames from the footage), `sol-building-automation`, `sol-indoor-air-quality`, team photos
 - [ ] The received images have English text baked in (labels, "Prime Control Systems", "Hialeah, FL"). For the Spanish version they will need text-free or Spanish variants; the brief asked for no text in images for that reason.
 - [ ] Photos of the three experience projects. The previous site's images are saved in `research/client-site/img/` (airport and hotel are 958×580 and 673×407 screen captures; the bank is a 2000×1125 architect's rendering). Use only if the client confirms ownership or permission; a real site photo of each is preferable.
 - [ ] Optional band videos (shades lowering, touch-panel scene) and a lobby still
