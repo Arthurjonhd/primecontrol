@@ -22,11 +22,11 @@
 | Social links "LinkedIn [link]", "Instagram [link]" | `src/partials/footer.html` | 54–55 | Replace `href="#"` with real profiles and remove `[link]`, or delete the list |
 | `siteUrl: https://primecontrol.example` | `src/partials/brand.json` | 6 | Replace with the real domain (drives canonical, OG, sitemap, robots) |
 | `[PHONE]`, `[EMAIL]`, `[ADDRESS]`, `[FL LICENSE #]`, `[WEB3FORMS_KEY]` | `src/partials/brand.json` | 7–12 | Replace values; the `.ph` styling disappears with them |
-| "[confirm with client]" note under "Where we come from" | `src/about/index.html` | 35 | Delete once the founder story is confirmed |
-| Team block "[team pending]" / "[Name]" / "[Role]" | `src/about/index.html` | 71–77 | Fill or delete the block |
-| Certifications "[certifications pending]" / "[pending]" | `src/about/index.html` | 80–89 | Fill or delete the block |
-| Map placeholder "[map pending]", "[confirm with client]" service-area note | `src/contact/index.html` | 71, 75 | Replace with the map embed; delete the note |
-| Privacy "[date]", "[legal review pending]" | `src/privacy/index.html` | 32 | Set the date after counsel review |
+| "[confirm with client]" note under "Where we come from" | `src/about/index.html` | 32 | Delete once the founder story is confirmed |
+| Team block "[team pending]" / "[Name]" / "[Role]" | `src/about/index.html` | 69–75 | Fill or delete the block |
+| Certifications "[certifications pending]" / "[pending]" | `src/about/index.html` | 78–87 | Fill or delete the block |
+| Map placeholder "[map pending]", "[confirm with client]" service-area note | `src/contact/index.html` | 84, 88 | Replace with the map embed; delete the note |
+| Privacy "[date]", "[legal review pending]" | `src/privacy/index.html` | 29 | Set the date after counsel review |
 
 Run `grep -rn "\[" src --include=*.html --include=*.json` before launch: it must return nothing.
 
