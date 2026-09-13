@@ -3,7 +3,7 @@
   "shortName": "Prime Control",
   "legalName": "Prime Control",
   "descriptor": "Building automation and control systems, South Florida",
-  "siteUrl": "https://primecontrol.example",
+  "siteUrl": "https://arthurjonhd.github.io/primecontrol",
   "phone": "[PHONE]",
   "phoneHref": "tel:+10000000000",
   "email": "[EMAIL]",
@@ -11,6 +11,13 @@
   "license": "[FL LICENSE #]",
   "web3formsKey": "[WEB3FORMS_KEY]",
   "serviceAreaShort": "Miami, Fort Lauderdale, Palm Beach and all of South Florida",
-  "serviceArea": ["Miami", "Fort Lauderdale", "Palm Beach", "Miami-Dade County", "Broward County", "Palm Beach County"],
+  "serviceArea": [
+    "Miami",
+    "Fort Lauderdale",
+    "Palm Beach",
+    "Miami-Dade County",
+    "Broward County",
+    "Palm Beach County"
+  ],
   "year": "2026"
 }

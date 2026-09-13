@@ -2,7 +2,7 @@
 
 ## Blockers
 - [ ] **Authorized-dealer confirmation for Lutron, Crestron and Trane.** Until confirmed, the trust bar uses plain-text wordmarks only; licensed logos cannot be used.
-- [ ] **Repo visibility.** Keep the repository private until the client approves the site.
+- [ ] **Repo visibility.** GitHub Pages on a free account only publishes from a public repository. Either accept a public repo for the preview (the URL is unlisted but reachable), upgrade to GitHub Pro, or preview on Cloudflare Pages / Netlify, which deploy from private repos for free.
 
 ## Claims the client must confirm (built as written for now)
 - [ ] About page: founder name (Brayan Turnquest), the Caiman Automation history line, and the three cited projects (Central Bank of The Bahamas facility master system; Lynden Pindling International Airport BMS with NAD for 3+ years; Hotel Iberostar Grand Packard automation). Taken from caimanautomation.com; confirm wording and that they may be cited. `src/about/index.html`
@@ -18,7 +18,7 @@
 | Hidden testimonials "[Quote] / [Name], [Role], [Property]" | `src/index.html` | 232–233 | Fill with real quotes and remove the `hidden` attribute, or delete the section |
 | "[confirm with client]" after the service area | `src/partials/footer.html` | 47 | Delete once the service area is confirmed |
 | Social links "LinkedIn [link]", "Instagram [link]" | `src/partials/footer.html` | 54–55 | Replace `href="#"` with real profiles and remove `[link]`, or delete the list |
-| `siteUrl: https://primecontrol.example` | `src/partials/brand.json` | 6 | Replace with the real domain (drives canonical, OG, sitemap, robots) |
+| `siteUrl: https://arthurjonhd.github.io/primecontrol` (GitHub Pages preview URL) | `src/partials/brand.json` | 6 | Replace with the real domain at launch (drives canonical, OG, sitemap, robots) |
 | `[PHONE]`, `[EMAIL]`, `[ADDRESS]`, `[FL LICENSE #]`, `[WEB3FORMS_KEY]` | `src/partials/brand.json` | 7–12 | Replace values; the `.ph` styling disappears with them |
 | "[confirm with client]" note under "Where we come from" | `src/about/index.html` | 32 | Delete once the founder story is confirmed |
 | Team block "[team pending]" / "[Name]" / "[Role]" | `src/about/index.html` | 69–75 | Fill or delete the block |
