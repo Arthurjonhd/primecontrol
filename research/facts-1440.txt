@@ -1,0 +1,204 @@
+
+## acc home https://www.advancedcontrolcorp.com/
+title: Building Technology & Automation Solutions in FL - Advanced Control
+h1: DISCOVER ALL WE DO {"family":"Proxima-Nova","size":"64px","weight":"400","lineHeight":"96px"}
+h2: Welcome to Advanced Control Corporation, an industry leader in building technology and automation since 1987. | DOWNLOAD FORMS HEADLINE | Advanced Control Corporation Fort Lauderdale office: | Advanced Control Corporation Tampa office: | We can help your facility be more: | Resilient Sustainable Efficient Secure Comfortable | We can help your facility be more: | Resilient Sustainable Efficient Secure Comfortable | CONTACT US
+nav: 954.491.6660 | 727.241.6000 | COMPANY PROFILE | SOLUTIONS | SERVICES | INSIGHT | CONTACT US
+ctas: CONTACT US
+fonts: -apple-system, Proxima-Nova, Lato, ProximaNova
+colors: rgb(204, 51, 102) ; rgb(51, 51, 51) ; rgb(255, 255, 255) ; rgb(0, 0, 0) ; rgb(64, 84, 178) ; rgb(105, 114, 125)
+video: [{"src":"https://www.advancedcontrolcorp.com/wp-content/uploads/2023/12/pexels_videos_2450251-2160p-1.mp4","autoplay":true,"muted":true,"poster":"","w":1440,"h":826}]
+perf: req 88 KB 25514 dcl 2807 load 3135 wall 6110 height 3514
+trust: since 1987
+
+## acc solutions https://www.advancedcontrolcorp.com/solutions/
+title: Green Building Automation Solutions in Fort Lauderdale & Tampa | ACC
+h1: GREEN BUILDING AUTOMATION SOLUTIONS {"family":"Proxima-Nova","size":"33.696px","weight":"400","lineHeight":"45px"}
+h2: READ MORE > | READ MORE > | READ MORE > | ENERGY MONITORING SOLUTIONS | READ MORE > | SECURITY AUTOMATION SOLUTIONS | READ MORE > | AIR QUALITY CONTROL & MONITORING | READ MORE >
+nav: 954.491.6660 | 727.241.6000 | COMPANY PROFILE | SOLUTIONS | SERVICES | INSIGHT | CONTACT US
+ctas: CONTACT US
+fonts: Proxima-Nova, -apple-system, ProximaNova, Lato
+colors: rgb(51, 51, 51) ; rgb(204, 51, 102) ; rgb(0, 0, 0) ; rgb(65, 169, 80) ; rgb(255, 255, 255) ; rgb(105, 114, 125)
+video: []
+perf: req 77 KB 3326 dcl 759 load 1027 wall 1602 height 2990
+trust: 
+
+## acc services https://www.advancedcontrolcorp.com/services/
+title: Building & Security Automation | CCTV Systems | Energy Conservation
+h1: MANAGED SERVICES {"family":"Proxima-Nova","size":"33.696px","weight":"400","lineHeight":"45px"}
+h2: READ MORE > | READ MORE > | READ MORE > | READ MORE > | PLANNED SERVICES | READ MORE > | READ MORE > | READ MORE > | BUILDING ADVISOR | READ MORE >
+nav: 954.491.6660 | 727.241.6000 | COMPANY PROFILE | SOLUTIONS | SERVICES | INSIGHT | CONTACT US
+ctas: CONTACT US
+fonts: Proxima-Nova, -apple-system, ProximaNova, Lato
+colors: rgb(51, 51, 51) ; rgb(204, 51, 102) ; rgb(0, 0, 0) ; rgb(65, 169, 80) ; rgb(255, 255, 255) ; rgb(105, 114, 125)
+video: []
+perf: req 75 KB 1538 dcl 679 load 979 wall 1515 height 2283
+trust: 
+
+## crestron home https://www.crestron.com/
+title: Control Systems for Home Automation, Campus & Building Control by Crestron Electronics [Crestron Electronics, Inc.]
+h1: Engineering a Culture of Collaboration | SPOTIFY CAMP NOU | Spotify Camp Nou {"family":"\"Mark Pro Bold\"","size":"36px","weight":"400","lineHeight":"54px"}
+h2: Spotify Camp Nou | Intelligent technology to transform every space. | CRESTRON COLLAB COMPUTE | CRESTRON INTELLIGENT VIDEO | DM NAX INTELLIGENT AUDIO | DM NAX Intelligent Audio | CRESTRON CONTROL | Crestron Home® OS 4. Experience is everything. | Cookie Settings
+nav: Solutions | Products | How To Buy | What's New | Support | Community | English | Sign In
+ctas: LEARN MORE | Contact Us | Gear Shop
+fonts: Mark Pro Regular, Mark Pro Bold, Roboto, FF Mark Pro Book, Mark Pro Condensed Black
+colors: rgb(255, 255, 255) ; rgb(51, 51, 51) ; rgb(50, 54, 58) ; rgb(106, 109, 112) ; rgb(95, 170, 229) ; rgb(0, 120, 212)
+video: [{"src":"https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/iv-cam-i12d-rotation-16x9.mp4","autoplay":true,"muted":true,"poster":"","w":706.875,"h":397.609375},{"src":"https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/scalabble_solution_for_web_1x_2.mp4","autoplay":true,"muted":true,"poster":"","w":751.828125,"h":475.828125}]
+perf: req 133 KB 795 dcl 1408 load 2283 wall 3486 height 7567
+trust: certified
+
+## crestron solutions https://www.crestron.com/Products/Featured-Solutions/Crestron-Home
+title: Crestron Home [Crestron Electronics, Inc.]
+h1: Crestron Home Pro Portal {"family":"\"FF Mark Pro Bold\"","size":"40px","weight":"400","lineHeight":"50px"}
+h2: Spotify Camp Nou | What’s New | OS Updates | Products | Works with Crestron Home | Webinars | Cookie Settings
+nav: Solutions | Products | How To Buy | What's New | Support | Community | English | Sign In
+ctas: SEE ALL NEWS | LEARN MORE | SEE ALL PRODUCTS | Contact Us | Gear Shop
+fonts: Mark Pro Regular, FF Mark Pro Bold, FF Mark Pro Book, Mark Pro Bold, Mark Pro Medium, Roboto, Mark Pro Book
+colors: rgb(255, 255, 255) ; rgb(4, 43, 72) ; rgb(51, 51, 51) ; rgb(25, 148, 183) ; rgb(144, 144, 144) ; rgb(50, 54, 58)
+video: []
+perf: req 163 KB 3066 dcl 755 load 1228 wall 2379 height 9237
+trust: certified
+
+## se home https://www.se.com/us/en/
+title: Schneider Electric United States | Schneider Electric USA | Your Energy Technology Partner
+h1:  
+h2: Customer favorites | Named World's Most Sustainable Company 2026 by TIME Magazine and Statista | Software | Services | Residential | Federal Government | Data Centers | Careers | Contact support | Calculators and online tools | DigestPLUS product catalog | APC | Where to buy | Launch Product Selector
+nav: 
+ctas: Contactors and Protection Relays | Contact support
+fonts: Arial Rounded MT for SE
+colors: rgb(92, 100, 102) ; rgb(238, 238, 238) ; rgb(255, 255, 255) ; rgb(0, 0, 0) ; rgb(0, 161, 224)
+video: []
+perf: req 497 KB 1884 dcl 323 load 599 wall 15337 height 4099
+trust: 
+
+## se solutions https://www.se.com/us/en/work/software/ecostruxure-building/
+title: EcoStruxure Building Software | Schneider Electric United States
+h1:  
+h2: Trusted by | Cookies and Policy
+nav: 
+ctas: 
+fonts: Arial Rounded MT for SE, Open Sans
+colors: rgb(92, 100, 102) ; rgb(9, 11, 12) ; rgb(238, 238, 238) ; rgb(255, 255, 255) ; rgb(103, 111, 115) ; rgb(61, 205, 88)
+video: []
+perf: req 481 KB 1809 dcl 363 load 725 wall 15378 height 2178
+trust: 
+
+## trane home https://www.trane.com/commercial/north-america/us/en.html
+title: Solutions for the Life of Your Building | Trane Commercial HVAC
+h1: We turn today’s buildings into tomorrow’s breakthroughs. {"family":"Inter","size":"70px","weight":"500","lineHeight":"70px"}
+h2: HOW CAN WE HELP? | Discover how Trane delivers data-driven services to optimize the efficiency and resilience of your buildings and systems. | We provide expertise and industry insights that help you go beyond. | Tools for your trade. | Trane offers on-site classroom training as well as interactive courses and webinars suited to a wide range of skills. | Help is closer than you think.
+nav: Skip to content | Products | Services | Support | Education & Training | Industries | About
+ctas: Local Contact | Explore All Services | Learn More | Consulting Engineers | Find Your Trane Rep | Contact Us | Locate a Sales Office
+fonts: Inter
+colors: rgb(0, 0, 0) ; rgb(255, 255, 255) ; rgb(99, 100, 103) ; rgb(226, 38, 0)
+video: [{"src":"https://media.tranetechnologies.com/is/content/TraneTechnologies/AdobeStock_181953424","autoplay":true,"muted":true,"poster":"https://media.tranetechnologies.com/is/image/TraneTechnologies/building-with-sun-1:xlarge-16-9","w":1440,"h":954.65625}]
+perf: req 120 KB 1452 dcl 383 load 1243 wall 2041 height 7096
+trust: award, 100 years
+
+## trane solutions https://www.trane.com/commercial/north-america/us/en/products-systems/smart-building-technology/building-controls-solutions.html
+title: Building Control Solutions & HVAC Automation | Trane Commercial HVAC
+h1: Building Control Solutions & HVAC Automation {"family":"Inter","size":"70px","weight":"500","lineHeight":"70px"}
+h2: Enhancing buildings with AI-powered smart building controls solutions. | Building Controls & HVAC Automation | Transform Your Building into a Smart Building | Frequently Asked Questions | Tools for your trade. | Help is closer than you think.
+nav: Skip to content | Products | Services | Support | Education & Training | Industries | About | Products and Systems | Smart Building Solutions
+ctas: Local Contact | Consulting Engineers | Find Your Trane Rep | Contact Us | Locate a Sales Office
+fonts: Inter
+colors: rgb(0, 0, 0) ; rgb(255, 255, 255) ; rgb(99, 100, 103) ; rgb(226, 38, 0)
+video: [{"src":"https://media.tranetechnologies.com/is/content/TraneTechnologies/AdobeStock_356782125","autoplay":true,"muted":true,"poster":"","w":1440,"h":652.625}]
+perf: req 121 KB 341 dcl 309 load 1021 wall 10342 height 7882
+trust: 50 years, 100 years
+
+## jci home https://www.johnsoncontrols.com/
+title: Johnson Controls | Johnson Controls
+h1: Where it really matters | Where it really matters | Where it really matters {"family":"NotoSansBold","size":"35px","weight":"600","lineHeight":"52.5px"}
+h2: A global leader in thermal management, mission-critical building systems, energy efficiency, and decarbonization | 5 reasons for openness | Power consumption, water use … noise? | The power of proactive service | Global reference design guides for AI Factories | Operations, maintenance, and repair services
+nav: Contact an expert | Investors | Careers | Media Center | PRODUCTS & SERVICES | SOLUTIONS | INDUSTRIES | BUILDING INSIGHTS | SUPPORT | ABOUT US
+ctas: Contact an expert | Learn more | Contact us | Find a rep
+fonts: NotoSansRegular, NotoSansSemiBold, NotoSansBold
+colors: rgb(46, 41, 37) ; rgb(0, 0, 112) ; rgb(51, 55, 64) ; rgb(0, 83, 158) ; rgb(255, 255, 255) ; rgb(46, 233, 255)
+video: []
+perf: req 346 KB 129 dcl 789 load 1823 wall 16078 height 5313
+trust: 140 years
+
+## jci solutions https://www.johnsoncontrols.com/openblue
+title: OpenBlue | Johnson Controls
+h1: OpenBlue | Johnson Controls Digital Technology Conference - EMEA {"family":"NotoSansRegular","size":"56px","weight":"400","lineHeight":"72.8px"}
+h2: Unlock the performance of your building, workforce, & operations Learn more | September 10th, 2026 | Tottenham Hotspur Stadium Register now | OpenBlue | Explore OpenBlue solutions | Workplace Planning & Management | Energy Efficiency & Sustainability | Equipment Performance & Operations Efficiency | Workplace Experience & Productivity
+nav: Contact an expert | Investors | Careers | Media Center | PRODUCTS & SERVICES | SOLUTIONS | INDUSTRIES | BUILDING INSIGHTS | SUPPORT | ABOUT US | Overview | Product & Solutions | Discover OpenBlue
+ctas: Contact an expert | Learn more | Discover OpenBlue | Contact us | Talk to a Johnson Controls expert > | Find a rep
+fonts: NotoSansRegular, NotoSansSemiBold, NotoSansBold
+colors: rgb(46, 41, 37) ; rgb(0, 83, 158) ; rgb(0, 0, 112) ; rgb(255, 255, 255) ; rgb(51, 55, 64) ; rgb(0, 0, 0)
+video: []
+perf: req 339 KB 154 dcl 740 load 2025 wall 16023 height 4841
+trust: 
+
+## siemens home https://www.siemens.com/en-us/content/smart-building-infrastructure/
+title: Smart building infrastructure and technologies | Siemens
+h1: Smart Buildings: Technology to transform buildings {"family":"SiemensRoman","size":"48px","weight":"400","lineHeight":"58px"}
+h2: What is smart building infrastructure? | Demands on buildings are increasing | Smart buildings boost stakeholder experience & success. | Smart today. Autonomous tomorrow. | We understand your challenges | A holistic look at smart building infrastructure | Our industries | Send us a message
+nav: Siemens | Log in | Home | Content
+ctas: Learn more
+fonts: SiemensSans, SiemensRoman
+colors: rgb(0, 0, 40) ; rgb(255, 255, 255) ; rgb(0, 0, 0) ; rgb(0, 121, 147) ; rgb(125, 128, 153) ; rgb(0, 204, 204)
+video: [{"src":"https://video.sw.cdn.siemens.com/mgc/videos/1200/a778ab1c-bfeb-4d0d-89c3-10c1cbce62d1-en-US-video.webm","autoplay":false,"muted":false,"poster":"","w":608,"h":342}]
+perf: req 210 KB 2152 dcl 761 load 1348 wall 3898 height 7492
+trust: 
+
+## siemens solutions https://www.siemens.com/en-us/products/building-x/
+title: Building X | Siemens
+h1: Building X {"family":"SiemensRoman","size":"48px","weight":"400","lineHeight":"58px"}
+h2: Why Building X? | Learn how customers are using Building X | University of Wollongong | Award winning solutions | Frequently asked questions | Send us a message
+nav: Siemens | Log in | Building X | Overview | Buyer's guide | Resources | Home | Products
+ctas: Request a consultation | Start the tour | Explore the applications | Learn more
+fonts: SiemensSans, Arial, SiemensRoman
+colors: rgb(0, 0, 40) ; rgb(0, 0, 0) ; rgb(255, 255, 255) ; rgb(0, 121, 147) ; rgb(76, 76, 104) ; rgb(125, 128, 153)
+video: [{"src":"https://video.sw.cdn.siemens.com/mgc/videos/1200/c9f6538f-a428-4856-81e5-50db3bd1ba95-en-US-video.webm","autoplay":false,"muted":false,"poster":"","w":608,"h":342}]
+perf: req 212 KB 6419 dcl 731 load 2163 wall 5092 height 9117
+trust: certified, award, iso 50001
+
+## lutron home https://www.lutron.com/us/en/en-US/pages/default.aspx
+title: 
+h1:  
+h2: 
+nav: 
+ctas: 
+fonts: 
+colors: 
+video: []
+perf: req 6 KB 267 dcl 47 load 367 wall 15165 height 900
+trust: 
+
+## lutron solutions https://www.lutron.com/us/en/en-US/Residential-Commercial-Solutions/Pages/Commercial-Solutions/Commercial-Solutions.aspx
+title: 
+h1:  
+h2: 
+nav: 
+ctas: 
+fonts: 
+colors: 
+video: []
+perf: req 5 KB 267 dcl 52 load 397 wall 15148 height 900
+trust: 
+
+## honeywell home https://buildings.honeywell.com/us/en
+title: Honeywell Building Automation
+h1: EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY | WHEN BUILDINGS CONNECT, INSIGHTS BECOME OUTCOMES. | FROST & SULLIVAN’S 2026 FROST RADAR™ {"family":"\"Honeywell Sans\"","size":"56px","weight":"900","lineHeight":"58.8px"}
+h2: BUILDING AUTOMATION | Explore What's Possible | Do Not Sell My Personal Information | Do Not Sell My Personal Information
+nav: BUILDING AUTOMATION | Products | Industries | Automation Solutions | Brands | Support | News & Media | Explore Success Story
+ctas: CONTACT | Explore Li‑ion Tamer | Explore Connected Solutions | Explore Building Services | Explore Security Solutions | AUTOMATION STARTS HERE | LEARN MORE | Explore Success Story | Learn More | START YOUR DEVICE SELECTION | CONTACT SALES | Find A Partner
+fonts: Honeywell Sans, honeywell sans
+colors: rgb(255, 255, 255) ; rgb(0, 113, 179) ; rgb(48, 48, 48) ; rgb(33, 37, 41) ; rgb(160, 160, 160) ; rgb(0, 0, 0)
+video: []
+perf: req 184 KB 1172 dcl 559 load 1221 wall 2884 height 6501
+trust: 
+
+## honeywell solutions https://buildings.honeywell.com/us/en/products/by-category/building-management
+title: Building Management
+h1:  
+h2: BUILDING AUTOMATION | Do Not Sell My Personal Information | Do Not Sell My Personal Information
+nav: BUILDING AUTOMATION | Products | Industries | Automation Solutions | Brands | Support | News & Media
+ctas: CONTACT | Find A Partner
+fonts: Honeywell Sans
+colors: rgb(255, 255, 255) ; rgb(48, 48, 48) ; rgb(0, 113, 179) ; rgb(33, 37, 41) ; rgb(0, 123, 194) ; rgb(64, 64, 64)
+video: []
+perf: req 134 KB 3551 dcl 794 load 2148 wall 2855 height 2628
+trust: 

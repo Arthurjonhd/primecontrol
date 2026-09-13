@@ -1,0 +1,2250 @@
+[
+  {
+    "site": "acc",
+    "name": "Advanced Control Corp",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.advancedcontrolcorp.com/",
+    "status": 200,
+    "finalUrl": "https://www.advancedcontrolcorp.com/",
+    "wallMs": 6110,
+    "title": "Building Technology & Automation Solutions in FL - Advanced Control",
+    "description": "Welcome to Advanced Control Corporation, an industry leader in building technology and automation since 1987. Long-standing partner for your business.",
+    "h1s": [
+      "DISCOVER ALL WE DO"
+    ],
+    "h1Style": {
+      "family": "Proxima-Nova",
+      "size": "64px",
+      "weight": "400",
+      "lineHeight": "96px"
+    },
+    "h2s": [
+      "Welcome to Advanced Control Corporation, an industry leader in building technology and automation since 1987.",
+      "DOWNLOAD FORMS HEADLINE",
+      "Advanced Control Corporation Fort Lauderdale office:",
+      "Advanced Control Corporation Tampa office:",
+      "We can help your facility be more:",
+      "Resilient Sustainable Efficient Secure Comfortable",
+      "We can help your facility be more:",
+      "Resilient Sustainable Efficient Secure Comfortable",
+      "CONTACT US"
+    ],
+    "nav": [
+      "954.491.6660",
+      "727.241.6000",
+      "COMPANY PROFILE",
+      "SOLUTIONS",
+      "SERVICES",
+      "INSIGHT",
+      "CONTACT US"
+    ],
+    "ctas": [
+      "CONTACT US"
+    ],
+    "fonts": [
+      "-apple-system",
+      "Proxima-Nova",
+      "Lato",
+      "ProximaNova"
+    ],
+    "colors": [
+      "rgb(204, 51, 102)",
+      "rgb(51, 51, 51)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(64, 84, 178)",
+      "rgb(105, 114, 125)",
+      "rgb(49, 142, 100)",
+      "rgb(36, 36, 36)"
+    ],
+    "videos": [
+      {
+        "src": "https://www.advancedcontrolcorp.com/wp-content/uploads/2023/12/pexels_videos_2450251-2160p-1.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 1440,
+        "h": 826
+      }
+    ],
+    "imgs": 5,
+    "requests": 88,
+    "transferKB": 25514,
+    "domContentLoadedMs": 2807,
+    "loadMs": 3135,
+    "trust": [
+      "since 1987"
+    ],
+    "docHeight": 3514
+  },
+  {
+    "site": "acc",
+    "name": "Advanced Control Corp",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://www.advancedcontrolcorp.com/",
+    "status": 200,
+    "finalUrl": "https://www.advancedcontrolcorp.com/",
+    "wallMs": 3775,
+    "title": "Building Technology & Automation Solutions in FL - Advanced Control",
+    "description": "Welcome to Advanced Control Corporation, an industry leader in building technology and automation since 1987. Long-standing partner for your business.",
+    "h1s": [
+      "DISCOVER ALL WE DO"
+    ],
+    "h1Style": {
+      "family": "Proxima-Nova",
+      "size": "26px",
+      "weight": "400",
+      "lineHeight": "39px"
+    },
+    "h2s": [
+      "Welcome to Advanced Control Corporation, an industry leader in building technology and automation since 1987.",
+      "DOWNLOAD FORMS HEADLINE",
+      "Advanced Control Corporation Fort Lauderdale office:",
+      "Advanced Control Corporation Tampa office:",
+      "We can help your facility be more:",
+      "Resilient Sustainable Efficient Secure Comfortable",
+      "We can help your facility be more:",
+      "Resilient Sustainable Efficient Secure Comfortable",
+      "CONTACT US"
+    ],
+    "nav": [
+      "954.491.6660",
+      "727.241.6000"
+    ],
+    "ctas": [
+      "CONTACT US"
+    ],
+    "fonts": [
+      "-apple-system",
+      "Proxima-Nova",
+      "Lato",
+      "ProximaNova"
+    ],
+    "colors": [
+      "rgb(204, 51, 102)",
+      "rgb(255, 255, 255)",
+      "rgb(51, 51, 51)",
+      "rgb(0, 0, 0)",
+      "rgb(64, 84, 178)",
+      "rgb(49, 142, 100)",
+      "rgb(36, 36, 36)",
+      "rgb(65, 169, 80)"
+    ],
+    "videos": [
+      {
+        "src": "https://www.advancedcontrolcorp.com/wp-content/uploads/2023/12/pexels_videos_2450251-2160p-1.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 390,
+        "h": 360
+      }
+    ],
+    "imgs": 5,
+    "requests": 88,
+    "transferKB": 25130,
+    "domContentLoadedMs": 736,
+    "loadMs": 1037,
+    "trust": [
+      "since 1987"
+    ],
+    "docHeight": 4964
+  },
+  {
+    "site": "acc",
+    "name": "Advanced Control Corp",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.advancedcontrolcorp.com/solutions/",
+    "status": 200,
+    "finalUrl": "https://www.advancedcontrolcorp.com/solutions/",
+    "wallMs": 1602,
+    "title": "Green Building Automation Solutions in Fort Lauderdale & Tampa | ACC",
+    "description": "We provide viable solutions for green building automation, such as air quality control, energy monitoring, and access control. Visit us today to learn more!",
+    "h1s": [
+      "GREEN BUILDING AUTOMATION SOLUTIONS"
+    ],
+    "h1Style": {
+      "family": "Proxima-Nova",
+      "size": "33.696px",
+      "weight": "400",
+      "lineHeight": "45px"
+    },
+    "h2s": [
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "ENERGY MONITORING SOLUTIONS",
+      "READ MORE >",
+      "SECURITY AUTOMATION SOLUTIONS",
+      "READ MORE >",
+      "AIR QUALITY CONTROL & MONITORING",
+      "READ MORE >"
+    ],
+    "nav": [
+      "954.491.6660",
+      "727.241.6000",
+      "COMPANY PROFILE",
+      "SOLUTIONS",
+      "SERVICES",
+      "INSIGHT",
+      "CONTACT US"
+    ],
+    "ctas": [
+      "CONTACT US"
+    ],
+    "fonts": [
+      "Proxima-Nova",
+      "-apple-system",
+      "ProximaNova",
+      "Lato"
+    ],
+    "colors": [
+      "rgb(51, 51, 51)",
+      "rgb(204, 51, 102)",
+      "rgb(0, 0, 0)",
+      "rgb(65, 169, 80)",
+      "rgb(255, 255, 255)",
+      "rgb(105, 114, 125)"
+    ],
+    "videos": [],
+    "imgs": 6,
+    "requests": 77,
+    "transferKB": 3326,
+    "domContentLoadedMs": 759,
+    "loadMs": 1027,
+    "trust": [],
+    "docHeight": 2990
+  },
+  {
+    "site": "acc",
+    "name": "Advanced Control Corp",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://www.advancedcontrolcorp.com/solutions/",
+    "status": 200,
+    "finalUrl": "https://www.advancedcontrolcorp.com/solutions/",
+    "wallMs": 1519,
+    "title": "Green Building Automation Solutions in Fort Lauderdale & Tampa | ACC",
+    "description": "We provide viable solutions for green building automation, such as air quality control, energy monitoring, and access control. Visit us today to learn more!",
+    "h1s": [
+      "GREEN BUILDING AUTOMATION SOLUTIONS"
+    ],
+    "h1Style": {
+      "family": "Proxima-Nova",
+      "size": "28.8px",
+      "weight": "400",
+      "lineHeight": "32px"
+    },
+    "h2s": [
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "ENERGY MONITORING SOLUTIONS",
+      "READ MORE >",
+      "SECURITY AUTOMATION SOLUTIONS",
+      "READ MORE >",
+      "AIR QUALITY CONTROL & MONITORING",
+      "READ MORE >"
+    ],
+    "nav": [
+      "954.491.6660",
+      "727.241.6000"
+    ],
+    "ctas": [
+      "CONTACT US"
+    ],
+    "fonts": [
+      "Proxima-Nova",
+      "-apple-system",
+      "ProximaNova",
+      "Lato"
+    ],
+    "colors": [
+      "rgb(51, 51, 51)",
+      "rgb(204, 51, 102)",
+      "rgb(65, 169, 80)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(105, 114, 125)"
+    ],
+    "videos": [],
+    "imgs": 6,
+    "requests": 75,
+    "transferKB": 2968,
+    "domContentLoadedMs": 741,
+    "loadMs": 968,
+    "trust": [],
+    "docHeight": 2606
+  },
+  {
+    "site": "acc",
+    "name": "Advanced Control Corp",
+    "page": "services",
+    "viewport": "1440",
+    "url": "https://www.advancedcontrolcorp.com/services/",
+    "status": 200,
+    "finalUrl": "https://www.advancedcontrolcorp.com/services/",
+    "wallMs": 1515,
+    "title": "Building & Security Automation | CCTV Systems | Energy Conservation",
+    "description": "We provide Energy Management, Energy Conservation Project Implementation, Operations Personnel, and Monitoring & Operational Support to our clients.",
+    "h1s": [
+      "MANAGED SERVICES"
+    ],
+    "h1Style": {
+      "family": "Proxima-Nova",
+      "size": "33.696px",
+      "weight": "400",
+      "lineHeight": "45px"
+    },
+    "h2s": [
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "PLANNED SERVICES",
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "BUILDING ADVISOR",
+      "READ MORE >"
+    ],
+    "nav": [
+      "954.491.6660",
+      "727.241.6000",
+      "COMPANY PROFILE",
+      "SOLUTIONS",
+      "SERVICES",
+      "INSIGHT",
+      "CONTACT US"
+    ],
+    "ctas": [
+      "CONTACT US"
+    ],
+    "fonts": [
+      "Proxima-Nova",
+      "-apple-system",
+      "ProximaNova",
+      "Lato"
+    ],
+    "colors": [
+      "rgb(51, 51, 51)",
+      "rgb(204, 51, 102)",
+      "rgb(0, 0, 0)",
+      "rgb(65, 169, 80)",
+      "rgb(255, 255, 255)",
+      "rgb(105, 114, 125)"
+    ],
+    "videos": [],
+    "imgs": 5,
+    "requests": 75,
+    "transferKB": 1538,
+    "domContentLoadedMs": 679,
+    "loadMs": 979,
+    "trust": [],
+    "docHeight": 2283
+  },
+  {
+    "site": "acc",
+    "name": "Advanced Control Corp",
+    "page": "services",
+    "viewport": "390",
+    "url": "https://www.advancedcontrolcorp.com/services/",
+    "status": 200,
+    "finalUrl": "https://www.advancedcontrolcorp.com/services/",
+    "wallMs": 1470,
+    "title": "Building & Security Automation | CCTV Systems | Energy Conservation",
+    "description": "We provide Energy Management, Energy Conservation Project Implementation, Operations Personnel, and Monitoring & Operational Support to our clients.",
+    "h1s": [
+      "MANAGED SERVICES"
+    ],
+    "h1Style": {
+      "family": "Proxima-Nova",
+      "size": "28.8px",
+      "weight": "400",
+      "lineHeight": "32px"
+    },
+    "h2s": [
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "PLANNED SERVICES",
+      "READ MORE >",
+      "READ MORE >",
+      "READ MORE >",
+      "BUILDING ADVISOR",
+      "READ MORE >"
+    ],
+    "nav": [
+      "954.491.6660",
+      "727.241.6000"
+    ],
+    "ctas": [
+      "CONTACT US"
+    ],
+    "fonts": [
+      "Proxima-Nova",
+      "-apple-system",
+      "ProximaNova",
+      "Lato"
+    ],
+    "colors": [
+      "rgb(51, 51, 51)",
+      "rgb(204, 51, 102)",
+      "rgb(65, 169, 80)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(105, 114, 125)"
+    ],
+    "videos": [],
+    "imgs": 5,
+    "requests": 74,
+    "transferKB": 2512,
+    "domContentLoadedMs": 684,
+    "loadMs": 905,
+    "trust": [],
+    "docHeight": 2106
+  },
+  {
+    "site": "crestron",
+    "name": "Crestron",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.crestron.com/",
+    "status": 200,
+    "finalUrl": "https://www.crestron.com/",
+    "wallMs": 3486,
+    "title": "Control Systems for Home Automation, Campus & Building Control by Crestron Electronics [Crestron Electronics, Inc.]",
+    "description": "",
+    "h1s": [
+      "Engineering a Culture of Collaboration",
+      "SPOTIFY CAMP NOU",
+      "Spotify Camp Nou",
+      "Upgrade Your Game Day. And Every Day."
+    ],
+    "h1Style": {
+      "family": "\"Mark Pro Bold\"",
+      "size": "36px",
+      "weight": "400",
+      "lineHeight": "54px"
+    },
+    "h2s": [
+      "Spotify Camp Nou",
+      "Intelligent technology to transform every space.",
+      "CRESTRON COLLAB COMPUTE",
+      "CRESTRON INTELLIGENT VIDEO",
+      "DM NAX INTELLIGENT AUDIO",
+      "DM NAX Intelligent Audio",
+      "CRESTRON CONTROL",
+      "Crestron Home® OS 4. Experience is everything.",
+      "Cookie Settings"
+    ],
+    "nav": [
+      "Solutions",
+      "Products",
+      "How To Buy",
+      "What's New",
+      "Support",
+      "Community",
+      "English",
+      "Sign In"
+    ],
+    "ctas": [
+      "LEARN MORE",
+      "Contact Us",
+      "Gear Shop"
+    ],
+    "fonts": [
+      "Mark Pro Regular",
+      "Mark Pro Bold",
+      "Roboto",
+      "FF Mark Pro Book",
+      "Mark Pro Condensed Black"
+    ],
+    "colors": [
+      "rgb(255, 255, 255)",
+      "rgb(51, 51, 51)",
+      "rgb(50, 54, 58)",
+      "rgb(106, 109, 112)",
+      "rgb(95, 170, 229)",
+      "rgb(0, 120, 212)"
+    ],
+    "videos": [
+      {
+        "src": "https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/iv-cam-i12d-rotation-16x9.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 706.875,
+        "h": 397.609375
+      },
+      {
+        "src": "https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/scalabble_solution_for_web_1x_2.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 751.828125,
+        "h": 475.828125
+      },
+      {
+        "src": "https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/scalabble_solution_for_web_1x_2.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 0,
+        "h": 0
+      }
+    ],
+    "imgs": 8,
+    "requests": 133,
+    "transferKB": 795,
+    "domContentLoadedMs": 1408,
+    "loadMs": 2283,
+    "trust": [
+      "certified"
+    ],
+    "docHeight": 7567
+  },
+  {
+    "site": "crestron",
+    "name": "Crestron",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://www.crestron.com/",
+    "status": 200,
+    "finalUrl": "https://www.crestron.com/",
+    "wallMs": 3119,
+    "title": "Control Systems for Home Automation, Campus & Building Control by Crestron Electronics [Crestron Electronics, Inc.]",
+    "description": "",
+    "h1s": [
+      "Engineering a Culture of Collaboration",
+      "Spotify Camp Nou",
+      "SPOTIFY CAMP NOU",
+      "Upgrade Your Game Day. And Every Day."
+    ],
+    "h1Style": {
+      "family": "\"Mark Pro Bold\"",
+      "size": "36px",
+      "weight": "400",
+      "lineHeight": "54px"
+    },
+    "h2s": [
+      "Spotify Camp Nou",
+      "Intelligent technology to transform every space.",
+      "CRESTRON COLLAB COMPUTE",
+      "CRESTRON INTELLIGENT VIDEO",
+      "DM NAX Intelligent Audio",
+      "DM NAX INTELLIGENT AUDIO",
+      "CRESTRON CONTROL",
+      "Crestron Home® OS 4. Experience is everything.",
+      "Cookie Settings"
+    ],
+    "nav": [],
+    "ctas": [
+      "LEARN MORE",
+      "Contact Us",
+      "Gear Shop"
+    ],
+    "fonts": [
+      "Mark Pro Regular",
+      "Mark Pro Bold",
+      "Roboto",
+      "Mark Pro Condensed Black"
+    ],
+    "colors": [
+      "rgb(255, 255, 255)",
+      "rgb(51, 51, 51)",
+      "rgb(50, 54, 58)",
+      "rgb(106, 109, 112)",
+      "rgb(95, 170, 229)",
+      "rgb(0, 120, 212)"
+    ],
+    "videos": [
+      {
+        "src": "https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/iv-cam-i12d-rotation-16x9.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 342,
+        "h": 192.375
+      },
+      {
+        "src": "https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/scalabble_solution_for_web_1x_2.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "src": "https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/homepage/v6/videos/scalabble_solution_for_web_1x_2.mp4",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 334,
+        "h": 211.390625
+      }
+    ],
+    "imgs": 9,
+    "requests": 135,
+    "transferKB": 795,
+    "domContentLoadedMs": 1367,
+    "loadMs": 1810,
+    "trust": [
+      "certified"
+    ],
+    "docHeight": 9332
+  },
+  {
+    "site": "crestron",
+    "name": "Crestron",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.crestron.com/Products/Featured-Solutions/Crestron-Home",
+    "status": 200,
+    "finalUrl": "https://www.crestron.com/Products/Featured-Solutions/Crestron-Home",
+    "wallMs": 2379,
+    "title": "Crestron Home [Crestron Electronics, Inc.]",
+    "description": "Crestron Home makes all the devices and systems work the way you want them to. One simple experience from multiple control devices – on the wall, on the counter, on the couch, on your phone.",
+    "h1s": [
+      "Crestron Home Pro Portal"
+    ],
+    "h1Style": {
+      "family": "\"FF Mark Pro Bold\"",
+      "size": "40px",
+      "weight": "400",
+      "lineHeight": "50px"
+    },
+    "h2s": [
+      "Spotify Camp Nou",
+      "What’s New",
+      "OS Updates",
+      "Products",
+      "Works with Crestron Home",
+      "Webinars",
+      "Cookie Settings"
+    ],
+    "nav": [
+      "Solutions",
+      "Products",
+      "How To Buy",
+      "What's New",
+      "Support",
+      "Community",
+      "English",
+      "Sign In"
+    ],
+    "ctas": [
+      "SEE ALL NEWS",
+      "LEARN MORE",
+      "SEE ALL PRODUCTS",
+      "Contact Us",
+      "Gear Shop"
+    ],
+    "fonts": [
+      "Mark Pro Regular",
+      "FF Mark Pro Bold",
+      "FF Mark Pro Book",
+      "Mark Pro Bold",
+      "Mark Pro Medium",
+      "Roboto",
+      "Mark Pro Book"
+    ],
+    "colors": [
+      "rgb(255, 255, 255)",
+      "rgb(4, 43, 72)",
+      "rgb(51, 51, 51)",
+      "rgb(25, 148, 183)",
+      "rgb(144, 144, 144)",
+      "rgb(50, 54, 58)",
+      "rgb(102, 102, 102)",
+      "rgb(38, 38, 38)"
+    ],
+    "videos": [],
+    "imgs": 31,
+    "requests": 163,
+    "transferKB": 3066,
+    "domContentLoadedMs": 755,
+    "loadMs": 1228,
+    "trust": [
+      "certified"
+    ],
+    "docHeight": 9237
+  },
+  {
+    "site": "crestron",
+    "name": "Crestron",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://www.crestron.com/Products/Featured-Solutions/Crestron-Home",
+    "status": 200,
+    "finalUrl": "https://www.crestron.com/Products/Featured-Solutions/Crestron-Home",
+    "wallMs": 2551,
+    "title": "Crestron Home [Crestron Electronics, Inc.]",
+    "description": "Crestron Home makes all the devices and systems work the way you want them to. One simple experience from multiple control devices – on the wall, on the counter, on the couch, on your phone.",
+    "h1s": [
+      "Crestron Home Pro Portal"
+    ],
+    "h1Style": {
+      "family": "\"FF Mark Pro Bold\"",
+      "size": "34px",
+      "weight": "400",
+      "lineHeight": "43px"
+    },
+    "h2s": [
+      "Spotify Camp Nou",
+      "What’s New",
+      "OS Updates",
+      "Products",
+      "Works with Crestron Home",
+      "Webinars",
+      "Cookie Settings"
+    ],
+    "nav": [],
+    "ctas": [
+      "SEE ALL NEWS",
+      "SEE ALL PRODUCTS",
+      "LEARN MORE",
+      "Contact Us",
+      "Gear Shop"
+    ],
+    "fonts": [
+      "Mark Pro Regular",
+      "FF Mark Pro Bold",
+      "FF Mark Pro Book",
+      "Mark Pro Medium",
+      "Roboto"
+    ],
+    "colors": [
+      "rgb(255, 255, 255)",
+      "rgb(4, 43, 72)",
+      "rgb(25, 148, 183)",
+      "rgb(51, 51, 51)",
+      "rgb(144, 144, 144)",
+      "rgb(38, 38, 38)",
+      "rgb(50, 54, 58)",
+      "rgb(163, 163, 163)"
+    ],
+    "videos": [],
+    "imgs": 30,
+    "requests": 164,
+    "transferKB": 3066,
+    "domContentLoadedMs": 601,
+    "loadMs": 1351,
+    "trust": [
+      "certified"
+    ],
+    "docHeight": 17755
+  },
+  {
+    "site": "se",
+    "name": "Schneider Electric",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.se.com/us/en/",
+    "status": 200,
+    "finalUrl": "https://www.se.com/us/en/",
+    "wallMs": 15337,
+    "title": "Schneider Electric United States | Schneider Electric USA | Your Energy Technology Partner",
+    "description": "As a global specialist in energy management, automation and digitalization in more than 100 countries, we offer integrated energy technology solutions across multiple market segments | Schneider Electric United States",
+    "h1s": [],
+    "h1Style": null,
+    "h2s": [
+      "Customer favorites",
+      "Named World's Most Sustainable Company 2026 by TIME Magazine and Statista",
+      "Software",
+      "Services",
+      "Residential",
+      "Federal Government",
+      "Data Centers",
+      "Careers",
+      "Contact support",
+      "Calculators and online tools",
+      "DigestPLUS product catalog",
+      "APC",
+      "Where to buy",
+      "Launch Product Selector",
+      "Cookies and Policy"
+    ],
+    "nav": [],
+    "ctas": [
+      "Contactors and Protection Relays",
+      "Contact support"
+    ],
+    "fonts": [
+      "Arial Rounded MT for SE"
+    ],
+    "colors": [
+      "rgb(92, 100, 102)",
+      "rgb(238, 238, 238)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(0, 161, 224)"
+    ],
+    "videos": [],
+    "imgs": 26,
+    "requests": 497,
+    "transferKB": 1884,
+    "domContentLoadedMs": 323,
+    "loadMs": 599,
+    "trust": [],
+    "docHeight": 4099
+  },
+  {
+    "site": "se",
+    "name": "Schneider Electric",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://www.se.com/us/en/",
+    "status": 200,
+    "finalUrl": "https://www.se.com/us/en/",
+    "wallMs": 15425,
+    "title": "Schneider Electric United States | Schneider Electric USA | Your Energy Technology Partner",
+    "description": "As a global specialist in energy management, automation and digitalization in more than 100 countries, we offer integrated energy technology solutions across multiple market segments | Schneider Electric United States",
+    "h1s": [],
+    "h1Style": null,
+    "h2s": [
+      "Customer favorites",
+      "Named World's Most Sustainable Company 2026 by TIME Magazine and Statista",
+      "Software",
+      "Services",
+      "Residential",
+      "Federal Government",
+      "Data Centers",
+      "Careers",
+      "Contact support",
+      "Calculators and online tools",
+      "DigestPLUS product catalog",
+      "APC",
+      "Where to buy",
+      "Launch Product Selector",
+      "Cookies and Policy"
+    ],
+    "nav": [],
+    "ctas": [
+      "Contactors and Protection Relays",
+      "Contact support"
+    ],
+    "fonts": [
+      "Arial Rounded MT for SE"
+    ],
+    "colors": [
+      "rgb(92, 100, 102)",
+      "rgb(238, 238, 238)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(0, 161, 224)"
+    ],
+    "videos": [],
+    "imgs": 22,
+    "requests": 518,
+    "transferKB": 2068,
+    "domContentLoadedMs": 413,
+    "loadMs": 896,
+    "trust": [],
+    "docHeight": 7299
+  },
+  {
+    "site": "se",
+    "name": "Schneider Electric",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.se.com/us/en/work/campaign/innovation/buildings.jsp",
+    "status": 200,
+    "finalUrl": "https://www.se.com/us/en/work/software/ecostruxure-building/",
+    "wallMs": 15378,
+    "title": "EcoStruxure Building Software | Schneider Electric United States",
+    "description": "Explore our comprehensive software solution for buildings, which connects all building systems to optimize asset, energy, operations, sustainability and workplace management. | Schneider Electric United States",
+    "h1s": [],
+    "h1Style": null,
+    "h2s": [
+      "Trusted by",
+      "Cookies and Policy"
+    ],
+    "nav": [],
+    "ctas": [],
+    "fonts": [
+      "Arial Rounded MT for SE",
+      "Open Sans"
+    ],
+    "colors": [
+      "rgb(92, 100, 102)",
+      "rgb(9, 11, 12)",
+      "rgb(238, 238, 238)",
+      "rgb(255, 255, 255)",
+      "rgb(103, 111, 115)",
+      "rgb(61, 205, 88)",
+      "rgb(206, 211, 214)",
+      "rgb(0, 0, 0)"
+    ],
+    "videos": [],
+    "imgs": 8,
+    "requests": 481,
+    "transferKB": 1809,
+    "domContentLoadedMs": 363,
+    "loadMs": 725,
+    "trust": [],
+    "docHeight": 2178
+  },
+  {
+    "site": "se",
+    "name": "Schneider Electric",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://www.se.com/us/en/work/campaign/innovation/buildings.jsp",
+    "status": 200,
+    "finalUrl": "https://www.se.com/us/en/work/software/ecostruxure-building/",
+    "wallMs": 15467,
+    "title": "EcoStruxure Building Software | Schneider Electric United States",
+    "description": "Explore our comprehensive software solution for buildings, which connects all building systems to optimize asset, energy, operations, sustainability and workplace management. | Schneider Electric United States",
+    "h1s": [],
+    "h1Style": null,
+    "h2s": [
+      "Trusted by",
+      "Cookies and Policy"
+    ],
+    "nav": [],
+    "ctas": [],
+    "fonts": [
+      "Arial Rounded MT for SE"
+    ],
+    "colors": [
+      "rgb(92, 100, 102)",
+      "rgb(9, 11, 12)",
+      "rgb(238, 238, 238)",
+      "rgb(255, 255, 255)",
+      "rgb(103, 111, 115)",
+      "rgb(129, 147, 152)",
+      "rgb(61, 205, 88)",
+      "rgb(206, 211, 214)"
+    ],
+    "videos": [],
+    "imgs": 4,
+    "requests": 530,
+    "transferKB": 1976,
+    "domContentLoadedMs": 457,
+    "loadMs": 997,
+    "trust": [],
+    "docHeight": 7002
+  },
+  {
+    "site": "trane",
+    "name": "Trane Commercial",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.trane.com/commercial/north-america/us/en.html",
+    "status": 200,
+    "finalUrl": "https://www.trane.com/commercial/north-america/us/en.html",
+    "wallMs": 2041,
+    "title": "Solutions for the Life of Your Building | Trane Commercial HVAC",
+    "description": "A global leader in thermal management and energy services, Trane offers innovative HVAC and automation solutions to help you achieve your energy and building decarbonization goals.",
+    "h1s": [
+      "We turn today’s buildings into tomorrow’s breakthroughs."
+    ],
+    "h1Style": {
+      "family": "Inter",
+      "size": "70px",
+      "weight": "500",
+      "lineHeight": "70px"
+    },
+    "h2s": [
+      "HOW CAN WE HELP?",
+      "Discover how Trane delivers data-driven services to optimize the efficiency and resilience of your buildings and systems.",
+      "We provide expertise and industry insights that help you go beyond.",
+      "Tools for your trade.",
+      "Trane offers on-site classroom training as well as interactive courses and webinars suited to a wide range of skills.",
+      "Help is closer than you think."
+    ],
+    "nav": [
+      "Skip to content",
+      "Products",
+      "Services",
+      "Support",
+      "Education & Training",
+      "Industries",
+      "About"
+    ],
+    "ctas": [
+      "Local Contact",
+      "Explore All Services",
+      "Learn More",
+      "Consulting Engineers",
+      "Find Your Trane Rep",
+      "Contact Us",
+      "Locate a Sales Office"
+    ],
+    "fonts": [
+      "Inter"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(99, 100, 103)",
+      "rgb(226, 38, 0)"
+    ],
+    "videos": [
+      {
+        "src": "https://media.tranetechnologies.com/is/content/TraneTechnologies/AdobeStock_181953424",
+        "autoplay": true,
+        "muted": true,
+        "poster": "https://media.tranetechnologies.com/is/image/TraneTechnologies/building-with-sun-1:xlarge-16-9",
+        "w": 1440,
+        "h": 954.65625
+      }
+    ],
+    "imgs": 20,
+    "requests": 120,
+    "transferKB": 1452,
+    "domContentLoadedMs": 383,
+    "loadMs": 1243,
+    "trust": [
+      "award",
+      "100 years"
+    ],
+    "docHeight": 7096
+  },
+  {
+    "site": "trane",
+    "name": "Trane Commercial",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://www.trane.com/commercial/north-america/us/en.html",
+    "status": 200,
+    "finalUrl": "https://www.trane.com/commercial/north-america/us/en.html",
+    "wallMs": 1979,
+    "title": "Solutions for the Life of Your Building | Trane Commercial HVAC",
+    "description": "A global leader in thermal management and energy services, Trane offers innovative HVAC and automation solutions to help you achieve your energy and building decarbonization goals.",
+    "h1s": [
+      "We turn today’s buildings into tomorrow’s breakthroughs."
+    ],
+    "h1Style": {
+      "family": "Inter",
+      "size": "46px",
+      "weight": "500",
+      "lineHeight": "46px"
+    },
+    "h2s": [
+      "HOW CAN WE HELP?",
+      "Discover how Trane delivers data-driven services to optimize the efficiency and resilience of your buildings and systems.",
+      "We provide expertise and industry insights that help you go beyond.",
+      "Tools for your trade.",
+      "Trane offers on-site classroom training as well as interactive courses and webinars suited to a wide range of skills.",
+      "Help is closer than you think."
+    ],
+    "nav": [
+      "Skip to content"
+    ],
+    "ctas": [
+      "Explore All Services",
+      "Learn More",
+      "Consulting Engineers",
+      "Find Your Trane Rep",
+      "Contact Us",
+      "Locate a Sales Office"
+    ],
+    "fonts": [
+      "Inter",
+      "Roboto",
+      "Arial"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(99, 100, 103)",
+      "rgb(226, 38, 0)",
+      "rgb(253, 253, 254)",
+      "rgb(50, 79, 190)",
+      "rgb(172, 176, 190)",
+      "rgb(240, 241, 243)"
+    ],
+    "videos": [
+      {
+        "src": "https://media.tranetechnologies.com/is/content/TraneTechnologies/AdobeStock_181953424",
+        "autoplay": true,
+        "muted": true,
+        "poster": "https://media.tranetechnologies.com/is/image/TraneTechnologies/building-with-sun-1:xlarge-16-9",
+        "w": 390,
+        "h": 786.5
+      }
+    ],
+    "imgs": 19,
+    "requests": 124,
+    "transferKB": 1200,
+    "domContentLoadedMs": 260,
+    "loadMs": 1117,
+    "trust": [
+      "award",
+      "100 years"
+    ],
+    "docHeight": 9633
+  },
+  {
+    "site": "trane",
+    "name": "Trane Commercial",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.trane.com/commercial/north-america/us/en/controls.html",
+    "status": 200,
+    "finalUrl": "https://www.trane.com/commercial/north-america/us/en/products-systems/smart-building-technology/building-controls-solutions.html",
+    "wallMs": 10342,
+    "title": "Building Control Solutions & HVAC Automation | Trane Commercial HVAC",
+    "description": "Optimize your building's performance with innovative Trane building controls and HVAC building automation, tailored for modern and legacy systems.",
+    "h1s": [
+      "Building Control Solutions & HVAC Automation"
+    ],
+    "h1Style": {
+      "family": "Inter",
+      "size": "70px",
+      "weight": "500",
+      "lineHeight": "70px"
+    },
+    "h2s": [
+      "Enhancing buildings with AI-powered smart building controls solutions.",
+      "Building Controls & HVAC Automation",
+      "Transform Your Building into a Smart Building",
+      "Frequently Asked Questions",
+      "Tools for your trade.",
+      "Help is closer than you think."
+    ],
+    "nav": [
+      "Skip to content",
+      "Products",
+      "Services",
+      "Support",
+      "Education & Training",
+      "Industries",
+      "About",
+      "Products and Systems",
+      "Smart Building Solutions"
+    ],
+    "ctas": [
+      "Local Contact",
+      "Consulting Engineers",
+      "Find Your Trane Rep",
+      "Contact Us",
+      "Locate a Sales Office"
+    ],
+    "fonts": [
+      "Inter"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(99, 100, 103)",
+      "rgb(226, 38, 0)"
+    ],
+    "videos": [
+      {
+        "src": "https://media.tranetechnologies.com/is/content/TraneTechnologies/AdobeStock_356782125",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 1440,
+        "h": 652.625
+      }
+    ],
+    "imgs": 19,
+    "requests": 121,
+    "transferKB": 341,
+    "domContentLoadedMs": 309,
+    "loadMs": 1021,
+    "trust": [
+      "50 years",
+      "100 years"
+    ],
+    "docHeight": 7882
+  },
+  {
+    "site": "trane",
+    "name": "Trane Commercial",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://www.trane.com/commercial/north-america/us/en/controls.html",
+    "status": 200,
+    "finalUrl": "https://www.trane.com/commercial/north-america/us/en/products-systems/smart-building-technology/building-controls-solutions.html",
+    "wallMs": 9830,
+    "title": "Building Control Solutions & HVAC Automation | Trane Commercial HVAC",
+    "description": "Optimize your building's performance with innovative Trane building controls and HVAC building automation, tailored for modern and legacy systems.",
+    "h1s": [
+      "Building Control Solutions & HVAC Automation"
+    ],
+    "h1Style": {
+      "family": "Inter",
+      "size": "46px",
+      "weight": "500",
+      "lineHeight": "46px"
+    },
+    "h2s": [
+      "Enhancing buildings with AI-powered smart building controls solutions.",
+      "Building Controls & HVAC Automation",
+      "Transform Your Building into a Smart Building",
+      "Frequently Asked Questions",
+      "Tools for your trade.",
+      "Help is closer than you think."
+    ],
+    "nav": [
+      "Skip to content",
+      "Smart Building Solutions"
+    ],
+    "ctas": [
+      "Consulting Engineers",
+      "Find Your Trane Rep",
+      "Contact Us",
+      "Locate a Sales Office"
+    ],
+    "fonts": [
+      "Inter",
+      "Roboto",
+      "Arial"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(99, 100, 103)",
+      "rgb(255, 255, 255)",
+      "rgb(226, 38, 0)",
+      "rgb(253, 253, 254)",
+      "rgb(50, 79, 190)",
+      "rgb(172, 176, 190)",
+      "rgb(240, 241, 243)"
+    ],
+    "videos": [
+      {
+        "src": "https://media.tranetechnologies.com/is/content/TraneTechnologies/AdobeStock_356782125",
+        "autoplay": true,
+        "muted": true,
+        "poster": "",
+        "w": 390,
+        "h": 536.71875
+      }
+    ],
+    "imgs": 19,
+    "requests": 125,
+    "transferKB": 233,
+    "domContentLoadedMs": 265,
+    "loadMs": 1366,
+    "trust": [
+      "50 years",
+      "100 years"
+    ],
+    "docHeight": 10254
+  },
+  {
+    "site": "jci",
+    "name": "Johnson Controls",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.johnsoncontrols.com/",
+    "status": 200,
+    "finalUrl": "https://www.johnsoncontrols.com/",
+    "wallMs": 16078,
+    "title": "Johnson Controls | Johnson Controls",
+    "description": "Applying data from both inside buildings and beyond, our customers can now manage operations systemically.",
+    "h1s": [
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters"
+    ],
+    "h1Style": {
+      "family": "NotoSansBold",
+      "size": "35px",
+      "weight": "600",
+      "lineHeight": "52.5px"
+    },
+    "h2s": [
+      "A global leader in thermal management, mission-critical building systems, energy efficiency, and decarbonization",
+      "5 reasons for openness",
+      "Power consumption, water use … noise?",
+      "The power of proactive service",
+      "Global reference design guides for AI Factories",
+      "Operations, maintenance, and repair services"
+    ],
+    "nav": [
+      "Contact an expert",
+      "Investors",
+      "Careers",
+      "Media Center",
+      "PRODUCTS & SERVICES",
+      "SOLUTIONS",
+      "INDUSTRIES",
+      "BUILDING INSIGHTS",
+      "SUPPORT",
+      "ABOUT US"
+    ],
+    "ctas": [
+      "Contact an expert",
+      "Learn more",
+      "Contact us",
+      "Find a rep"
+    ],
+    "fonts": [
+      "NotoSansRegular",
+      "NotoSansSemiBold",
+      "NotoSansBold"
+    ],
+    "colors": [
+      "rgb(46, 41, 37)",
+      "rgb(0, 0, 112)",
+      "rgb(51, 55, 64)",
+      "rgb(0, 83, 158)",
+      "rgb(255, 255, 255)",
+      "rgb(46, 233, 255)",
+      "rgb(21, 46, 169)",
+      "rgb(0, 0, 0)"
+    ],
+    "videos": [],
+    "imgs": 23,
+    "requests": 346,
+    "transferKB": 129,
+    "domContentLoadedMs": 789,
+    "loadMs": 1823,
+    "trust": [
+      "140 years"
+    ],
+    "docHeight": 5313
+  },
+  {
+    "site": "jci",
+    "name": "Johnson Controls",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://www.johnsoncontrols.com/",
+    "status": 200,
+    "finalUrl": "https://www.johnsoncontrols.com/",
+    "wallMs": 16100,
+    "title": "Johnson Controls | Johnson Controls",
+    "description": "Applying data from both inside buildings and beyond, our customers can now manage operations systemically.",
+    "h1s": [
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters",
+      "Where it really matters"
+    ],
+    "h1Style": {
+      "family": "NotoSansBold",
+      "size": "35px",
+      "weight": "600",
+      "lineHeight": "52.5px"
+    },
+    "h2s": [
+      "A global leader in thermal management, mission-critical building systems, energy efficiency, and decarbonization",
+      "5 reasons for openness",
+      "Power consumption, water use … noise?",
+      "The power of proactive service",
+      "Global reference design guides for AI Factories",
+      "Operations, maintenance, and repair services"
+    ],
+    "nav": [
+      "PRODUCTS & SERVICES",
+      "Building Automation and Controls",
+      "Metasys",
+      "Facility Explorer",
+      "EasyIO",
+      "HVAC Controls",
+      "Penn Refrigeration Controls",
+      "Fire Protection",
+      "Fire Detection",
+      "Control Units",
+      "Networks and Workstations",
+      "Notification and Audio Devices",
+      "Sensors and Initiating Devices",
+      "Fire Suppression",
+      "Cold Storage Fire Sprinkler Systems",
+      "Fire Extinguishers",
+      "Fire Grooved",
+      "Fire Sprinklers",
+      "Fire Valves, Devices, and Components",
+      "Gaseous Systems and Control Panels",
+      "Hazardous Spill Control",
+      "Industrial Systems",
+      "LFP® Antifreeze",
+      "Mechanical Fittings and Supports",
+      "Residential Fire Sprinkler Systems",
+      "Restaurant Systems",
+      "Vehicle Systems",
+      "Water Mist Fire Protection Solutions",
+      "Fire Services",
+      "HVAC Equipment",
+      "HVAC Systems",
+      "Air Distribution",
+      "Air Handling",
+      "Chillers - Absorption",
+      "Chillers - Air Cooled",
+      "Chillers - Water Cooled",
+      "Condensing Units",
+      "Dedicated Outside Air Systems (DOAS)",
+      "Water Source Heat Pumps",
+      "Explore more"
+    ],
+    "ctas": [
+      "Facility Explorer",
+      "Explore more",
+      "Explore Johnson Controls Capital",
+      "Learn more",
+      "Contact an Expert",
+      "Contact",
+      "Contact an expert",
+      "Contact us",
+      "Find a rep"
+    ],
+    "fonts": [
+      "NotoSansRegular",
+      "NotoSansSemiBold",
+      "NotoSansBold"
+    ],
+    "colors": [
+      "rgb(46, 41, 37)",
+      "rgb(51, 55, 64)",
+      "rgb(0, 0, 112)",
+      "rgb(0, 0, 0)",
+      "rgb(21, 46, 169)",
+      "rgb(0, 83, 158)",
+      "rgb(58, 58, 60)",
+      "rgb(50, 200, 88)"
+    ],
+    "videos": [],
+    "imgs": 31,
+    "requests": 358,
+    "transferKB": 379,
+    "domContentLoadedMs": 1002,
+    "loadMs": 1689,
+    "trust": [
+      "140 years"
+    ],
+    "docHeight": 7382
+  },
+  {
+    "site": "jci",
+    "name": "Johnson Controls",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.johnsoncontrols.com/openblue",
+    "status": 200,
+    "finalUrl": "https://www.johnsoncontrols.com/openblue",
+    "wallMs": 16023,
+    "title": "OpenBlue | Johnson Controls",
+    "description": "OpenBlue is an open platform which allows you to unify all live building data. Drawn from over 130+ sources, data is pulled and normalized into one data layer.",
+    "h1s": [
+      "OpenBlue",
+      "Johnson Controls Digital Technology Conference - EMEA"
+    ],
+    "h1Style": {
+      "family": "NotoSansRegular",
+      "size": "56px",
+      "weight": "400",
+      "lineHeight": "72.8px"
+    },
+    "h2s": [
+      "Unlock the performance of your building, workforce, & operations Learn more",
+      "September 10th, 2026 | Tottenham Hotspur Stadium Register now",
+      "OpenBlue",
+      "Explore OpenBlue solutions",
+      "Workplace Planning & Management",
+      "Energy Efficiency & Sustainability",
+      "Equipment Performance & Operations Efficiency",
+      "Workplace Experience & Productivity"
+    ],
+    "nav": [
+      "Contact an expert",
+      "Investors",
+      "Careers",
+      "Media Center",
+      "PRODUCTS & SERVICES",
+      "SOLUTIONS",
+      "INDUSTRIES",
+      "BUILDING INSIGHTS",
+      "SUPPORT",
+      "ABOUT US",
+      "Overview",
+      "Product & Solutions",
+      "Discover OpenBlue"
+    ],
+    "ctas": [
+      "Contact an expert",
+      "Learn more",
+      "Discover OpenBlue",
+      "Contact us",
+      "Talk to a Johnson Controls expert >",
+      "Find a rep"
+    ],
+    "fonts": [
+      "NotoSansRegular",
+      "NotoSansSemiBold",
+      "NotoSansBold"
+    ],
+    "colors": [
+      "rgb(46, 41, 37)",
+      "rgb(0, 83, 158)",
+      "rgb(0, 0, 112)",
+      "rgb(255, 255, 255)",
+      "rgb(51, 55, 64)",
+      "rgb(0, 0, 0)",
+      "rgb(95, 99, 105)",
+      "rgb(21, 46, 169)"
+    ],
+    "videos": [],
+    "imgs": 13,
+    "requests": 339,
+    "transferKB": 154,
+    "domContentLoadedMs": 740,
+    "loadMs": 2025,
+    "trust": [],
+    "docHeight": 4841
+  },
+  {
+    "site": "jci",
+    "name": "Johnson Controls",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://www.johnsoncontrols.com/openblue",
+    "status": 200,
+    "finalUrl": "https://www.johnsoncontrols.com/openblue",
+    "wallMs": 16045,
+    "title": "OpenBlue | Johnson Controls",
+    "description": "OpenBlue is an open platform which allows you to unify all live building data. Drawn from over 130+ sources, data is pulled and normalized into one data layer.",
+    "h1s": [
+      "OpenBlue",
+      "Johnson Controls Digital Technology Conference - EMEA"
+    ],
+    "h1Style": {
+      "family": "NotoSansRegular",
+      "size": "32px",
+      "weight": "400",
+      "lineHeight": "43.5798px"
+    },
+    "h2s": [
+      "Unlock the performance of your building, workforce, & operations Learn more",
+      "September 10th, 2026 | Tottenham Hotspur Stadium Register now",
+      "OpenBlue",
+      "Explore OpenBlue solutions",
+      "Workplace Planning & Management",
+      "Energy Efficiency & Sustainability",
+      "Equipment Performance & Operations Efficiency",
+      "Workplace Experience & Productivity"
+    ],
+    "nav": [
+      "PRODUCTS & SERVICES",
+      "Building Automation and Controls",
+      "Metasys",
+      "Facility Explorer",
+      "EasyIO",
+      "HVAC Controls",
+      "Penn Refrigeration Controls",
+      "Fire Protection",
+      "Fire Detection",
+      "Control Units",
+      "Networks and Workstations",
+      "Notification and Audio Devices",
+      "Sensors and Initiating Devices",
+      "Fire Suppression",
+      "Cold Storage Fire Sprinkler Systems",
+      "Fire Extinguishers",
+      "Fire Grooved",
+      "Fire Sprinklers",
+      "Fire Valves, Devices, and Components",
+      "Gaseous Systems and Control Panels",
+      "Hazardous Spill Control",
+      "Industrial Systems",
+      "LFP® Antifreeze",
+      "Mechanical Fittings and Supports",
+      "Residential Fire Sprinkler Systems",
+      "Restaurant Systems",
+      "Vehicle Systems",
+      "Water Mist Fire Protection Solutions",
+      "Fire Services",
+      "HVAC Equipment",
+      "HVAC Systems",
+      "Air Distribution",
+      "Air Handling",
+      "Chillers - Absorption",
+      "Chillers - Air Cooled",
+      "Chillers - Water Cooled",
+      "Condensing Units",
+      "Dedicated Outside Air Systems (DOAS)",
+      "Water Source Heat Pumps",
+      "Explore more"
+    ],
+    "ctas": [
+      "Facility Explorer",
+      "Explore more",
+      "Explore Johnson Controls Capital",
+      "Learn more",
+      "Contact an Expert",
+      "Contact",
+      "Contact an expert",
+      "Contact us",
+      "Talk to a Johnson Controls expert >",
+      "Find a rep"
+    ],
+    "fonts": [
+      "NotoSansRegular",
+      "NotoSansSemiBold",
+      "NotoSansBold"
+    ],
+    "colors": [
+      "rgb(46, 41, 37)",
+      "rgb(51, 55, 64)",
+      "rgb(0, 0, 0)",
+      "rgb(0, 0, 112)",
+      "rgb(21, 46, 169)",
+      "rgb(0, 83, 158)",
+      "rgb(255, 255, 255)",
+      "rgb(58, 58, 60)"
+    ],
+    "videos": [],
+    "imgs": 21,
+    "requests": 360,
+    "transferKB": 292,
+    "domContentLoadedMs": 617,
+    "loadMs": 1723,
+    "trust": [],
+    "docHeight": 6825
+  },
+  {
+    "site": "siemens",
+    "name": "Siemens Smart Infrastructure",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.siemens.com/global/en/products/buildings.html",
+    "status": 200,
+    "finalUrl": "https://www.siemens.com/en-us/content/smart-building-infrastructure/",
+    "wallMs": 3898,
+    "title": "Smart building infrastructure and technologies | Siemens",
+    "description": "Siemens smart building infrastructure seamlessly integrates to enhance energy efficiency, security and occupant comfort, while lowering operational costs.",
+    "h1s": [
+      "Smart Buildings: Technology to transform buildings"
+    ],
+    "h1Style": {
+      "family": "SiemensRoman",
+      "size": "48px",
+      "weight": "400",
+      "lineHeight": "58px"
+    },
+    "h2s": [
+      "What is smart building infrastructure?",
+      "Demands on buildings are increasing",
+      "Smart buildings boost stakeholder experience & success.",
+      "Smart today. Autonomous tomorrow.",
+      "We understand your challenges",
+      "A holistic look at smart building infrastructure",
+      "Our industries",
+      "Send us a message"
+    ],
+    "nav": [
+      "Siemens",
+      "Log in",
+      "Home",
+      "Content"
+    ],
+    "ctas": [
+      "Learn more"
+    ],
+    "fonts": [
+      "SiemensSans",
+      "SiemensRoman"
+    ],
+    "colors": [
+      "rgb(0, 0, 40)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(0, 121, 147)",
+      "rgb(125, 128, 153)",
+      "rgb(0, 204, 204)",
+      "rgb(0, 110, 190)"
+    ],
+    "videos": [
+      {
+        "src": "https://video.sw.cdn.siemens.com/mgc/videos/1200/a778ab1c-bfeb-4d0d-89c3-10c1cbce62d1-en-US-video.webm",
+        "autoplay": false,
+        "muted": false,
+        "poster": "",
+        "w": 608,
+        "h": 342
+      }
+    ],
+    "imgs": 10,
+    "requests": 210,
+    "transferKB": 2152,
+    "domContentLoadedMs": 761,
+    "loadMs": 1348,
+    "trust": [],
+    "docHeight": 7492
+  },
+  {
+    "site": "siemens",
+    "name": "Siemens Smart Infrastructure",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://www.siemens.com/global/en/products/buildings.html",
+    "status": 200,
+    "finalUrl": "https://www.siemens.com/en-us/content/smart-building-infrastructure/",
+    "wallMs": 3985,
+    "title": "Smart building infrastructure and technologies | Siemens",
+    "description": "Siemens smart building infrastructure seamlessly integrates to enhance energy efficiency, security and occupant comfort, while lowering operational costs.",
+    "h1s": [
+      "Smart Buildings: Technology to transform buildings"
+    ],
+    "h1Style": {
+      "family": "SiemensRoman",
+      "size": "36px",
+      "weight": "400",
+      "lineHeight": "48px"
+    },
+    "h2s": [
+      "What is smart building infrastructure?",
+      "Demands on buildings are increasing",
+      "Smart buildings boost stakeholder experience & success.",
+      "Smart today. Autonomous tomorrow.",
+      "We understand your challenges",
+      "A holistic look at smart building infrastructure",
+      "Our industries",
+      "Send us a message"
+    ],
+    "nav": [
+      "Siemens",
+      "Log in"
+    ],
+    "ctas": [
+      "Learn more"
+    ],
+    "fonts": [
+      "SiemensSans",
+      "SiemensRoman"
+    ],
+    "colors": [
+      "rgb(0, 0, 40)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(0, 121, 147)",
+      "rgb(33, 37, 41)",
+      "rgb(0, 204, 204)",
+      "rgb(0, 110, 190)",
+      "rgb(125, 128, 153)"
+    ],
+    "videos": [
+      {
+        "src": "https://video.sw.cdn.siemens.com/mgc/videos/1200/a778ab1c-bfeb-4d0d-89c3-10c1cbce62d1-en-US-video.webm",
+        "autoplay": false,
+        "muted": false,
+        "poster": "",
+        "w": 358,
+        "h": 201.375
+      }
+    ],
+    "imgs": 8,
+    "requests": 200,
+    "transferKB": 1969,
+    "domContentLoadedMs": 505,
+    "loadMs": 1370,
+    "trust": [],
+    "docHeight": 10966
+  },
+  {
+    "site": "siemens",
+    "name": "Siemens Smart Infrastructure",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.siemens.com/global/en/products/buildings/building-x.html",
+    "status": 200,
+    "finalUrl": "https://www.siemens.com/en-us/products/building-x/",
+    "wallMs": 5092,
+    "title": "Building X | Siemens",
+    "description": "Our building management system, Building X, will help make data-driven decisions to improve sustainability, operations and building performance.",
+    "h1s": [
+      "Building X"
+    ],
+    "h1Style": {
+      "family": "SiemensRoman",
+      "size": "48px",
+      "weight": "400",
+      "lineHeight": "58px"
+    },
+    "h2s": [
+      "Why Building X?",
+      "Learn how customers are using Building X",
+      "University of Wollongong",
+      "Award winning solutions",
+      "Frequently asked questions",
+      "Send us a message"
+    ],
+    "nav": [
+      "Siemens",
+      "Log in",
+      "Building X",
+      "Overview",
+      "Buyer's guide",
+      "Resources",
+      "Home",
+      "Products"
+    ],
+    "ctas": [
+      "Request a consultation",
+      "Start the tour",
+      "Explore the applications",
+      "Learn more"
+    ],
+    "fonts": [
+      "SiemensSans",
+      "Arial",
+      "SiemensRoman"
+    ],
+    "colors": [
+      "rgb(0, 0, 40)",
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 121, 147)",
+      "rgb(76, 76, 104)",
+      "rgb(125, 128, 153)",
+      "rgb(0, 204, 204)",
+      "rgb(217, 217, 223)"
+    ],
+    "videos": [
+      {
+        "src": "https://video.sw.cdn.siemens.com/mgc/videos/1200/c9f6538f-a428-4856-81e5-50db3bd1ba95-en-US-video.webm",
+        "autoplay": false,
+        "muted": false,
+        "poster": "",
+        "w": 608,
+        "h": 342
+      }
+    ],
+    "imgs": 15,
+    "requests": 212,
+    "transferKB": 6419,
+    "domContentLoadedMs": 731,
+    "loadMs": 2163,
+    "trust": [
+      "certified",
+      "award",
+      "iso 50001"
+    ],
+    "docHeight": 9117
+  },
+  {
+    "site": "siemens",
+    "name": "Siemens Smart Infrastructure",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://www.siemens.com/global/en/products/buildings/building-x.html",
+    "status": 200,
+    "finalUrl": "https://www.siemens.com/en-us/products/building-x/",
+    "wallMs": 3393,
+    "title": "Building X | Siemens",
+    "description": "Our building management system, Building X, will help make data-driven decisions to improve sustainability, operations and building performance.",
+    "h1s": [
+      "Building X"
+    ],
+    "h1Style": {
+      "family": "SiemensRoman",
+      "size": "36px",
+      "weight": "400",
+      "lineHeight": "48px"
+    },
+    "h2s": [
+      "Why Building X?",
+      "Learn how customers are using Building X",
+      "University of Wollongong",
+      "Award winning solutions",
+      "Frequently asked questions",
+      "Send us a message"
+    ],
+    "nav": [
+      "Siemens",
+      "Log in"
+    ],
+    "ctas": [
+      "Request a consultation",
+      "Start the tour",
+      "Explore the applications",
+      "Learn more"
+    ],
+    "fonts": [
+      "SiemensSans",
+      "SiemensRoman"
+    ],
+    "colors": [
+      "rgb(0, 0, 40)",
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(0, 121, 147)",
+      "rgb(76, 76, 104)",
+      "rgb(0, 204, 204)",
+      "rgb(0, 110, 190)",
+      "rgb(125, 128, 153)"
+    ],
+    "videos": [
+      {
+        "src": "https://video.sw.cdn.siemens.com/mgc/videos/1200/c9f6538f-a428-4856-81e5-50db3bd1ba95-en-US-video.webm",
+        "autoplay": false,
+        "muted": false,
+        "poster": "",
+        "w": 358,
+        "h": 201.375
+      }
+    ],
+    "imgs": 15,
+    "requests": 202,
+    "transferKB": 2309,
+    "domContentLoadedMs": 656,
+    "loadMs": 1076,
+    "trust": [
+      "certified",
+      "award",
+      "iso 50001"
+    ],
+    "docHeight": 11889
+  },
+  {
+    "site": "honeywell",
+    "name": "Honeywell Building Automation",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://buildings.honeywell.com/us/en",
+    "status": 200,
+    "finalUrl": "https://buildings.honeywell.com/us/en",
+    "wallMs": 2884,
+    "title": "Honeywell Building Automation",
+    "description": "Discover Honeywell solutions for smart buildings. Enhance safety, sustainability, and operational efficiency with connected automation technologies.",
+    "h1s": [
+      "EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY",
+      "WHEN BUILDINGS CONNECT, INSIGHTS BECOME OUTCOMES.",
+      "FROST & SULLIVAN’S 2026 FROST RADAR™",
+      "SUPPORTING YOUR BUILDING AT EVERY STAGE",
+      "SMARTER ACCESS FOR SMARTER BUILDINGS",
+      "EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY",
+      "WHEN BUILDINGS CONNECT, INSIGHTS BECOME OUTCOMES.",
+      "FROST & SULLIVAN’S 2026 FROST RADAR™",
+      "SUPPORTING YOUR BUILDING AT EVERY STAGE",
+      "SMARTER ACCESS FOR SMARTER BUILDINGS",
+      "EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY",
+      "Victorian Comprehensive Cancer Centre Case Study"
+    ],
+    "h1Style": {
+      "family": "\"Honeywell Sans\"",
+      "size": "56px",
+      "weight": "900",
+      "lineHeight": "58.8px"
+    },
+    "h2s": [
+      "BUILDING AUTOMATION",
+      "Explore What's Possible",
+      "Do Not Sell My Personal Information",
+      "Do Not Sell My Personal Information"
+    ],
+    "nav": [
+      "BUILDING AUTOMATION",
+      "Products",
+      "Industries",
+      "Automation Solutions",
+      "Brands",
+      "Support",
+      "News & Media",
+      "Explore Success Story"
+    ],
+    "ctas": [
+      "CONTACT",
+      "Explore Li‑ion Tamer",
+      "Explore Connected Solutions",
+      "Explore Building Services",
+      "Explore Security Solutions",
+      "AUTOMATION STARTS HERE",
+      "LEARN MORE",
+      "Explore Success Story",
+      "Learn More",
+      "START YOUR DEVICE SELECTION",
+      "CONTACT SALES",
+      "Find A Partner"
+    ],
+    "fonts": [
+      "Honeywell Sans",
+      "honeywell sans"
+    ],
+    "colors": [
+      "rgb(255, 255, 255)",
+      "rgb(0, 113, 179)",
+      "rgb(48, 48, 48)",
+      "rgb(33, 37, 41)",
+      "rgb(160, 160, 160)",
+      "rgb(0, 0, 0)",
+      "rgb(210, 38, 48)",
+      "rgb(0, 123, 194)"
+    ],
+    "videos": [],
+    "imgs": 68,
+    "requests": 184,
+    "transferKB": 1172,
+    "domContentLoadedMs": 559,
+    "loadMs": 1221,
+    "trust": [],
+    "docHeight": 6501
+  },
+  {
+    "site": "honeywell",
+    "name": "Honeywell Building Automation",
+    "page": "home",
+    "viewport": "390",
+    "url": "https://buildings.honeywell.com/us/en",
+    "status": 200,
+    "finalUrl": "https://buildings.honeywell.com/us/en",
+    "wallMs": 2965,
+    "title": "Honeywell Building Automation",
+    "description": "Discover Honeywell solutions for smart buildings. Enhance safety, sustainability, and operational efficiency with connected automation technologies.",
+    "h1s": [
+      "EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY",
+      "WHEN BUILDINGS CONNECT, INSIGHTS BECOME OUTCOMES.",
+      "FROST & SULLIVAN’S 2026 FROST RADAR™",
+      "SUPPORTING YOUR BUILDING AT EVERY STAGE",
+      "SMARTER ACCESS FOR SMARTER BUILDINGS",
+      "EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY",
+      "WHEN BUILDINGS CONNECT, INSIGHTS BECOME OUTCOMES.",
+      "FROST & SULLIVAN’S 2026 FROST RADAR™",
+      "SUPPORTING YOUR BUILDING AT EVERY STAGE",
+      "SMARTER ACCESS FOR SMARTER BUILDINGS",
+      "EARLY WARNING FOR LITHIUM‑ION BATTERY SAFETY",
+      "Maximize Uptime. Minimize Risk."
+    ],
+    "h1Style": {
+      "family": "\"Honeywell Sans\"",
+      "size": "56px",
+      "weight": "900",
+      "lineHeight": "58.8px"
+    },
+    "h2s": [
+      "BUILDING AUTOMATION",
+      "Explore What's Possible",
+      "Do Not Sell My Personal Information",
+      "Do Not Sell My Personal Information"
+    ],
+    "nav": [
+      "BUILDING AUTOMATION",
+      "Explore Data Center"
+    ],
+    "ctas": [
+      "Explore Li‑ion Tamer",
+      "Explore Connected Solutions",
+      "Explore Building Services",
+      "Explore Security Solutions",
+      "AUTOMATION STARTS HERE",
+      "Explore Data Center",
+      "Learn More",
+      "START YOUR DEVICE SELECTION",
+      "CONTACT SALES"
+    ],
+    "fonts": [
+      "Honeywell Sans",
+      "honeywell sans",
+      "icomoonregular"
+    ],
+    "colors": [
+      "rgb(0, 113, 179)",
+      "rgb(255, 255, 255)",
+      "rgb(33, 37, 41)",
+      "rgb(0, 0, 0)",
+      "rgb(48, 48, 48)",
+      "rgb(112, 112, 112)",
+      "rgb(0, 123, 194)",
+      "rgb(210, 38, 48)"
+    ],
+    "videos": [],
+    "imgs": 60,
+    "requests": 176,
+    "transferKB": 1172,
+    "domContentLoadedMs": 592,
+    "loadMs": 1278,
+    "trust": [],
+    "docHeight": 7065
+  },
+  {
+    "site": "honeywell",
+    "name": "Honeywell Building Automation",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://buildings.honeywell.com/us/en/products/by-category/building-management",
+    "status": 200,
+    "finalUrl": "https://buildings.honeywell.com/us/en/products/by-category/building-management",
+    "wallMs": 2855,
+    "title": "Building Management",
+    "description": "",
+    "h1s": [],
+    "h1Style": null,
+    "h2s": [
+      "BUILDING AUTOMATION",
+      "Do Not Sell My Personal Information",
+      "Do Not Sell My Personal Information"
+    ],
+    "nav": [
+      "BUILDING AUTOMATION",
+      "Products",
+      "Industries",
+      "Automation Solutions",
+      "Brands",
+      "Support",
+      "News & Media"
+    ],
+    "ctas": [
+      "CONTACT",
+      "Find A Partner"
+    ],
+    "fonts": [
+      "Honeywell Sans"
+    ],
+    "colors": [
+      "rgb(255, 255, 255)",
+      "rgb(48, 48, 48)",
+      "rgb(0, 113, 179)",
+      "rgb(33, 37, 41)",
+      "rgb(0, 123, 194)",
+      "rgb(64, 64, 64)",
+      "rgb(128, 128, 128)",
+      "rgb(85, 85, 85)"
+    ],
+    "videos": [],
+    "imgs": 13,
+    "requests": 134,
+    "transferKB": 3551,
+    "domContentLoadedMs": 794,
+    "loadMs": 2148,
+    "trust": [],
+    "docHeight": 2628
+  },
+  {
+    "site": "honeywell",
+    "name": "Honeywell Building Automation",
+    "page": "solutions",
+    "viewport": "390",
+    "url": "https://buildings.honeywell.com/us/en/products/by-category/building-management",
+    "status": 200,
+    "finalUrl": "https://buildings.honeywell.com/us/en/products/by-category/building-management",
+    "wallMs": 2737,
+    "title": "Building Management",
+    "description": "",
+    "h1s": [],
+    "h1Style": null,
+    "h2s": [
+      "BUILDING AUTOMATION",
+      "Do Not Sell My Personal Information",
+      "Do Not Sell My Personal Information"
+    ],
+    "nav": [
+      "BUILDING AUTOMATION"
+    ],
+    "ctas": [],
+    "fonts": [
+      "Honeywell Sans",
+      "icomoonregular"
+    ],
+    "colors": [
+      "rgb(48, 48, 48)",
+      "rgb(0, 113, 179)",
+      "rgb(255, 255, 255)",
+      "rgb(33, 37, 41)",
+      "rgb(0, 123, 194)",
+      "rgb(128, 128, 128)",
+      "rgb(85, 85, 85)"
+    ],
+    "videos": [],
+    "imgs": 13,
+    "requests": 135,
+    "transferKB": 3550,
+    "domContentLoadedMs": 793,
+    "loadMs": 1954,
+    "trust": [],
+    "docHeight": 3004
+  },
+  {
+    "site": "lutron",
+    "name": "Lutron",
+    "page": "home",
+    "viewport": "1440",
+    "url": "https://www.lutron.com/us/en",
+    "captureMethod": "Claude-in-Chrome extension (real browser session; scripted browsers hit an Imperva hCaptcha)",
+    "title": "Lutron | Intelligent light. Automated Shades. Powerful Controls",
+    "h1s": [
+      "Title (visually hidden)"
+    ],
+    "h1Style": {
+      "family": "Lutron Sans Screen",
+      "size": "60px",
+      "weight": "300"
+    },
+    "nav": [
+      "Lighting",
+      "Window Treatments",
+      "Controls",
+      "Experience Lutron",
+      "Resources",
+      "About Us"
+    ],
+    "utility": [
+      "Support",
+      "Book a Tour",
+      "Find my Sales Rep",
+      "Find an Installer",
+      "Region",
+      "Sign In"
+    ],
+    "ctas": [
+      "Book a Tour",
+      "Find an Installer",
+      "Find my Sales Rep",
+      "Join (newsletter)"
+    ],
+    "fonts": [
+      "Lutron Sans Screen"
+    ],
+    "colors": [
+      "warm champagne gradient hero",
+      "#ffffff",
+      "#000000 text",
+      "#0b6bcb buttons"
+    ],
+    "videos": [],
+    "notes": "Home = search field + Residential/Commercial/Hospitality switch + 4 portrait tiles + footer.",
+    "screens": [
+      "lutron-home-1440-fold.jpg",
+      "lutron-home-1440-footer.jpg"
+    ]
+  },
+  {
+    "site": "lutron",
+    "name": "Lutron",
+    "page": "solutions",
+    "viewport": "1440",
+    "url": "https://www.lutron.com/us/en/lighting/commercial-lighting",
+    "captureMethod": "Claude-in-Chrome extension",
+    "title": "Commercial Lighting Solutions | Commercial LEDs | Lutron",
+    "h1s": [
+      "Commercial Lighting"
+    ],
+    "h2s": [
+      "Built for Brilliance",
+      "Explore Lighting",
+      "Embedded Fixture Technology (EFT)",
+      "Intelligent Lighting",
+      "Explore Two Approaches to Native Wireless Light Control",
+      "New & Noteworthy",
+      "BlackRock Case Study"
+    ],
+    "ctas": [
+      "Explore EFT",
+      "Explore Intelligent Lighting"
+    ],
+    "videos": [],
+    "notes": "Full-bleed single-fixture hero, then headline + one sentence + one button sections with large photography.",
+    "screens": [
+      "lutron-solutions-1440-fold.jpg",
+      "lutron-solutions-1440-s2.jpg",
+      "lutron-solutions-1440-s3.jpg",
+      "lutron-solutions-1440-s4.jpg"
+    ]
+  }
+]
