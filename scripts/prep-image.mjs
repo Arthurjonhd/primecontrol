@@ -9,9 +9,11 @@ const OUT = path.resolve(import.meta.dirname, '..', 'src/assets/img/photos');
 fs.mkdirSync(OUT, { recursive: true });
 const src = sharp(path.resolve(input)).rotate();
 const meta = await src.metadata();
-const base = src.resize({ width: 1920, height: 1080, fit: 'cover', position: 'attention' });
-for (const w of [1920, 1280, 768]) {
-  const r = base.clone().resize(w);
+const RATIO = process.env.RATIO ? Number(process.env.RATIO) : 16 / 9; // RATIO=0.8 for 4:5 side images
+const maxW = Math.min(1920, meta.width); // never upscale
+const base = src.resize({ width: maxW, height: Math.round(maxW / RATIO), fit: 'cover', position: 'attention', withoutEnlargement: false });
+for (const w of [1920, 1280, 768].filter((w) => w <= maxW || w === 768)) {
+  const r = base.clone().resize({ width: Math.min(w, maxW) });
   const a = await r.clone().avif({ quality: 50, effort: 5 }).toFile(path.join(OUT, `${name}-${w}.avif`));
   const p = await r.clone().webp({ quality: 72 }).toFile(path.join(OUT, `${name}-${w}.webp`));
   const j = await r.clone().jpeg({ quality: 74, mozjpeg: true }).toFile(path.join(OUT, `${name}-${w}.jpg`));

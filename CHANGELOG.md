@@ -70,3 +70,8 @@
 - Home "Recent projects" placeholders replaced by "Where this experience comes from": Central Bank of The Bahamas, Lynden Pindling International Airport, Hotel Iberostar Grand Packard (Havana), from the client's previous site.
 - About: founder paragraph, mission, vision and "Finding a permanent solution is our ultimate goal" taken from caimanautomation.com and rewritten for South Florida. That site names no staff besides the founder.
 - Plant band: original H.264 MP4 (6.9 MB) served first on desktop, WebM fallback re-encoded at 3 Mbps.
+
+## Experience photos and About rework (2026-09-13)
+- Client confirmed ownership of the three project images from the previous site; prepared without upscaling (`prep-image.mjs` no longer enlarges) and placed in the experience tiles on Home and About.
+- About restructured: less copy, an image slot beside "Where we come from" and "What we hold ourselves to" (4:3), mission and vision as a full-width band with text over an image, experience as a three-up photo grid, team as photo cards. Prompts for the new slots added to `design/image-brief.md`.
+- About hero: Unsplash photo (Sean Pollock) with a softer scrim; page-hero photos load with high fetch priority.

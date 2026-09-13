@@ -560,3 +560,27 @@ html:not(.js) .tabs__list { display: none; }
 .page-hero--image::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(21 36 59 / 0.55) 0%, rgb(21 36 59 / 0.35) 40%, rgb(21 36 59 / 0.9) 100%); }
 .why__list--three li:nth-child(3) { grid-column: auto; }
 @media (min-width: 64rem) { .why__list--three { grid-template-columns: repeat(3, 1fr); } }
+
+/* ---------- About: side images, experience grid, mission band, team ---------- */
+.side-img { margin: var(--s-5) 0 0; aspect-ratio: 4 / 3; max-width: 22rem; overflow: hidden; border-radius: var(--radius-img); background: var(--c-paper); }
+.side-img img { width: 100%; height: 100%; object-fit: cover; }
+.exp-grid { list-style: none; display: grid; gap: var(--s-6); margin-top: var(--s-6); }
+.exp-grid li { display: grid; gap: var(--s-3); align-content: start; }
+.exp-grid p { color: var(--c-slate); }
+.exp-img { margin: 0; aspect-ratio: 16 / 10; overflow: hidden; border-radius: var(--radius-img); background: var(--c-night); }
+.exp-img img { width: 100%; height: 100%; object-fit: cover; }
+@media (min-width: 48rem) { .exp-grid { grid-template-columns: repeat(3, 1fr); } }
+.band--text { height: auto; min-height: clamp(20rem, 60svh, 34rem); }
+.band__inner--full { align-items: center; background: rgb(21 36 59 / 0.78); }
+.band__cols { display: grid; gap: var(--s-6); padding-block: var(--s-8); }
+.band__cols p { margin-top: var(--s-3); color: var(--c-text-dark-muted); max-width: 40ch; }
+.band__tagline { grid-column: 1 / -1; font-size: var(--t-lede); color: var(--c-white) !important; max-width: none !important; margin-top: var(--s-4) !important; }
+@media (min-width: 48rem) { .band__cols { grid-template-columns: 1fr 1fr; gap: var(--s-8); } }
+.team-grid { list-style: none; display: grid; gap: var(--s-6); }
+.team-grid li { display: grid; gap: var(--s-2); align-content: start; }
+.team-img { margin: 0 0 var(--s-2); aspect-ratio: 1; max-width: 14rem; overflow: hidden; border-radius: var(--radius-img); background: var(--c-paper); }
+.team-img img { width: 100%; height: 100%; object-fit: cover; }
+@media (min-width: 48rem) { .team-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* softer scrim for dark photographs behind a page hero */
+.page-hero--soft::before { background: linear-gradient(180deg, rgb(21 36 59 / 0.2) 0%, rgb(21 36 59 / 0.1) 40%, rgb(21 36 59 / 0.75) 100%); }

@@ -55,6 +55,17 @@ fans), `hero-drone` (tower). Optional additions:
 | `band-touchpanel` | 10 s video: a hand tapping "Meeting" on a wall panel; lights dim, shades close, screen wakes (Lutron-style product-in-use). |
 | `band-lobby` | Still: condominium lobby at dusk with the tower lights coming on. |
 
+## About page — side images (4:3, generate at 1600×1200) and one band (16:9)
+
+Prepare side images with `RATIO=1.333 node scripts/prep-image.mjs <file> <name>`; the band with the default ratio.
+
+| Name | Where | Prompt (add the style suffix) |
+|---|---|---|
+| `about-founder` | Beside "Where we come from" | An automation engineer seen from behind and slightly to the side, standing at an open building-controls panel in a clean plant room, tablet in hand showing a system graphic, cool white light, no face visible. |
+| `about-mission` | Behind "Mission / Vision" (full-width band, 16:9) | Wide view of a quiet building operations room at dusk: two large wall displays with floor plans and trend charts, a window with a South Florida skyline, one empty chair, calm and orderly. |
+| `about-values` | Beside "What we hold ourselves to" | Close-up of a technician's hands labelling a neatly wired controller inside a panel, cable ties and printed labels visible, shallow depth of field. |
+| `team-1`, `team-2`, `team-3` | Team | Real photos only, square crop, plain light background, natural light, no AI portraits. |
+
 ## Featured projects (Home) — prefix `project-<n>`
 
 Three real project photos from the client when available; until then the tiles stay as marked
