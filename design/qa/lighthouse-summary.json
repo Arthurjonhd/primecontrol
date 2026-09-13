@@ -2,13 +2,13 @@
   {
     "page": "/",
     "form": "mobile",
-    "performance": 94,
+    "performance": 95,
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "2.6 s",
+    "LCP": "2.9 s",
     "CLS": "0",
-    "bytes": "286 KB"
+    "bytes": "443 KB"
   },
   {
     "page": "/",
@@ -19,28 +19,28 @@
     "seo": 100,
     "LCP": "0.6 s",
     "CLS": "0.001",
-    "bytes": "3911 KB"
+    "bytes": "3173 KB"
   },
   {
-    "page": "/solutions/building-automation/",
+    "page": "/markets/",
     "form": "mobile",
     "performance": 96,
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "2.3 s",
+    "LCP": "2.7 s",
     "CLS": "0",
-    "bytes": "204 KB"
+    "bytes": "274 KB"
   },
   {
-    "page": "/solutions/building-automation/",
+    "page": "/markets/",
     "form": "desktop",
     "performance": 100,
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "0.5 s",
-    "CLS": "0.001",
-    "bytes": "204 KB"
+    "LCP": "0.6 s",
+    "CLS": "0",
+    "bytes": "361 KB"
   }
 ]

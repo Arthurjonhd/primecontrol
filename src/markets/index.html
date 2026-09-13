@@ -12,7 +12,8 @@
 {{> header}}
 
 <main id="main">
-  <section class="page-hero">
+  <section class="page-hero page-hero--image">
+    <div class="page-hero__bg" aria-hidden="true"><picture><source type="image/avif" srcset="{{root}}assets/img/photos/markets-hero-768.avif 768w, {{root}}assets/img/photos/markets-hero-1280.avif 1280w, {{root}}assets/img/photos/markets-hero-1920.avif 1920w" sizes="100vw"><source type="image/webp" srcset="{{root}}assets/img/photos/markets-hero-768.webp 768w, {{root}}assets/img/photos/markets-hero-1280.webp 1280w, {{root}}assets/img/photos/markets-hero-1920.webp 1920w" sizes="100vw"><img src="{{root}}assets/img/photos/markets-hero-1280.jpg" srcset="{{root}}assets/img/photos/markets-hero-768.jpg 768w, {{root}}assets/img/photos/markets-hero-1280.jpg 1280w, {{root}}assets/img/photos/markets-hero-1920.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="" decoding="async"></picture></div>
     <div class="container">
       <ol class="crumbs" aria-label="Breadcrumb">
         <li><a href="{{root}}index.html">Home</a></li>
@@ -36,9 +37,7 @@
       </ul>
 
       <section class="tabs__panel" role="tabpanel" id="residential" aria-labelledby="tab-residential">
-        <figure class="tabs__figure">
-          <div class="img-pending">Image pending: market-residential<br>Waterfront living room, shades half lowered, wall keypad (see design/image-brief.md)</div>
-        </figure>
+        <figure class="tabs__figure"><picture><source type="image/avif" srcset="{{root}}assets/img/photos/market-residential-768.avif 768w, {{root}}assets/img/photos/market-residential-1280.avif 1280w, {{root}}assets/img/photos/market-residential-1920.avif 1920w" sizes="(min-width: 64rem) 640px, 100vw"><source type="image/webp" srcset="{{root}}assets/img/photos/market-residential-768.webp 768w, {{root}}assets/img/photos/market-residential-1280.webp 1280w, {{root}}assets/img/photos/market-residential-1920.webp 1920w" sizes="(min-width: 64rem) 640px, 100vw"><img src="{{root}}assets/img/photos/market-residential-1280.jpg" srcset="{{root}}assets/img/photos/market-residential-768.jpg 768w, {{root}}assets/img/photos/market-residential-1280.jpg 1280w, {{root}}assets/img/photos/market-residential-1920.jpg 1920w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Living area of a smart estate with lighting, shades and security on one system" loading="lazy" decoding="async"></picture></figure>
         <div class="tabs__body">
           <h2 class="h4">Residential</h2>
           <p>Large homes and estates where lighting, climate, shades, security and media behave as one system. As the afternoon sun reaches the glass, the shades lower on their own; one keypad press by the door sets the whole house to "away".</p>
@@ -86,9 +85,7 @@
       </section>
 
       <section class="tabs__panel" role="tabpanel" id="hospitality" aria-labelledby="tab-hospitality" hidden>
-        <figure class="tabs__figure">
-          <div class="img-pending">Image pending: market-hospitality<br>Boutique hotel guest room, sheer and blackout shades, bedside keypad</div>
-        </figure>
+        <figure class="tabs__figure"><picture><source type="image/avif" srcset="{{root}}assets/img/photos/market-hospitality-768.avif 768w, {{root}}assets/img/photos/market-hospitality-1280.avif 1280w, {{root}}assets/img/photos/market-hospitality-1920.avif 1920w" sizes="(min-width: 64rem) 640px, 100vw"><source type="image/webp" srcset="{{root}}assets/img/photos/market-hospitality-768.webp 768w, {{root}}assets/img/photos/market-hospitality-1280.webp 1280w, {{root}}assets/img/photos/market-hospitality-1920.webp 1920w" sizes="(min-width: 64rem) 640px, 100vw"><img src="{{root}}assets/img/photos/market-hospitality-1280.jpg" srcset="{{root}}assets/img/photos/market-hospitality-768.jpg 768w, {{root}}assets/img/photos/market-hospitality-1280.jpg 1280w, {{root}}assets/img/photos/market-hospitality-1920.jpg 1920w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Hotel with guest-room, lobby and back-of-house systems controlled together" loading="lazy" decoding="async"></picture></figure>
         <div class="tabs__body">
           <h2 class="h4">Hospitality</h2>
           <p>Guest rooms that set themselves for arrival, public areas with shading and lighting scenes by time of day, and back-of-house plant, kitchens and laundry on the same platform with energy reporting for the owner.</p>
@@ -102,9 +99,7 @@
       </section>
 
       <section class="tabs__panel" role="tabpanel" id="healthcare" aria-labelledby="tab-healthcare" hidden>
-        <figure class="tabs__figure">
-          <div class="img-pending">Image pending: market-healthcare<br>Outpatient clinic corridor, card readers, room-status display</div>
-        </figure>
+        <figure class="tabs__figure"><picture><source type="image/avif" srcset="{{root}}assets/img/photos/market-healthcare-768.avif 768w, {{root}}assets/img/photos/market-healthcare-1280.avif 1280w, {{root}}assets/img/photos/market-healthcare-1920.avif 1920w" sizes="(min-width: 64rem) 640px, 100vw"><source type="image/webp" srcset="{{root}}assets/img/photos/market-healthcare-768.webp 768w, {{root}}assets/img/photos/market-healthcare-1280.webp 1280w, {{root}}assets/img/photos/market-healthcare-1920.webp 1920w" sizes="(min-width: 64rem) 640px, 100vw"><img src="{{root}}assets/img/photos/market-healthcare-1280.jpg" srcset="{{root}}assets/img/photos/market-healthcare-768.jpg 768w, {{root}}assets/img/photos/market-healthcare-1280.jpg 1280w, {{root}}assets/img/photos/market-healthcare-1920.jpg 1920w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Clinic with air-quality, pressure and access control integrated" loading="lazy" decoding="async"></picture></figure>
         <div class="tabs__body">
           <h2 class="h4">Healthcare</h2>
           <p>Air quality, pressure relationships between rooms and access to controlled areas, logged to the standards your compliance depends on. The BMS holds the records; the access system holds the audit trail.</p>
@@ -118,9 +113,7 @@
       </section>
 
       <section class="tabs__panel" role="tabpanel" id="retail" aria-labelledby="tab-retail" hidden>
-        <figure class="tabs__figure">
-          <div class="img-pending">Image pending: market-retail<br>Flagship store, storefront shades, accent lighting on displays</div>
-        </figure>
+        <figure class="tabs__figure"><picture><source type="image/avif" srcset="{{root}}assets/img/photos/market-retail-768.avif 768w, {{root}}assets/img/photos/market-retail-1280.avif 1280w, {{root}}assets/img/photos/market-retail-1920.avif 1920w" sizes="(min-width: 64rem) 640px, 100vw"><source type="image/webp" srcset="{{root}}assets/img/photos/market-retail-768.webp 768w, {{root}}assets/img/photos/market-retail-1280.webp 1280w, {{root}}assets/img/photos/market-retail-1920.webp 1920w" sizes="(min-width: 64rem) 640px, 100vw"><img src="{{root}}assets/img/photos/market-retail-1280.jpg" srcset="{{root}}assets/img/photos/market-retail-768.jpg 768w, {{root}}assets/img/photos/market-retail-1280.jpg 1280w, {{root}}assets/img/photos/market-retail-1920.jpg 1920w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Boutique store with lighting, storefront shades and cameras on a schedule" loading="lazy" decoding="async"></picture></figure>
         <div class="tabs__body">
           <h2 class="h4">Retail</h2>
           <p>Lighting scenes, storefront shades and security tuned to opening hours, and climate that follows the schedule rather than the thermostat someone touched last week.</p>
@@ -133,9 +126,7 @@
       </section>
 
       <section class="tabs__panel" role="tabpanel" id="industrial" aria-labelledby="tab-industrial" hidden>
-        <figure class="tabs__figure">
-          <div class="img-pending">Image pending: market-industrial<br>Workshop with open control panel, VFD and PLC inside</div>
-        </figure>
+        <figure class="tabs__figure"><picture><source type="image/avif" srcset="{{root}}assets/img/photos/market-industrial-768.avif 768w, {{root}}assets/img/photos/market-industrial-1280.avif 1280w, {{root}}assets/img/photos/market-industrial-1920.avif 1920w" sizes="(min-width: 64rem) 640px, 100vw"><source type="image/webp" srcset="{{root}}assets/img/photos/market-industrial-768.webp 768w, {{root}}assets/img/photos/market-industrial-1280.webp 1280w, {{root}}assets/img/photos/market-industrial-1920.webp 1920w" sizes="(min-width: 64rem) 640px, 100vw"><img src="{{root}}assets/img/photos/market-industrial-1280.jpg" srcset="{{root}}assets/img/photos/market-industrial-768.jpg 768w, {{root}}assets/img/photos/market-industrial-1280.jpg 1280w, {{root}}assets/img/photos/market-industrial-1920.jpg 1920w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Workshop with process ventilation, control panels and energy monitoring" loading="lazy" decoding="async"></picture></figure>
         <div class="tabs__body">
           <h2 class="h4">Light industrial</h2>
           <p>Process spaces, ventilation, motor control and energy tracked in one place. We design and assemble control panels, including PLC, variable-frequency-drive and remote I/O panels, and supervise them from the same platform as the rest of the building.</p>

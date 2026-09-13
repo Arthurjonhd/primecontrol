@@ -15,8 +15,6 @@
 | String | File | Line | Action at launch |
 |---|---|---|---|
 | "Names shown as text until authorized-dealer status is confirmed. [licensed logos pending]" | `src/index.html` | 96 | Delete the `<p class="trust__note">` once dealer status is confirmed; swap text wordmarks for licensed logos |
-| "Placeholders until the client provides photography and project details. [3 projects pending]" | `src/index.html` | 206 | Replace with the real intro sentence or delete |
-| "Image placeholder" tiles and "[Project name] / [Building type], [City]. [Systems installed]" | `src/index.html` | 210–219 | Replace with real project images and captions |
 | Hidden testimonials "[Quote] / [Name], [Role], [Property]" | `src/index.html` | 232–233 | Fill with real quotes and remove the `hidden` attribute, or delete the section |
 | "[confirm with client]" after the service area | `src/partials/footer.html` | 47 | Delete once the service area is confirmed |
 | Social links "LinkedIn [link]", "Instagram [link]" | `src/partials/footer.html` | 54–55 | Replace `href="#"` with real profiles and remove `[link]`, or delete the list |
@@ -31,9 +29,12 @@
 Run `grep -rn "\[" src --include=*.html --include=*.json` before launch: it must return nothing.
 
 ## Images and video to generate (see design/image-brief.md for prompts and file names)
-- [ ] 7 market images `market-<slug>` (residential, condominiums, commercial, hospitality, healthcare, retail, industrial)
-- [ ] 7 solution images `sol-<slug>`
+- [x] Received 2026-09-13: market-residential, -hospitality, -healthcare, -retail, -industrial; sol-lighting-and-shading, -home-and-commercial-automation, -access-control-and-video, -energy-monitoring, -service-and-support; markets-hero ("arriba"). Originals in `design/source/img/`.
+- [ ] Still missing: `market-commercial`, `market-condominiums` (interim: frames from the footage), `sol-building-automation`, `sol-indoor-air-quality`
+- [ ] The received images have English text baked in (labels, "Prime Control Systems", "Hialeah, FL"). For the Spanish version they will need text-free or Spanish variants; the brief asked for no text in images for that reason.
+- [ ] Photos of the three experience projects (Central Bank of The Bahamas, Lynden Pindling International Airport, Hotel Iberostar Grand Packard) if the client has any it may publish
 - [ ] Optional band videos (shades lowering, touch-panel scene) and a lobby still
+- [ ] Plant video quality: the original `mechanical1.mp4` (6.9 MB, H.264) is now served directly on desktop with the WebM as fallback. For a sharper clip export H.264 MP4, 1920×1080, 10 s, 6–8 Mbps, no audio, and drop it in `design/source/`; run `node scripts/encode-video.mjs <file> band-bms 4.2 3` and copy the MP4 to `src/assets/video/band-bms.mp4`.
 - [ ] Confirm the YouTube BMS demo (AbmZgTIiwZU) may stay embedded, or replace it with the client's own screen recording
 - [ ] Confirm Hanken Grotesk as the typeface (chosen as the closest open match to Lutron Sans)
 
@@ -46,9 +47,9 @@ Run `grep -rn "\[" src --include=*.html --include=*.json` before launch: it must
 - [ ] Florida contractor license number(s) → `[FL LICENSE #]` (footer, legally required on advertising)
 - [ ] Confirm service area (currently Miami, Fort Lauderdale, Palm Beach, all of South Florida)
 - [ ] Certifications / partner-program levels (Lutron, Crestron, Trane, Niagara, etc.)
-- [ ] Project photos and 3 featured projects (title, location, systems, 1 image each)
+- [ ] Photos for the three experience projects now on Home and About (optional)
 - [ ] Testimonials (name, role, property) — block is in the markup but hidden
-- [ ] Team names / photos for About
+- [ ] Team names / photos for About (the previous site names only the founder, Brayan Turnquest; no other staff are listed there)
 - [ ] Web3Forms access key → `[WEB3FORMS_KEY]`
 - [ ] Domain name and hosting choice (GitHub Pages / Cloudflare Pages / other)
 - [x] Hero video: client drone footage received (`design/source/drone.mp4`, 10 s, 1280×720) and encoded to `src/assets/video/hero-drone.webm`.

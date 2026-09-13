@@ -98,6 +98,8 @@
   if (bands.length && desktop.matches && !reduceMotion.matches && !(navigator.connection || {}).saveData && 'IntersectionObserver' in window) {
     var loadBand = function (v) {
       if (v.dataset.loaded) return; v.dataset.loaded = '1';
+      var mp4 = v.getAttribute('data-src-mp4');
+      if (mp4) { var s4 = doc.createElement('source'); s4.src = mp4; s4.type = 'video/mp4'; v.appendChild(s4); }
       var s = doc.createElement('source'); s.src = v.getAttribute('data-src'); s.type = 'video/webm'; v.appendChild(s); v.load();
       v.addEventListener('playing', function () { v.classList.add('is-playing'); }, { once: true });
     };

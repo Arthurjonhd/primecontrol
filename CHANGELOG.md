@@ -63,3 +63,10 @@
 - Clips re-encoded as VP8 and remuxed with ffmpeg so the WebM container carries duration and cues (MediaRecorder output has neither): hero 2.64 MB, band-bms 1.93 MB, band-ceiling 1.94 MB. `scripts/encode-video.mjs` takes `CODEC=vp8|vp9` and remuxes automatically.
 - Preview server: HTTP Range support (206) and `Cache-Control: no-cache` so re-encoded media is never served stale during review.
 - Build: content-hash `?v=` on video, CSS and JS URLs so visitors' caches update when assets change.
+
+## Client images and content round 3 (2026-09-13)
+- 11 client images prepared to AVIF/WebP/JPEG at 1920/1280/768 (`src/assets/img/photos/`), originals kept in `design/source/img/`.
+- Home and Solutions index rows show the five solution photos; Markets tabs show the five market photos; Markets hero uses the "arriba" image behind a scrim.
+- Home "Recent projects" placeholders replaced by "Where this experience comes from": Central Bank of The Bahamas, Lynden Pindling International Airport, Hotel Iberostar Grand Packard (Havana), from the client's previous site.
+- About: founder paragraph, mission, vision and "Finding a permanent solution is our ultimate goal" taken from caimanautomation.com and rewritten for South Florida. That site names no staff besides the founder.
+- Plant band: original H.264 MP4 (6.9 MB) served first on desktop, WebM fallback re-encoded at 3 Mbps.
