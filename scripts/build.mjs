@@ -44,6 +44,15 @@ fs.cpSync(path.join(SRC, 'assets'), path.join(DIST, 'assets'), { recursive: true
 for (const f of walk(path.join(DIST, 'assets')).concat()) { /* html in assets is not expected */ }
 fs.rmSync(path.join(DIST, 'assets', 'img', 'CREDITS.md'), { force: true });
 
+import { createHash } from 'node:crypto';
+const hashCache = new Map();
+const assetHash = (relPath) => {
+  if (!hashCache.has(relPath)) {
+    const f = path.join(DIST, relPath);
+    hashCache.set(relPath, fs.existsSync(f) ? createHash('sha1').update(fs.readFileSync(f)).digest('hex').slice(0, 8) : '0');
+  }
+  return hashCache.get(relPath);
+};
 const pages = [];
 for (const file of walk(SRC)) {
   const rel = path.relative(SRC, file).split(path.sep).join('/');
@@ -60,6 +69,8 @@ for (const file of walk(SRC)) {
   let html = render(raw.replace(m[0], ''), { brand, site, page, root });
   if (page.nav) html = html.replace(new RegExp(`(<a [^>]*data-nav="${page.nav}")`), '$1 aria-current="page"');
   html = html.replace(/ data-nav="[\w-]+"/g, '');
+  // cache-busting: append a short content hash to video, CSS and JS URLs so browsers never keep a stale copy
+  html = html.replace(/(assets\/[\w\/.-]+\.(?:webm|mp4|css|js))(?=["'\s)])/g, (m, rel2) => `${rel2}?v=${assetHash(rel2)}`);
   const out = path.join(DIST, rel);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, html);

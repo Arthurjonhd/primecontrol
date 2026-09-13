@@ -58,3 +58,8 @@
 - Building automation page: click-to-load YouTube facade for the BMS demo video (youtube-nocookie, nothing loads until play).
 - `design/image-brief.md`: prompts, sizes and file names for every image slot (7 markets, 7 solutions, optional bands); `scripts/prep-image.mjs` prepares delivered images. Interim slots show a marked placeholder.
 - Lighthouse: Home mobile 94 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100; building-automation mobile 96 / 100 / 100 / 100, desktop 100 across.
+
+## Video playback fixes (2026-09-13)
+- Clips re-encoded as VP8 and remuxed with ffmpeg so the WebM container carries duration and cues (MediaRecorder output has neither): hero 2.64 MB, band-bms 1.93 MB, band-ceiling 1.94 MB. `scripts/encode-video.mjs` takes `CODEC=vp8|vp9` and remuxes automatically.
+- Preview server: HTTP Range support (206) and `Cache-Control: no-cache` so re-encoded media is never served stale during review.
+- Build: content-hash `?v=` on video, CSS and JS URLs so visitors' caches update when assets change.

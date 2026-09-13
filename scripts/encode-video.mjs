@@ -7,6 +7,7 @@ import sharp from 'sharp';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const [SRC, NAME, MAXMB = '3.6', POSTER_T = '4.5', CLIP_ARG] = process.argv.slice(2);
+const CODEC = process.env.CODEC || 'vp8'; // vp8: broadest playback + remuxable by the bundled ffmpeg; vp9: smaller but not remuxable here
 if (!SRC || !NAME) { console.error('usage: encode-video.mjs <source.mp4> <outName> [maxMB] [posterSeconds] [clipSeconds]'); process.exit(1); }
 const OUT = path.join(ROOT, 'src/assets/video', NAME + '.webm');
 const POSTER_DIR = path.join(ROOT, 'src/assets/img/video');
@@ -36,10 +37,10 @@ for (const w of [1920, 1280, 768]) {
 const clip = Math.min(CLIP_ARG ? Number(CLIP_ARG) : meta.duration, meta.duration);
 let bps = Math.min(3_000_000, Math.floor(MAX_BYTES * 8 / clip));
 for (let attempt = 0; attempt < 3; attempt++) {
-  const b64 = await page.evaluate(async ({ clip, bps, W, H }) => {
+  const b64 = await page.evaluate(async ({ clip, bps, W, H, codec }) => {
     const v = document.getElementById('v'); const c = document.getElementById('c'); const ctx = c.getContext('2d');
     v.currentTime = 0; await new Promise((r) => (v.onseeked = r));
-    const rec = new MediaRecorder(c.captureStream(30), { mimeType: 'video/webm;codecs=vp9', videoBitsPerSecond: bps });
+    const rec = new MediaRecorder(c.captureStream(30), { mimeType: 'video/webm;codecs=' + codec, videoBitsPerSecond: bps });
     const chunks = []; rec.ondataavailable = (e) => e.data.size && chunks.push(e.data); const done = new Promise((r) => (rec.onstop = r));
     let raf; const draw = () => { ctx.drawImage(v, 0, 0, W, H); raf = requestAnimationFrame(draw); };
     rec.start(250); await v.play(); draw();
@@ -47,9 +48,19 @@ for (let attempt = 0; attempt < 3; attempt++) {
     v.pause(); cancelAnimationFrame(raf); rec.stop(); await done;
     const buf = await new Blob(chunks, { type: 'video/webm' }).arrayBuffer();
     let s = ''; const bytes = new Uint8Array(buf); for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000)); return btoa(s);
-  }, { clip, bps, W, H });
+  }, { clip, bps, W, H, codec: CODEC });
   const buf = Buffer.from(b64, 'base64'); fs.writeFileSync(OUT, buf);
   console.log(`  ${clip.toFixed(1)} s at ${(bps / 1e6).toFixed(2)} Mbps → ${(buf.length / 1048576).toFixed(2)} MB`);
   if (buf.length <= MAX_BYTES * 1.1) break; bps = Math.floor(bps * 0.8);
 }
 await b.close();
+// Remux so the container carries duration and cues (MediaRecorder output has neither). Works for VP8 with the bundled ffmpeg.
+try {
+  const { execFileSync } = await import('node:child_process');
+  const mp = path.join(process.env.LOCALAPPDATA, 'ms-playwright');
+  const ffmpeg = path.join(mp, fs.readdirSync(mp).find((d) => d.startsWith('ffmpeg')), 'ffmpeg-win64.exe');
+  const tmp = OUT + '.remux.webm';
+  execFileSync(ffmpeg, ['-y', '-hide_banner', '-loglevel', 'error', '-i', OUT, '-c', 'copy', '-fflags', '+genpts', tmp]);
+  fs.renameSync(tmp, OUT);
+  console.log('  remuxed with duration + cues:', (fs.statSync(OUT).size / 1048576).toFixed(2), 'MB');
+} catch (e) { console.warn('  remux skipped:', String(e.message).slice(0, 200)); }

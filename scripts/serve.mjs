@@ -17,7 +17,21 @@ export function start(port = PORT) {
     if (!fs.existsSync(file)) { res.writeHead(404); return res.end('Not found'); }
     const ext = path.extname(file);
     res.setHeader('Content-Type', TYPES[ext] || 'application/octet-stream');
-    res.setHeader('Cache-Control', ext === '.html' ? 'no-cache' : 'public, max-age=31536000, immutable');
+    res.setHeader('Cache-Control', 'no-cache'); // preview server: always revalidate, so re-encoded media is never stale
+    res.setHeader('Accept-Ranges', 'bytes');
+    const size = fs.statSync(file).size;
+    const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range || '');
+    if (range && res.statusCode !== 404) {
+      // HTTP Range support: browsers need it to play and seek video
+      let start = range[1] ? Number(range[1]) : 0;
+      let end = range[2] ? Number(range[2]) : size - 1;
+      if (!range[1] && range[2]) { start = size - Number(range[2]); end = size - 1; }
+      if (start > end || start >= size) { res.writeHead(416, { 'Content-Range': `bytes */${size}` }); return res.end(); }
+      end = Math.min(end, size - 1);
+      res.writeHead(206, { 'Content-Range': `bytes ${start}-${end}/${size}`, 'Content-Length': end - start + 1 });
+      return fs.createReadStream(file, { start, end }).pipe(res);
+    }
+    res.setHeader('Content-Length', size);
     fs.createReadStream(file).pipe(res);
   });
   return new Promise((resolve) => server.listen(port, () => resolve(server)));
