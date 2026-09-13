@@ -17,11 +17,11 @@
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero__media">
       <picture>
-        <source type="image/avif" srcset="{{root}}assets/img/hero/drone-768.avif 768w, {{root}}assets/img/hero/drone-1280.avif 1280w, {{root}}assets/img/hero/drone-1920.avif 1920w" sizes="100vw">
-        <source type="image/webp" srcset="{{root}}assets/img/hero/drone-768.webp 768w, {{root}}assets/img/hero/drone-1280.webp 1280w, {{root}}assets/img/hero/drone-1920.webp 1920w" sizes="100vw">
-        <img src="{{root}}assets/img/hero/drone-1280.jpg" srcset="{{root}}assets/img/hero/drone-768.jpg 768w, {{root}}assets/img/hero/drone-1280.jpg 1280w, {{root}}assets/img/hero/drone-1920.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="" fetchpriority="high" decoding="async">
+        <source type="image/avif" srcset="{{root}}assets/img/video/hero-drone-768.avif 768w, {{root}}assets/img/video/hero-drone-1280.avif 1280w, {{root}}assets/img/video/hero-drone-1920.avif 1920w" sizes="100vw">
+        <source type="image/webp" srcset="{{root}}assets/img/video/hero-drone-768.webp 768w, {{root}}assets/img/video/hero-drone-1280.webp 1280w, {{root}}assets/img/video/hero-drone-1920.webp 1920w" sizes="100vw">
+        <img src="{{root}}assets/img/video/hero-drone-1280.jpg" srcset="{{root}}assets/img/video/hero-drone-768.jpg 768w, {{root}}assets/img/video/hero-drone-1280.jpg 1280w, {{root}}assets/img/video/hero-drone-1920.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="" fetchpriority="high" decoding="async">
       </picture>
-      <video data-hero-video data-src="{{root}}assets/video/hero-drone.webm" data-poster="{{root}}assets/img/hero/drone-1920.avif" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1" width="1920" height="1080"></video>
+      <video data-hero-video data-src="{{root}}assets/video/hero-drone.webm" data-poster="{{root}}assets/img/video/hero-drone-1920.avif" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1" width="1920" height="1080"></video>
     </div>
     <div class="hero__scrim" aria-hidden="true"></div>
 
@@ -117,41 +117,61 @@
           <img class="lead-tile__art" src="{{root}}assets/img/diagram-mini.svg" width="360" height="300" alt="" loading="lazy" decoding="async">
         </article>
 
-        <ul class="sol-list">
+        <ul class="sol-list sol-list--img">
           <li>
+            <div class="sol-list__img"><div class="img-pending">Image pending: sol-lighting-and-shading</div></div>
+            <div>
             <h3 class="h4"><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading control</a></h3>
             <p>Rooms that light themselves for the time of day, cut glare and meet energy code without anyone touching a switch.</p>
             <ul class="tags" aria-label="Platforms"><li>Lutron</li></ul>
+          </div>
           </li>
           <li>
+            <div class="sol-list__img"><div class="img-pending">Image pending: sol-home-and-commercial-automation</div></div>
+            <div>
             <h3 class="h4"><a href="{{root}}solutions/home-and-commercial-automation/index.html">Home and commercial automation</a></h3>
             <p>One touch sets the room: lights, climate, shades, security and audio-video together, at home or in the boardroom.</p>
             <ul class="tags" aria-label="Platforms"><li>Crestron</li></ul>
+          </div>
           </li>
           <li>
+            <div class="sol-list__img"><div class="img-pending">Image pending: sol-access-control-and-video</div></div>
+            <div>
             <h3 class="h4"><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></h3>
             <p>Know who is in the building, control where they can go, and see every entrance from one video wall or one phone.</p>
             <ul class="tags" aria-label="Systems"><li>ACS</li><li>CCTV</li><li>Intrusion</li></ul>
+          </div>
           </li>
           <li>
+            <div class="sol-list__img"><div class="img-pending">Image pending: sol-energy-monitoring</div></div>
+            <div>
             <h3 class="h4"><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></h3>
             <p>See where the energy goes, bill tenants for what they use, and catch faults before the utility bill does.</p>
             <ul class="tags" aria-label="Systems"><li>Metering</li><li>Sub-metering</li></ul>
+          </div>
           </li>
           <li>
+            <div class="sol-list__img"><img src="{{root}}assets/img/video/band-ceiling-768.jpg" width="768" height="432" alt="" loading="lazy" decoding="async"></div>
+            <div>
             <h3 class="h4"><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></h3>
             <p>Keep CO2, humidity and ventilation where a healthy building needs them, with the records to prove it.</p>
             <ul class="tags" aria-label="Systems"><li>CO2</li><li>NO2</li><li>Demand-control ventilation</li></ul>
+          </div>
           </li>
           <li>
+            <div class="sol-list__img"><div class="img-pending">Image pending: sol-service-and-support</div></div>
+            <div>
             <h3 class="h4"><a href="{{root}}solutions/service-and-support/index.html">Service and support</a></h3>
             <p>Preventive maintenance, 24/7 emergency response and remote monitoring, so the system you paid for keeps doing its job.</p>
             <ul class="tags" aria-label="Coverage"><li>24/7</li><li>Remote monitoring</li></ul>
+          </div>
           </li>
         </ul>
       </div>
     </div>
   </section>
+
+  {{> band-bms}}
 
   <section class="section section--paper" aria-labelledby="markets-title">
     <div class="container split">
@@ -183,6 +203,8 @@
       </ol>
     </div>
   </section>
+
+  {{> band-ceiling}}
 
   <section class="section section--paper" aria-labelledby="why-title">
     <div class="container split">

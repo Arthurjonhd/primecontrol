@@ -30,6 +30,13 @@
 
 Run `grep -rn "\[" src --include=*.html --include=*.json` before launch: it must return nothing.
 
+## Images and video to generate (see design/image-brief.md for prompts and file names)
+- [ ] 7 market images `market-<slug>` (residential, condominiums, commercial, hospitality, healthcare, retail, industrial)
+- [ ] 7 solution images `sol-<slug>`
+- [ ] Optional band videos (shades lowering, touch-panel scene) and a lobby still
+- [ ] Confirm the YouTube BMS demo (AbmZgTIiwZU) may stay embedded, or replace it with the client's own screen recording
+- [ ] Confirm Hanken Grotesk as the typeface (chosen as the closest open match to Lutron Sans)
+
 ## Client inputs
 - [ ] Final legal name: Prime Control / Prime Control Systems / Prime Control Corp (single variable in `src/partials/brand.json`)
 - [ ] Logo (replaces provisional SVG wordmark in `src/assets/img/`)

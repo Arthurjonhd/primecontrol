@@ -49,3 +49,12 @@
 - Markets: light industrial now mentions control panels (PLC, VFD, remote I/O) from the client's industrial background; Service & support lists panel design and assembly.
 - Build: brand tokens inside page titles/descriptions are rendered; `.block`, chips, contact grid and light form-card styles added.
 - Gate on /solutions/building-automation/: mobile 99 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100, CLS 0, 161 KB.
+
+## Client direction round 2 (2026-09-13)
+- Typeface: Hanken Grotesk replaces Archivo (client asked for Lutron's face; Lutron Sans is proprietary, this is the closest OFL match). B612 unchanged. Plan §2 addendum.
+- Hero footage: `design/source/drone2.mp4` → `src/assets/video/hero-drone.webm` (3.68 MB), posters in `src/assets/img/video/`.
+- Media bands (`partials/band-bms`, `band-ceiling`, `band-tower`): fixed-background sections revealed on scroll, on Home, Solutions index, every solution page, Markets and About. Videos `band-bms.webm` (2.55 MB) and `band-ceiling.webm` (2.59 MB) load lazily on desktop only; posters elsewhere. `scripts/encode-video.mjs` generalised.
+- Markets rebuilt as image tabs (keyboard-operable, hash-linked, no-JS fallback shows all panels); solution rows carry images on Home and Solutions index.
+- Building automation page: click-to-load YouTube facade for the BMS demo video (youtube-nocookie, nothing loads until play).
+- `design/image-brief.md`: prompts, sizes and file names for every image slot (7 markets, 7 solutions, optional bands); `scripts/prep-image.mjs` prepares delivered images. Interim slots show a marked placeholder.
+- Lighthouse: Home mobile 94 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100; building-automation mobile 96 / 100 / 100 / 100, desktop 100 across.

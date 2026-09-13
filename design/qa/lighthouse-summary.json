@@ -1,14 +1,36 @@
 [
   {
-    "page": "/solutions/building-automation/",
+    "page": "/",
     "form": "mobile",
-    "performance": 99,
+    "performance": 94,
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "2.0 s",
+    "LCP": "2.6 s",
     "CLS": "0",
-    "bytes": "161 KB"
+    "bytes": "286 KB"
+  },
+  {
+    "page": "/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "LCP": "0.6 s",
+    "CLS": "0.001",
+    "bytes": "3911 KB"
+  },
+  {
+    "page": "/solutions/building-automation/",
+    "form": "mobile",
+    "performance": 96,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "LCP": "2.3 s",
+    "CLS": "0",
+    "bytes": "204 KB"
   },
   {
     "page": "/solutions/building-automation/",
@@ -17,8 +39,8 @@
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "0.4 s",
-    "CLS": "0",
-    "bytes": "161 KB"
+    "LCP": "0.5 s",
+    "CLS": "0.001",
+    "bytes": "204 KB"
   }
 ]

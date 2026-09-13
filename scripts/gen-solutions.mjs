@@ -198,6 +198,27 @@ const MARKETS = {
 };
 
 const byslug = Object.fromEntries(SOLUTIONS.map((s) => [s.slug, s]));
+// media band per page (fixed-background section between "What it is" and "What we deliver")
+const BANDS = {
+  'building-automation': 'band-bms', 'indoor-air-quality': 'band-ceiling', 'energy-monitoring': 'band-bms',
+  'home-and-commercial-automation': 'band-ceiling', 'lighting-and-shading': 'band-ceiling', 'access-control-and-video': 'band-tower', 'service-and-support': 'band-bms'
+};
+// third-party demo video (YouTube) shown behind a click-to-load facade
+const YT = { 'building-automation': { id: 'AbmZgTIiwZU', title: 'How a building management system looks in operation (third-party demo)' } };
+function ytBlock(slug) {
+  const y = YT[slug]; if (!y) return '';
+  return `
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">See a BMS in operation</h2><p class="muted">A third-party demonstration video. Nothing loads from YouTube until you press play.</p></div>
+      <div class="yt" data-yt="${y.id}">
+        <button class="yt__btn" type="button" data-title="${y.title}">
+          <span class="yt__play" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="yt__label">Play: ${y.title}</span>
+          <span class="yt__note">Opens the YouTube player (youtube-nocookie.com) inside this page.</span>
+        </button>
+      </div>
+    </div>`;
+}
 
 // The layered-building art: the relevant plane (or the interface node) at full opacity, the rest dimmed.
 function art(highlight) {
@@ -253,6 +274,11 @@ function page(s) {
         ${s.what.map((p) => `<p>${p}</p>`).join('\n        ')}
       </div>
     </div>
+  </section>
+
+  {{> ${BANDS[s.slug] || 'band-tower'}}}
+
+  <section class="section">
     <div class="container split block">
       <div class="split__head"><h2 class="h3">What we deliver</h2></div>
       <ul class="bullets bullets--two">
@@ -270,7 +296,7 @@ function page(s) {
       <ul class="link-list">
         ${s.related.map((r) => `<li><a href="{{root}}solutions/${r}/index.html">${byslug[r].name}</a> <span class="muted">${byslug[r].outcome}</span></li>`).join('\n        ')}
       </ul>
-    </div>
+    </div>${ytBlock(s.slug)}
   </section>
 
   {{> consult}}

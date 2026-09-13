@@ -50,6 +50,13 @@ Fort Lauderdale, Palm Beach — confirm with client). Full list in `TODO.md`.
   the build never copies them into `dist/`, and `.deployignore` / host config excludes them explicitly.
 - The repo stays private until the client approves the site (see `TODO.md`).
 
+## Media and images
+- Client videos go to `design/source/` (never deployed); `node scripts/encode-video.mjs <mp4> <name> [MB] [posterSec]`
+  writes `src/assets/video/<name>.webm` (VP9, under budget) and posters to `src/assets/img/video/`.
+- Generated/supplied photos: `node scripts/prep-image.mjs <file> <name>` → `src/assets/img/photos/<name>-*`.
+  The prompts and file names every slot expects are in `design/image-brief.md`.
+- Media bands (`src/partials/band-*.html`) are fixed-background sections; add one per page between content sections.
+
 ## Layout
 ```
 src/                  source pages (index.html, solutions/<slug>/index.html, markets/, about/, contact/, privacy/, 404.html)

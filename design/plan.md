@@ -369,6 +369,24 @@ JavaScript. It is kept under `prefers-reduced-motion` for that reason. The hero 
 hero is fully covered. The placeholder aerial has been replaced by the client's own drone footage
 (`design/source/drone.mp4` → `src/assets/video/hero-drone.webm`, 10 s, VP9, under 4 MB).
 
+### Addendum (client direction, 2026-09-13): typeface, media bands, image tabs
+
+- **Typeface.** The client asked for the Lutron typeface. Lutron Sans is proprietary and cannot be
+  licensed for this site, so the editorial face is now **Hanken Grotesk** (SIL OFL, variable weight), the
+  closest open match to its neutral, light, slightly rounded grotesque. Headlines set at weight 400–500,
+  normal width, tracking −0.02em. B612 keeps its instrument role. Archivo is retired.
+- **Media bands.** Every page alternates white content sections with full-bleed bands whose media is
+  fixed to the viewport (`clip-path: inset(0)` on the band, `position: fixed` on the media). As the page
+  scrolls, content slides over the band and the next band reveals behind it. Videos load only on desktop,
+  only when the band is within 600 px, and pause when out of view; phones and reduced-motion get the
+  poster. This is scroll-linked layout, not animation.
+- **Image tabs on Markets.** One image per building type with a description of what we install there,
+  modelled on the layout the client pointed to; images are AI-generated to the brief in
+  `design/image-brief.md` because no licensable photography fit.
+- **Solution rows carry an image** (Honeywell-style) on Home and the Solutions index.
+- **Embedded BMS demo video** (YouTube) on the Building automation page behind a click-to-load facade,
+  so nothing from YouTube loads until the visitor presses play.
+
 ## 5. Content principles
 
 - The outcome is the first sentence of every solution block and every solution page. Grouping stays by

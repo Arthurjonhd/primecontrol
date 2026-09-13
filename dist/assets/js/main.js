@@ -93,6 +93,59 @@
     }
   }
 
+  /* ---------- Media bands: lazy video on desktop, poster elsewhere ---------- */
+  var bands = doc.querySelectorAll('[data-band-video]');
+  if (bands.length && desktop.matches && !reduceMotion.matches && !(navigator.connection || {}).saveData && 'IntersectionObserver' in window) {
+    var loadBand = function (v) {
+      if (v.dataset.loaded) return; v.dataset.loaded = '1';
+      var s = doc.createElement('source'); s.src = v.getAttribute('data-src'); s.type = 'video/webm'; v.appendChild(s); v.load();
+      v.addEventListener('playing', function () { v.classList.add('is-playing'); }, { once: true });
+    };
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var v = en.target;
+        if (en.isIntersecting) { loadBand(v); v.play().catch(function () {}); } else { v.pause(); }
+      });
+    }, { rootMargin: '600px 0px' });
+    bands.forEach(function (v) { io.observe(v); });
+  }
+
+  /* ---------- Image tabs (Markets) ---------- */
+  Array.prototype.forEach.call(doc.querySelectorAll('[data-tabs]'), function (root) {
+    var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
+    var panels = Array.prototype.slice.call(root.querySelectorAll('[role="tabpanel"]'));
+    function select(i, focus) {
+      tabs.forEach(function (t, n) { var on = n === i; t.setAttribute('aria-selected', on ? 'true' : 'false'); t.tabIndex = on ? 0 : -1; panels[n].hidden = !on; });
+      if (focus) tabs[i].focus();
+    }
+    function fromHash() { return panels.findIndex(function (p) { return '#' + p.id === location.hash; }); }
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function () { select(i); if (history.replaceState) history.replaceState(null, '', '#' + panels[i].id); });
+      t.addEventListener('keydown', function (e) {
+        var n = i;
+        if (e.key === 'ArrowRight') n = (i + 1) % tabs.length; else if (e.key === 'ArrowLeft') n = (i - 1 + tabs.length) % tabs.length;
+        else if (e.key === 'Home') n = 0; else if (e.key === 'End') n = tabs.length - 1; else return;
+        e.preventDefault(); select(n, true);
+      });
+    });
+    var start = fromHash(); select(start >= 0 ? start : 0);
+    window.addEventListener('hashchange', function () { var n = fromHash(); if (n >= 0) { select(n); root.scrollIntoView({ block: 'start' }); } });
+  });
+
+  /* ---------- YouTube facade ---------- */
+  Array.prototype.forEach.call(doc.querySelectorAll('[data-yt]'), function (box) {
+    var btn = box.querySelector('button');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var f = doc.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + box.getAttribute('data-yt') + '?autoplay=1&rel=0';
+      f.title = btn.getAttribute('data-title') || 'Video';
+      f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      f.setAttribute('allowfullscreen', '');
+      box.replaceChild(f, btn);
+    });
+  });
+
   /* ---------- Consultation form (Web3Forms) ---------- */
   var form = doc.querySelector('[data-consult-form]');
   if (form) {

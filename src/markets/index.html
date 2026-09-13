@@ -19,112 +19,138 @@
         <li aria-current="page">Markets</li>
       </ol>
       <h1 class="h1">Buildings we work in.</h1>
-      <p class="lede">The same team and the same open platforms, sized to the property. Pick your building type to see what usually goes in it.</p>
-      <nav class="page-hero__actions" aria-label="Building types">
-        <ul class="chips chips--dark">
-          <li><a href="#residential">Residential</a></li>
-          <li><a href="#condominiums">Condominiums and HOA</a></li>
-          <li><a href="#commercial">Commercial offices</a></li>
-          <li><a href="#hospitality">Hospitality</a></li>
-          <li><a href="#healthcare">Healthcare</a></li>
-          <li><a href="#retail">Retail</a></li>
-          <li><a href="#industrial">Light industrial</a></li>
-        </ul>
-      </nav>
+      <p class="lede">The same team and the same open platforms, sized to the property. Pick a building type to see the rooms we work in and what goes into them.</p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container split block" id="residential">
-      <div class="split__head"><h2 class="h3">Residential</h2><p class="muted">Large homes and estates.</p></div>
-      <div class="prose">
-        <p>Lighting, climate, shades, security, cameras, intercom, gates, irrigation and media, behaving as one system from a keypad, a touch panel or a phone. The interface is Crestron; the lighting and shades are Lutron; the rest is chosen for the house.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Home and commercial automation (Crestron)</a></li>
-          <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading control (Lutron)</a></li>
-          <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
-          <li><a href="{{root}}solutions/service-and-support/index.html">Service and support</a></li>
-        </ul>
-      </div>
-    </div>
+    <div class="container" data-tabs>
+      <ul class="tabs__list" role="tablist" aria-label="Building types">
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-residential" aria-controls="residential" aria-selected="true">Residential</button></li>
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-condominiums" aria-controls="condominiums" aria-selected="false">Condominiums and HOA</button></li>
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-commercial" aria-controls="commercial" aria-selected="false">Commercial offices</button></li>
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-hospitality" aria-controls="hospitality" aria-selected="false">Hospitality</button></li>
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-healthcare" aria-controls="healthcare" aria-selected="false">Healthcare</button></li>
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-retail" aria-controls="retail" aria-selected="false">Retail</button></li>
+        <li role="presentation"><button class="tabs__tab" role="tab" id="tab-industrial" aria-controls="industrial" aria-selected="false">Light industrial</button></li>
+      </ul>
 
-    <div class="container split block" id="condominiums">
-      <div class="split__head"><h2 class="h3">Condominiums and HOA</h2><p class="muted">Towers, mid-rise and gated communities.</p></div>
-      <div class="prose">
-        <p>Common areas, chiller plant, garages, pool equipment, access and utilities managed from one interface, with sub-metering that bills each unit for what it uses. Boards get reports they can read; management gets alarms before residents call.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
-          <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
-          <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></li>
-          <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></li>
-        </ul>
-      </div>
-    </div>
+      <section class="tabs__panel" role="tabpanel" id="residential" aria-labelledby="tab-residential">
+        <figure class="tabs__figure">
+          <div class="img-pending">Image pending: market-residential<br>Waterfront living room, shades half lowered, wall keypad (see design/image-brief.md)</div>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Residential</h2>
+          <p>Large homes and estates where lighting, climate, shades, security and media behave as one system. As the afternoon sun reaches the glass, the shades lower on their own; one keypad press by the door sets the whole house to "away".</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Home automation (Crestron)</a></li>
+            <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading (Lutron)</a></li>
+            <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control, cameras and intercom</a></li>
+            <li><a href="{{root}}solutions/service-and-support/index.html">Service and support</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <div class="container split block" id="commercial">
-      <div class="split__head"><h2 class="h3">Commercial offices</h2><p class="muted">Single-tenant and multi-tenant buildings.</p></div>
-      <div class="prose">
-        <p>After-hours tenant overrides with billing, sub-metering by suite, lighting to code, conference rooms that run themselves and one interface for the property team. Open protocols keep the next chiller or the next tenant fit-out competitive.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
-          <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></li>
-          <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading control (Lutron)</a></li>
-          <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Conference rooms and boardrooms (Crestron)</a></li>
-        </ul>
-      </div>
-    </div>
+      <section class="tabs__panel" role="tabpanel" id="condominiums" aria-labelledby="tab-condominiums" hidden>
+        <figure class="tabs__figure">
+          <img src="{{root}}assets/img/video/hero-drone-1280.jpg" srcset="{{root}}assets/img/video/hero-drone-768.jpg 768w, {{root}}assets/img/video/hero-drone-1280.jpg 1280w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Glass condominium tower on the water in Miami" loading="lazy" decoding="async">
+          <figcaption>Interim image from the client's footage. Final: lobby with access reader (market-condominiums).</figcaption>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Condominiums and HOA</h2>
+          <p>Common areas, chiller plant, garages, pool equipment, access and utilities managed from one interface, with sub-metering that bills each unit for what it uses. Boards get reports they can read; management gets alarms before residents call.</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+            <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
+            <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and sub-metering</a></li>
+            <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality and garage exhaust</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <div class="container split block" id="hospitality">
-      <div class="split__head"><h2 class="h3">Hospitality</h2><p class="muted">Hotels, resorts and clubs.</p></div>
-      <div class="prose">
-        <p>Guest comfort and back-of-house efficiency from the same controls: room climate and lighting scenes, public-area shading, kitchen and laundry ventilation, chiller plant and energy reporting, with cameras and access on the same platform.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
-          <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading control (Lutron)</a></li>
-          <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Guest-facing automation (Crestron)</a></li>
-          <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></li>
-        </ul>
-      </div>
-    </div>
+      <section class="tabs__panel" role="tabpanel" id="commercial" aria-labelledby="tab-commercial" hidden>
+        <figure class="tabs__figure">
+          <img src="{{root}}assets/img/video/band-ceiling-1280.jpg" srcset="{{root}}assets/img/video/band-ceiling-768.jpg 768w, {{root}}assets/img/video/band-ceiling-1280.jpg 1280w" sizes="(min-width: 64rem) 640px, 100vw" width="1280" height="720" alt="Open-plan office with exposed ceiling services" loading="lazy" decoding="async">
+          <figcaption>Interim image from the client's footage. Final: office floor with shades lowered on the sun side (market-commercial).</figcaption>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Commercial offices</h2>
+          <p>Open floors with automated shades on the sun side, lighting to code, conference rooms that switch on from one panel, after-hours overrides billed to the tenant, and one interface for the property team. Open protocols keep the next fit-out competitive.</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+            <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading (Lutron)</a></li>
+            <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Conference rooms (Crestron)</a></li>
+            <li><a href="{{root}}solutions/energy-monitoring/index.html">Tenant sub-metering</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <div class="container split block" id="healthcare">
-      <div class="split__head"><h2 class="h3">Healthcare</h2><p class="muted">Clinics, surgical centres and medical offices.</p></div>
-      <div class="prose">
-        <p>Air quality, pressure relationships between rooms and access to controlled areas, logged to the standards your compliance depends on. The BMS holds the records; the access system holds the audit trail.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></li>
-          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
-          <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
-          <li><a href="{{root}}solutions/service-and-support/index.html">Service and support</a></li>
-        </ul>
-      </div>
-    </div>
+      <section class="tabs__panel" role="tabpanel" id="hospitality" aria-labelledby="tab-hospitality" hidden>
+        <figure class="tabs__figure">
+          <div class="img-pending">Image pending: market-hospitality<br>Boutique hotel guest room, sheer and blackout shades, bedside keypad</div>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Hospitality</h2>
+          <p>Guest rooms that set themselves for arrival, public areas with shading and lighting scenes by time of day, and back-of-house plant, kitchens and laundry on the same platform with energy reporting for the owner.</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+            <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading (Lutron)</a></li>
+            <li><a href="{{root}}solutions/home-and-commercial-automation/index.html">Guest-facing automation (Crestron)</a></li>
+            <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <div class="container split block" id="retail">
-      <div class="split__head"><h2 class="h3">Retail</h2><p class="muted">Storefronts, showrooms and centres.</p></div>
-      <div class="prose">
-        <p>Lighting scenes, storefront shades and security tuned to opening hours, and climate that follows the schedule rather than the thermostat someone touched last week.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading control (Lutron)</a></li>
-          <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
-          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
-        </ul>
-      </div>
-    </div>
+      <section class="tabs__panel" role="tabpanel" id="healthcare" aria-labelledby="tab-healthcare" hidden>
+        <figure class="tabs__figure">
+          <div class="img-pending">Image pending: market-healthcare<br>Outpatient clinic corridor, card readers, room-status display</div>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Healthcare</h2>
+          <p>Air quality, pressure relationships between rooms and access to controlled areas, logged to the standards your compliance depends on. The BMS holds the records; the access system holds the audit trail.</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></li>
+            <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+            <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
+            <li><a href="{{root}}solutions/service-and-support/index.html">Service and support</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <div class="container split block" id="industrial">
-      <div class="split__head"><h2 class="h3">Light industrial</h2><p class="muted">Warehouses, workshops and process spaces.</p></div>
-      <div class="prose">
-        <p>Process spaces, ventilation, motor control and energy tracked in one place. We design and assemble control panels, including PLC, variable-frequency-drive and remote I/O panels, and supervise them from the same platform as the rest of the building.</p>
-        <ul class="link-list">
-          <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
-          <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></li>
-          <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></li>
-          <li><a href="{{root}}solutions/service-and-support/index.html">Control panels, service and support</a></li>
-        </ul>
-      </div>
+      <section class="tabs__panel" role="tabpanel" id="retail" aria-labelledby="tab-retail" hidden>
+        <figure class="tabs__figure">
+          <div class="img-pending">Image pending: market-retail<br>Flagship store, storefront shades, accent lighting on displays</div>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Retail</h2>
+          <p>Lighting scenes, storefront shades and security tuned to opening hours, and climate that follows the schedule rather than the thermostat someone touched last week.</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/lighting-and-shading/index.html">Lighting and shading (Lutron)</a></li>
+            <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video</a></li>
+            <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="tabs__panel" role="tabpanel" id="industrial" aria-labelledby="tab-industrial" hidden>
+        <figure class="tabs__figure">
+          <div class="img-pending">Image pending: market-industrial<br>Workshop with open control panel, VFD and PLC inside</div>
+        </figure>
+        <div class="tabs__body">
+          <h2 class="h4">Light industrial</h2>
+          <p>Process spaces, ventilation, motor control and energy tracked in one place. We design and assemble control panels, including PLC, variable-frequency-drive and remote I/O panels, and supervise them from the same platform as the rest of the building.</p>
+          <ul class="link-list">
+            <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a></li>
+            <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a></li>
+            <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a></li>
+            <li><a href="{{root}}solutions/service-and-support/index.html">Control panels, service and support</a></li>
+          </ul>
+        </div>
+      </section>
     </div>
   </section>
+
+  {{> band-tower}}
 
   {{> consult}}
 </main>
