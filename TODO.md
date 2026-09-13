@@ -4,6 +4,11 @@
 - [ ] **Authorized-dealer confirmation for Lutron, Crestron and Trane.** Until confirmed, the trust bar uses plain-text wordmarks only; licensed logos cannot be used.
 - [ ] **Repo visibility.** Keep the repository private until the client approves the site.
 
+## Claims the client must confirm (built as written for now)
+- [ ] "Talk to an engineer, not a salesperson" (consultation band headline)
+- [ ] "We call within one business day" (form success message and "what happens next")
+- [ ] The three-step process after a request: call → site walk-through → written proposal
+
 ## Client inputs
 - [ ] Final legal name: Prime Control / Prime Control Systems / Prime Control Corp (single variable in `src/partials/brand.json`)
 - [ ] Logo (replaces provisional SVG wordmark in `src/assets/img/`)

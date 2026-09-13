@@ -108,9 +108,9 @@ tighter, measure 45–75 characters.
 | 3 | `--t-h3` | 27 → 34 px | 1.15 | subsection heads |
 | 4 | `--t-h2` | 34 → 46 px | 1.1 | section heads |
 | 5 | `--t-h1` | 42 → 60 px | 1.05 | inner-page H1 |
-| 6 | `--t-hero` | 44 → 76 px | 1.0 | Home hero H1 only |
+| 6 | `--t-hero` | 42 → 64 px | 1.0 | Home hero H1 only |
 
-Measure: `--measure: 62ch` on all prose; lede 48ch; hero headline 16ch max (two lines at desktop).
+Measure: `--measure: 62ch` on all prose; lede 48ch. Hero headline: the text is "One interface for every system in your building." (48 characters) set in a 24ch measure so it breaks as two balanced lines at 1440 ("One interface for every / system in your building.") and stays at two or three lines down to 1024. Verified by screenshot at 1440 and 1024 in Phase 2.
 Headline tracking: −0.015em at steps 4–6, 0 elsewhere. B612 labels: 13–15 px, tracking +0.02em, never
 all-caps (B612's lowercase is its legible form).
 
@@ -133,6 +133,10 @@ things that are physically tiles: project images and the form card.
 Border radius: 6 px on controls (buttons, inputs), 2 px on images and tiles. Nothing else is rounded.
 No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 
+Separators: the build uses rules and spacing to separate items, never the middle dot "·" or any other
+typographic joiner. Wherever a wireframe below shows items on one line, they are separated by space in
+the drawing and by a rule or a gap in the build.
+
 ### 3.1 Home — desktop (1440)
 
 ```
@@ -141,8 +145,8 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 ├──────────────────────────────────────────────────────────────────────────────────┤
 │░░░░░░░░░░░░░░░░░░░░░░░ aerial video / poster, night scrim ░░░░░░░░░░░░░░░░░░░░░░│
 │░                                                          ┌───────────────────┐ ░│
-│░  Every system in your building,                          │  ── Air quality   │ ░│  ← SVG layers draw in
-│░  answering to one interface.                             │  ── Energy        │ ░│    one by one (the
+│░  One interface for every                                 │  ── Air quality   │ ░│  ← SVG layers draw in
+│░  system in your building.                                │  ── Energy        │ ░│    one by one (the
 │░                                                          │  ── Access & video│ ░│    only motion moment)
 │░  Design, installation, programming and service for       │  ── Lighting/shade│ ░│
 │░  HVAC, lighting, shades, access, video, energy and air.  │  ── HVAC (BMS)    │ ░│
@@ -158,7 +162,7 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 │ because that is how  │ Outcome sentence first.  Mini layered diagram.  Link  │ │    for the anchor system
 │ you will search.     └────────────────────────────────────────────────────────┘ │
 │                      Lighting & shading (Lutron)      │ Access control & video   │  ← five rows in two
-│                      outcome sentence · link          │ outcome sentence · link  │    columns, rules only,
+│                      outcome sentence   link          │ outcome sentence   link  │    columns, rules only,
 │                      ─────────────────────────────────┼───────────────────────── │    no boxes
 │                      Home & commercial automation     │ Energy monitoring        │
 │                      ─────────────────────────────────┼───────────────────────── │
@@ -178,7 +182,7 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 ├──────────────────────────────────────────────────────────────────────────────────┤
 │ Projects   ┌──────────────────────────────┐ ┌──────────────┐                     │  ← one wide tile + two
 │            │ [placeholder image]          │ │ [placeholder]│                     │    stacked; clearly
-│            │ Project title · [type]       │ ├──────────────┤                     │    marked placeholder
+│            │ Project title   [type]       │ ├──────────────┤                     │    marked placeholder
 │            └──────────────────────────────┘ │ [placeholder]│                     │
 │                                             └──────────────┘                     │
 │ (testimonials block: present in markup, hidden until real quotes exist)          │
@@ -191,9 +195,9 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 │▓  3 written proposal                          │ ▐Send request▌                  │▓│
 │▓ [PHONE]  [EMAIL]                             └─────────────────────────────────┘▓│
 ├──────────────────────────────────────────────────────────────────────────────────┤
-│ footer (night): mark · Solutions list · Company · Contact placeholders           │
-│ Service area: Miami · Fort Lauderdale · Palm Beach · all of South Florida        │
-│ FL license [FL LICENSE #] · Privacy · social placeholders · © legalName          │
+│ footer (night): mark   Solutions list   Company   Contact placeholders           │
+│ Service area: Miami   Fort Lauderdale   Palm Beach   all of South Florida        │
+│ FL license [FL LICENSE #]   Privacy   social placeholders   © legalName          │
 └──────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -206,9 +210,9 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 │ poster still (no     │
 │ video on mobile)     │
 │                      │
-│ Every system in your │
-│ building, answering  │
-│ to one interface.    │
+│ One interface for    │
+│ every system in      │
+│ your building.       │
 │ short paragraph      │
 │ ▐Request a consult.▌ │
 │ See solutions        │
@@ -226,7 +230,7 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 │ │ BMS lead tile    │ │
 │ └──────────────────┘ │
 │ Lighting & shading   │
-│ outcome · link       │
+│ outcome   link       │
 │ ───────────────────  │
 │ …five rows stacked   │
 ├──────────────────────┤
@@ -257,8 +261,8 @@ No drop shadows on light sections. Rules are `slate` at 30% alpha, 1 px.
 │                     │ • Individual unit control         • CO/NO2 monitoring       │    real content
 │                     │ • Open-protocol integration       • One graphical interface │
 ├─────────────────────┼────────────────────────────────────────────────────────────┤
-│ Which buildings     │ Condominiums & HOA · Commercial offices · Healthcare ·      │  ← links to /markets/#…
-│                     │ Hospitality · Light industrial                              │
+│ Which buildings     │ Condominiums & HOA   Commercial offices   Healthcare        │  ← links to /markets/#…
+│                     │ Hospitality   Light industrial                              │
 ├─────────────────────┼────────────────────────────────────────────────────────────┤
 │ Works with          │ Energy monitoring & analytics ─ Indoor air quality ─        │  ← three related links,
 │                     │ Access control & video                                      │    one line each
@@ -288,9 +292,9 @@ five rows, with one extra sentence each.
 │ │ Message                            │ │ │ map embed placeholder         │       │
 │ │ (honeypot, hidden)                 │ │ └───────────────────────────────┘       │
 │ │ ▐Send request▌                     │ │ Service area                            │
-│ │ success / error message area       │ │ Miami-Dade · Broward · Palm Beach       │
+│ │ success / error message area       │ │ Miami-Dade   Broward   Palm Beach       │
 │ └────────────────────────────────────┘ │ (list, confirm with client)             │
-│                                        │ What happens next  1 · 2 · 3            │
+│                                        │ What happens next  1   2   3            │
 ├────────────────────────────────────────┴─────────────────────────────────────────┤
 │ footer                                                                           │
 └──────────────────────────────────────────────────────────────────────────────────┘
@@ -314,7 +318,10 @@ and retail) with a slimmer tower above, drawn as 1 px `signal-light` monolines o
 planes are pulled out to the right of the section, stacked with a slight vertical offset so they read as
 sheets rather than as an isometric city. Each plane carries one B612 label and one tiny monoline glyph
 (fan blade, sun/shade bar, card and lens, meter needle, air arrows). Leader lines run from each plane to
-a single small rectangle under the building labelled "one interface". Style: no fills, no colour other
+a single small rectangle under the building labelled "one interface". That node represents the Home &
+commercial automation (Crestron) family: the unified interface that the other systems report to. With the
+five planes (HVAC/BMS, lighting & shading, access & video, energy, air quality), the interface node, and
+service named in the hero paragraph, all seven solution families are present in the hero story. Style: no fills, no colour other
 than `signal-light` and a 30% version of it for the building outline, no isometric grid, no icon
 library. This is a technical drawing, not an infographic, and is unlike the Siemens flat-isometric
 illustration in construction, palette and density.
@@ -406,6 +413,10 @@ in the diagram. It is decoration pretending to be data. Gone.
 ---
 
 ## 7. Open decisions for the client (do not block build)
+
+- Business commitments used in copy ("Talk to an engineer, not a salesperson", "we call within one
+  business day", call → site walk-through → written proposal) are built as written and listed in
+  `TODO.md` under "Claims the client must confirm".
 
 - Whether the hero uses their own drone footage or the royalty-free placeholder.
 - Confirmation of service area wording.
