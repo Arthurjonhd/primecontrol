@@ -41,3 +41,11 @@
 - TODO.md: "Strings to remove before launch" table with file and line; hero still request logged.
 - Client's previous site (caimanautomation.com) captured to `research/client-site/` as source material for About, Contact and Solutions (their own content, adapted, not copied verbatim).
 - Lighthouse Home after changes: mobile 98 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100, CLS 0.
+
+## Phase 3 — Inner pages (2026-09-13)
+- `scripts/gen-solutions.mjs` generates the seven solution pages from one data block (name, outcome, what it is, what we deliver, buildings, related, platform tags) with the layered-building art lit for the relevant layer; `scripts/solutions.json` is its summary.
+- Pages: `/solutions/` index, seven `/solutions/<slug>/`, `/markets/` (anchored sections), `/about/`, `/contact/`, `/privacy/`, `404.html` (noindex, excluded from sitemap).
+- About and Contact draw on the client's previous site (research/client-site) rewritten for South Florida: founder, three experience highlights, values. Cited projects flagged for client confirmation.
+- Markets: light industrial now mentions control panels (PLC, VFD, remote I/O) from the client's industrial background; Service & support lists panel design and assembly.
+- Build: brand tokens inside page titles/descriptions are rendered; `.block`, chips, contact grid and light form-card styles added.
+- Gate on /solutions/building-automation/: mobile 99 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100, CLS 0, 161 KB.

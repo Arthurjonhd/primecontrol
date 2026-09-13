@@ -1,0 +1,87 @@
+<!--page {
+  "title": "Energy monitoring, sub-metering and analytics for buildings, South Florida | {{brand.name}}",
+  "description": "Metering and tenant sub-metering, energy dashboards, fault detection and diagnostics, energy conservation projects and utility bill verification for condominiums, commercial and hospitality buildings.",
+  "nav": "solutions"
+}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <ol class="crumbs" aria-label="Breadcrumb">
+        <li><a href="{{root}}index.html">Home</a></li>
+        <li><a href="{{root}}solutions/index.html">Solutions</a></li>
+        <li aria-current="page">Energy monitoring</li>
+      </ol>
+      <div class="page-hero__inner">
+        <div>
+          <h1 class="h1">Energy monitoring and analytics</h1>
+          <p class="lede">See where the energy goes, bill tenants for what they use, and catch faults before the utility bill does.</p>
+          <ul class="tags" aria-label="Platforms and systems"><li>Metering</li><li>Sub-metering</li><li>Analytics</li></ul>
+          <div class="page-hero__actions">
+            <a class="btn btn--primary" href="#consult">Request a consultation</a>
+          </div>
+        </div>
+        <svg class="dg page-hero__art" viewBox="0 0 480 440" role="img" aria-label="Building control layers with Energy highlighted" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round" style="color:#7CC4FF">
+          <g opacity=".35"><rect x="30" y="300" width="230" height="56"/><rect x="96" y="88" width="100" height="212"/><rect x="120" y="70" width="52" height="18"/><path d="M96 112h100M96 136h100M96 160h100M96 184h100M96 208h100M96 232h100M96 256h100M96 280h100"/><path d="M10 356h270"/></g>
+          <g opacity="0.3"><path d="M290 330h130l30-24H320z"/><text x="292" y="298">HVAC and BMS</text></g><g opacity="0.3"><path d="M290 274h130l30-24H320z"/><text x="292" y="242">Lighting and shades</text></g><g opacity="0.3"><path d="M290 218h130l30-24H320z"/><text x="292" y="186">Access and video</text></g><g opacity="1"><path d="M290 162h130l30-24H320z"/><text x="292" y="130">Energy</text></g><g opacity="0.3"><path d="M290 106h130l30-24H320z"/><text x="292" y="74">Air quality</text></g>
+          <g opacity="0.5"><path d="M290 106H262V409H206M290 162H262M290 218H262M290 274H262M290 330H262"/><path d="M146 356v36" stroke-dasharray="3 4"/></g>
+          <g class="dg__node" opacity="0.5"><rect x="86" y="392" width="120" height="34" rx="3"/><text x="146" y="414" text-anchor="middle">One interface</text></g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">What it is</h2></div>
+      <div class="prose">
+        <p>Energy monitoring starts with meters on the mains, the major loads and, where it pays, each tenant or unit. The readings flow into the building platform in real time and into dashboards your board or owner can read without an engineer in the room.</p>
+        <p>The value is in what the data catches: a chiller running outside its schedule, a pump that never stops, a tenant space conditioned all weekend, a utility bill that does not match what was measured. Fault detection turns those into alerts with a name and a location.</p>
+        <p>Where the numbers justify it, we scope and carry out energy conservation projects, then measure the result against the baseline so the saving is verified rather than promised.</p>
+      </div>
+    </div>
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">What we deliver</h2></div>
+      <ul class="bullets bullets--two">
+        <li>Electric, water, gas and thermal (BTU) metering on mains and major loads</li>
+        <li>Tenant and unit sub-metering with billing exports</li>
+        <li>Dashboards, trends and monthly reports for boards and owners</li>
+        <li>Fault detection and diagnostics on HVAC and plant</li>
+        <li>Energy conservation projects: scoping, implementation, measurement and verification</li>
+        <li>Utility bill verification against metered data</li>
+        <li>Demand management and load shedding strategies</li>
+        <li>Integration with the BMS and with utility programs</li>
+      </ul>
+    </div>
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Which buildings it fits</h2></div>
+      <ul class="chips">
+        <li><a href="{{root}}markets/index.html#condominiums">Condominiums and HOA</a></li>
+        <li><a href="{{root}}markets/index.html#commercial">Commercial offices</a></li>
+        <li><a href="{{root}}markets/index.html#hospitality">Hospitality</a></li>
+        <li><a href="{{root}}markets/index.html#industrial">Light industrial</a></li>
+      </ul>
+    </div>
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Works with</h2><p class="muted">The solutions this one is usually combined with.</p></div>
+      <ul class="link-list">
+        <li><a href="{{root}}solutions/building-automation/index.html">Building automation (BMS / BAS)</a> <span class="muted">Run the whole building from one screen, with HVAC, chiller plant, tenant overrides and garage air monitored and tuned automatically.</span></li>
+        <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a> <span class="muted">Keep CO2, humidity and ventilation where a healthy building needs them, with the records to prove it.</span></li>
+        <li><a href="{{root}}solutions/service-and-support/index.html">Service and support</a> <span class="muted">Preventive maintenance, 24/7 emergency response and remote monitoring, so the system you paid for keeps doing its job.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  {{> consult}}
+</main>
+
+{{> footer}}
+</body>
+</html>

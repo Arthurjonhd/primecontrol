@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://primecontrol.example/about/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/contact/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://primecontrol.example/</loc><lastmod>2026-09-13</lastmod><priority>1.0</priority></url>
+  <url><loc>https://primecontrol.example/markets/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/privacy/</loc><lastmod>2026-09-13</lastmod><priority>0.3</priority></url>
+  <url><loc>https://primecontrol.example/solutions/access-control-and-video/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/building-automation/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/energy-monitoring/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/home-and-commercial-automation/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/indoor-air-quality/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/lighting-and-shading/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://primecontrol.example/solutions/service-and-support/</loc><lastmod>2026-09-13</lastmod><priority>0.7</priority></url>
 </urlset>

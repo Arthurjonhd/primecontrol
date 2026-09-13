@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "building-automation",
+    "name": "Building automation (BMS / BAS)",
+    "short": "Building automation",
+    "outcome": "Run the whole building from one screen, with HVAC, chiller plant, tenant overrides and garage air monitored and tuned automatically.",
+    "tags": [
+      "Trane",
+      "BACnet",
+      "Modbus",
+      "LonWorks",
+      "Niagara"
+    ]
+  },
+  {
+    "slug": "lighting-and-shading",
+    "name": "Lighting and shading control (Lutron)",
+    "short": "Lighting and shading",
+    "outcome": "Rooms that light themselves for the time of day, cut glare and meet energy code without anyone touching a switch.",
+    "tags": [
+      "Lutron"
+    ]
+  },
+  {
+    "slug": "home-and-commercial-automation",
+    "name": "Home and commercial automation (Crestron)",
+    "short": "Home and commercial automation",
+    "outcome": "One touch sets the room: lights, climate, shades, security and audio-video together, at home or in the boardroom.",
+    "tags": [
+      "Crestron"
+    ]
+  },
+  {
+    "slug": "access-control-and-video",
+    "name": "Access control and video (ACS / CCTV)",
+    "short": "Access control and video",
+    "outcome": "Know who is in the building, control where they can go, and see every entrance from one video wall or one phone.",
+    "tags": [
+      "ACS",
+      "CCTV",
+      "Intrusion"
+    ]
+  },
+  {
+    "slug": "energy-monitoring",
+    "name": "Energy monitoring and analytics",
+    "short": "Energy monitoring",
+    "outcome": "See where the energy goes, bill tenants for what they use, and catch faults before the utility bill does.",
+    "tags": [
+      "Metering",
+      "Sub-metering",
+      "Analytics"
+    ]
+  },
+  {
+    "slug": "indoor-air-quality",
+    "name": "Indoor air quality",
+    "short": "Indoor air quality",
+    "outcome": "Keep CO2, humidity and ventilation where a healthy building needs them, with the records to prove it.",
+    "tags": [
+      "CO2",
+      "NO2",
+      "Humidity",
+      "Demand-control ventilation"
+    ]
+  },
+  {
+    "slug": "service-and-support",
+    "name": "Service and support",
+    "short": "Service and support",
+    "outcome": "Preventive maintenance, 24/7 emergency response and remote monitoring, so the system you paid for keeps doing its job.",
+    "tags": [
+      "24/7",
+      "Remote monitoring",
+      "Maintenance agreements"
+    ]
+  }
+]

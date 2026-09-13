@@ -51,6 +51,7 @@ for (const file of walk(SRC)) {
   const m = raw.match(/<!--\s*page\s*(\{[\s\S]*?\})\s*-->/);
   if (!m) throw new Error(`Missing <!--page {...}--> block in ${rel}`);
   const page = JSON.parse(m[1]);
+  for (const k of Object.keys(page)) if (typeof page[k] === 'string') page[k] = page[k].replace(/\{\{\s*brand\.(\w+)\s*\}\}/g, (_, key) => brand[key]);
   page.file = rel;
   const depth = rel.split('/').length - 1;
   const root = '../'.repeat(depth);

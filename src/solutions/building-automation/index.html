@@ -1,0 +1,91 @@
+<!--page {
+  "title": "Building automation and BMS / BAS integration, South Florida | {{brand.name}}",
+  "description": "BMS and BAS design, installation and programming: HVAC and chiller plant control, Trane systems, BACnet, Modbus, LonWorks and Niagara integration, tenant overrides, garage CO monitoring, one interface for the whole building.",
+  "nav": "solutions"
+}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <ol class="crumbs" aria-label="Breadcrumb">
+        <li><a href="{{root}}index.html">Home</a></li>
+        <li><a href="{{root}}solutions/index.html">Solutions</a></li>
+        <li aria-current="page">Building automation</li>
+      </ol>
+      <div class="page-hero__inner">
+        <div>
+          <h1 class="h1">Building automation (BMS / BAS)</h1>
+          <p class="lede">Run the whole building from one screen, with HVAC, chiller plant, tenant overrides and garage air monitored and tuned automatically.</p>
+          <ul class="tags" aria-label="Platforms and systems"><li>Trane</li><li>BACnet</li><li>Modbus</li><li>LonWorks</li><li>Niagara</li></ul>
+          <div class="page-hero__actions">
+            <a class="btn btn--primary" href="#consult">Request a consultation</a>
+          </div>
+        </div>
+        <svg class="dg page-hero__art" viewBox="0 0 480 440" role="img" aria-label="Building control layers with HVAC and BMS highlighted" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round" style="color:#7CC4FF">
+          <g opacity=".35"><rect x="30" y="300" width="230" height="56"/><rect x="96" y="88" width="100" height="212"/><rect x="120" y="70" width="52" height="18"/><path d="M96 112h100M96 136h100M96 160h100M96 184h100M96 208h100M96 232h100M96 256h100M96 280h100"/><path d="M10 356h270"/></g>
+          <g opacity="1"><path d="M290 330h130l30-24H320z"/><text x="292" y="298">HVAC and BMS</text></g><g opacity="0.3"><path d="M290 274h130l30-24H320z"/><text x="292" y="242">Lighting and shades</text></g><g opacity="0.3"><path d="M290 218h130l30-24H320z"/><text x="292" y="186">Access and video</text></g><g opacity="0.3"><path d="M290 162h130l30-24H320z"/><text x="292" y="130">Energy</text></g><g opacity="0.3"><path d="M290 106h130l30-24H320z"/><text x="292" y="74">Air quality</text></g>
+          <g opacity="0.5"><path d="M290 106H262V409H206M290 162H262M290 218H262M290 274H262M290 330H262"/><path d="M146 356v36" stroke-dasharray="3 4"/></g>
+          <g class="dg__node" opacity="0.5"><rect x="86" y="392" width="120" height="34" rx="3"/><text x="146" y="414" text-anchor="middle">One interface</text></g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">What it is</h2></div>
+      <div class="prose">
+        <p>A building management system connects every mechanical and electrical system in the property to one supervisory platform: air handlers, chillers and pumps, individual unit controls, exhaust fans, lighting circuits, meters and safety interfaces. Direct digital controllers run each piece of equipment; the platform above them gives your team one set of graphics, schedules, alarms and reports.</p>
+        <p>We build on open protocols. Trane controllers, Niagara-based supervisors and any device that speaks BACnet, Modbus or LonWorks sit on the same network, so the building is never tied to one vendor and the next chiller or air handler can come from whoever wins the bid.</p>
+        <p>For an existing building this often starts with an audit of what is already installed. Much of it can usually be kept, re-networked and brought under a single interface rather than replaced.</p>
+      </div>
+    </div>
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">What we deliver</h2></div>
+      <ul class="bullets bullets--two">
+        <li>HVAC control and optimisation: air handlers, VAV and fan-coil units, exhaust and outside-air strategies</li>
+        <li>Chiller plant operations: staging, sequencing, condenser and chilled-water reset</li>
+        <li>Individual unit control for condominiums and offices, with occupant schedules</li>
+        <li>Trane controllers and building automation systems</li>
+        <li>Open-protocol integration over BACnet, Modbus, LonWorks and Niagara</li>
+        <li>Pump systems: constant pressure, scheduled operation and sequential rotation</li>
+        <li>Smoke-control interface with the fire alarm system</li>
+        <li>Automatic after-hours tenant override with usage billing</li>
+        <li>Elevator, garage and loading-dock CO and NO2 monitoring with exhaust control</li>
+        <li>One graphical interface for the whole building, with trends, alarms and reports</li>
+        <li>Secure remote access for your team and for our service desk</li>
+      </ul>
+    </div>
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Which buildings it fits</h2></div>
+      <ul class="chips">
+        <li><a href="{{root}}markets/index.html#condominiums">Condominiums and HOA</a></li>
+        <li><a href="{{root}}markets/index.html#commercial">Commercial offices</a></li>
+        <li><a href="{{root}}markets/index.html#healthcare">Healthcare</a></li>
+        <li><a href="{{root}}markets/index.html#hospitality">Hospitality</a></li>
+        <li><a href="{{root}}markets/index.html#industrial">Light industrial</a></li>
+      </ul>
+    </div>
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Works with</h2><p class="muted">The solutions this one is usually combined with.</p></div>
+      <ul class="link-list">
+        <li><a href="{{root}}solutions/energy-monitoring/index.html">Energy monitoring and analytics</a> <span class="muted">See where the energy goes, bill tenants for what they use, and catch faults before the utility bill does.</span></li>
+        <li><a href="{{root}}solutions/indoor-air-quality/index.html">Indoor air quality</a> <span class="muted">Keep CO2, humidity and ventilation where a healthy building needs them, with the records to prove it.</span></li>
+        <li><a href="{{root}}solutions/access-control-and-video/index.html">Access control and video (ACS / CCTV)</a> <span class="muted">Know who is in the building, control where they can go, and see every entrance from one video wall or one phone.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  {{> consult}}
+</main>
+
+{{> footer}}
+</body>
+</html>

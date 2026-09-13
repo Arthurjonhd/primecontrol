@@ -1,0 +1,50 @@
+<!--page {
+  "title": "Privacy policy | {{brand.name}}",
+  "description": "What {{brand.name}} collects through this website, why, and how to reach us about it.",
+  "nav": "privacy",
+  "priority": "0.3"
+}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <ol class="crumbs" aria-label="Breadcrumb">
+        <li><a href="{{root}}index.html">Home</a></li>
+        <li aria-current="page">Privacy</li>
+      </ol>
+      <h1 class="h1">Privacy policy.</h1>
+      <p class="lede">Short, because this site does very little with your data.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="split__head"><p class="muted small">Last updated <span class="ph">[date]</span>. Review by counsel pending. <span class="ph">[legal review pending]</span></p></div>
+      <div class="prose">
+        <h2 class="h4">What we collect</h2>
+        <p>The only personal information this website collects is what you type into the consultation form: your name, phone number, email address, property type and message. Nothing is collected until you press "Send request".</p>
+        <h2 class="h4">How it is sent and stored</h2>
+        <p>Form submissions are delivered to us by Web3Forms, a form-to-email service, and arrive in our inbox. We keep them for as long as we are in conversation with you about your building, and delete them on request.</p>
+        <h2 class="h4">Cookies and analytics</h2>
+        <p>This site sets no cookies and runs no analytics or advertising scripts. If that changes, this page will say so first.</p>
+        <h2 class="h4">Third parties</h2>
+        <p>We do not sell or share your information. It is used only to respond to your request and, if you become a client, to do the work you hired us for.</p>
+        <h2 class="h4">Your choices</h2>
+        <p>To see, correct or delete what we hold about you, write to <a href="mailto:{{brand.email}}"><span class="ph">{{brand.email}}</span></a> or call <a href="{{brand.phoneHref}}"><span class="ph">{{brand.phone}}</span></a>.</p>
+        <h2 class="h4">Who we are</h2>
+        <p>{{brand.legalName}}, <span class="ph">{{brand.address}}</span>. Florida contractor license <span class="ph">{{brand.license}}</span>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+</body>
+</html>

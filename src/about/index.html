@@ -1,0 +1,95 @@
+<!--page {
+  "title": "About {{brand.name}}: building automation engineers in South Florida",
+  "description": "{{brand.name}} designs, installs, programs and services building automation and control systems in South Florida. Founded by an automation engineer with BMS, airport, hotel and central-bank facility experience.",
+  "nav": "about"
+}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <ol class="crumbs" aria-label="Breadcrumb">
+        <li><a href="{{root}}index.html">Home</a></li>
+        <li aria-current="page">About</li>
+      </ol>
+      <h1 class="h1">Engineers first. The rest follows.</h1>
+      <p class="lede">{{brand.name}} is a building automation and control-systems integrator in South Florida. We design, install, program and service every system in the building, and we stay on the account after hand-over.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Where we come from</h2></div>
+      <div class="prose">
+        <p>{{brand.name}} was founded by Brayan Turnquest, an automation engineer whose work spans the full range of what a building can ask of its controls: direct digital control of HVAC and mechanical plant, supervisory systems, custom control panels and the people who run them once the integrator has left.</p>
+        <p>Before South Florida, that work was done in the Bahamas under the Caiman Automation name. The projects below are from that period and are the reason the company exists: each one taught us something about how systems fail when they are treated as separate contracts, and how they behave when one team owns all of them.</p>
+        <p class="muted small">Wording and permission to cite the projects below are pending client confirmation. <span class="ph">[confirm with client]</span></p>
+      </div>
+    </div>
+
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Experience highlights</h2><p class="muted">Three projects that shaped how we work.</p></div>
+      <ul class="why__list">
+        <li>
+          <h3 class="h4">Central Bank of The Bahamas, new headquarters</h3>
+          <p>Consultant on the facility master system for the new building: control and supervision of the mechanical systems using direct digital controls, applied to HVAC and non-HVAC systems alike.</p>
+        </li>
+        <li>
+          <h3 class="h4">Lynden Pindling International Airport, Nassau</h3>
+          <p>Responsible for the airport's building management system with the Nassau Airport Development Company for more than three years: maintenance, upgrades and day-to-day operation of a system that cannot stop.</p>
+        </li>
+        <li>
+          <h3 class="h4">Hotel Iberostar Grand Packard</h3>
+          <p>One of the engineers who carried the hotel automation project through every stage, from the design and assembly of the control panels to the supervisory system that runs the property.</p>
+        </li>
+        <li>
+          <h3 class="h4">Homes, buildings and industry</h3>
+          <p>New system installations, troubleshooting and optimisation of existing equipment, and preventive maintenance across home, building and industrial automation, including PLC, drive and HMI panel design and assembly.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">What we hold ourselves to</h2></div>
+      <ul class="why__list">
+        <li><h3 class="h4">Total commitment to the client</h3><p>Advice first, then technology. We recommend what the building needs, on platforms you are free to leave.</p></li>
+        <li><h3 class="h4">One team for every system</h3><p>HVAC, lighting, shades, access, video, energy and air quality from the same engineers, so nothing falls between trades.</p></li>
+        <li><h3 class="h4">Agility</h3><p>Small enough that the engineer who designed the system answers the phone when it alarms.</p></li>
+        <li><h3 class="h4">A permanent solution</h3><p>We would rather fix the sequence than reset the alarm. The job is done when the building stays fixed.</p></li>
+      </ul>
+    </div>
+
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Team</h2><p class="muted">Names and photos pending. <span class="ph">[team pending]</span></p></div>
+      <ul class="why__list">
+        <li><h3 class="h4"><span class="ph">[Name]</span></h3><p><span class="ph">[Role]</span>. Two lines on background and focus.</p></li>
+        <li><h3 class="h4"><span class="ph">[Name]</span></h3><p><span class="ph">[Role]</span>. Two lines on background and focus.</p></li>
+        <li><h3 class="h4"><span class="ph">[Name]</span></h3><p><span class="ph">[Role]</span>. Two lines on background and focus.</p></li>
+      </ul>
+    </div>
+
+    <div class="container split block">
+      <div class="split__head"><h2 class="h3">Licenses and certifications</h2><p class="muted">Slots reserved; details pending. <span class="ph">[certifications pending]</span></p></div>
+      <ul class="bullets bullets--two">
+        <li>Florida contractor license <span class="ph">{{brand.license}}</span></li>
+        <li>Lutron program level <span class="ph">[pending]</span></li>
+        <li>Crestron program level <span class="ph">[pending]</span></li>
+        <li>Trane / building automation training <span class="ph">[pending]</span></li>
+        <li>Niagara framework certification <span class="ph">[pending]</span></li>
+        <li>Insurance and bonding <span class="ph">[pending]</span></li>
+      </ul>
+    </div>
+  </section>
+
+  {{> consult}}
+</main>
+
+{{> footer}}
+</body>
+</html>

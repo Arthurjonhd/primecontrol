@@ -1,0 +1,113 @@
+<!--page {
+  "title": "Contact {{brand.name}}: request a consultation in South Florida",
+  "description": "Request a consultation for building automation, Lutron lighting, Crestron, access control, energy monitoring or indoor air quality. We call back within one business day. Miami, Fort Lauderdale, Palm Beach and all of South Florida.",
+  "nav": "contact"
+}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <ol class="crumbs" aria-label="Breadcrumb">
+        <li><a href="{{root}}index.html">Home</a></li>
+        <li aria-current="page">Contact</li>
+      </ol>
+      <h1 class="h1">Request a consultation.</h1>
+      <p class="lede">An engineer reads every request and calls back within one business day. Tell us about the building and what is not working today.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact__grid">
+      <form class="form-card form-card--light" action="https://api.web3forms.com/submit" method="POST" data-consult-form novalidate>
+        <input type="hidden" name="access_key" value="{{brand.web3formsKey}}">
+        <input type="hidden" name="subject" value="Consultation request from {{brand.name}} website (contact page)">
+        <input type="hidden" name="from_name" value="{{brand.name}} website">
+        <div class="form-card__hp" aria-hidden="true">
+          <label for="botcheck">Leave this empty</label>
+          <input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="f-name">Name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-phone">Phone</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-type">Property type</label>
+          <select id="f-type" name="property_type" required>
+            <option value="">Choose one</option>
+            <option>Single-family home</option>
+            <option>Condominium or HOA</option>
+            <option>Commercial office</option>
+            <option>Hospitality</option>
+            <option>Healthcare</option>
+            <option>Retail</option>
+            <option>Light industrial</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-message">Message <span class="field__opt">(optional)</span></label>
+          <textarea id="f-message" name="message" rows="5"></textarea>
+          <p class="field__help">Address, size of the building and what is not working today all help.</p>
+        </div>
+        <button class="btn btn--primary btn--block" type="submit">Send request</button>
+        <p class="form-card__status" data-form-status role="status" aria-live="polite" hidden></p>
+      </form>
+
+      <div class="contact__details">
+        <div class="block">
+          <h2 class="h4">Call or write</h2>
+          <ul class="link-list" style="margin-top:var(--s-3)">
+            <li><a href="{{brand.phoneHref}}"><span class="ph">{{brand.phone}}</span></a></li>
+            <li><a href="mailto:{{brand.email}}"><span class="ph">{{brand.email}}</span></a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h2 class="h4">Office</h2>
+          <p style="margin-top:var(--s-3)"><span class="ph">{{brand.address}}</span></p>
+          <div class="map-placeholder" style="margin-top:var(--s-4)" role="img" aria-label="Map placeholder"><span>Map embed placeholder <span class="ph">[map pending]</span></span></div>
+        </div>
+        <div class="block">
+          <h2 class="h4">Service area</h2>
+          <p class="muted" style="margin-top:var(--s-2)">Confirm with client. <span class="ph">[confirm with client]</span></p>
+          <ul class="chips" style="margin-top:var(--s-3)" aria-label="Service area">
+            <li><a href="{{root}}markets/index.html">Miami-Dade County</a></li>
+            <li><a href="{{root}}markets/index.html">Broward County</a></li>
+            <li><a href="{{root}}markets/index.html">Palm Beach County</a></li>
+            <li><a href="{{root}}markets/index.html">Miami</a></li>
+            <li><a href="{{root}}markets/index.html">Fort Lauderdale</a></li>
+            <li><a href="{{root}}markets/index.html">Palm Beach</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h2 class="h4">What happens next</h2>
+          <ol class="steps steps--compact steps--light">
+            <li><span class="steps__num">1</span><span>A call to understand the building and the problem.</span></li>
+            <li><span class="steps__num">2</span><span>A site walk-through.</span></li>
+            <li><span class="steps__num">3</span><span>A written proposal with scope and price.</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+</body>
+</html>

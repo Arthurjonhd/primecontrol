@@ -1,0 +1,35 @@
+<!--page {
+  "title": "Page not found | {{brand.name}}",
+  "description": "That page does not exist. Find solutions, markets, about and contact from here.",
+  "path": "/404.html",
+  "nav": "none",
+  "noindex": true
+}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{> head}}
+<meta name="robots" content="noindex">
+</head>
+<body>
+{{> header}}
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="crumbs"><span class="ph">404</span></p>
+      <h1 class="h1">That page is not on the system.</h1>
+      <p class="lede">The address may have changed or never existed. These will get you where you were going.</p>
+      <nav class="page-hero__actions" aria-label="Main sections">
+        <a class="btn btn--primary" href="{{root}}index.html">Home</a>
+        <a class="btn btn--ghost" href="{{root}}solutions/index.html">Solutions</a>
+        <a class="btn btn--ghost" href="{{root}}markets/index.html">Markets</a>
+        <a class="btn btn--ghost" href="{{root}}contact/index.html">Contact</a>
+      </nav>
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+</body>
+</html>
