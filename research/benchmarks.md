@@ -61,8 +61,8 @@ Raw extracted facts (titles, H1/H2, nav, CTAs, fonts, colors, video, transfer si
 - **Palette.** Deep navy (#000028) + cyan (#00cccc) + white + petrol. The closest existing reference to the "control room at night" direction, but Siemens' cyan is louder than what we want.
 - **Motion.** None beyond hover. Video is click-to-play (not autoplay). Respectful of bandwidth.
 - **Speed impression.** ~2 MB home, ~6 MB Building X (images). Reasonable.
-- **Worth borrowing.** The explainer-first structure ("what it is" before "what we sell"); the isometric layered-building illustration to explain systems; an accordion for the long product list; "Request a consultation" wording; contact form at the end of every page.
-- **Feels dated / avoid.** Stat tiles that would be invented in our case; generic "challenges" cards; the corporate flatness of an all-navy page.
+- **Worth borrowing.** The explainer-first structure ("what it is" before "what we sell"); the idea of a layered-building illustration to explain systems (ours will be original in construction and style); an accordion for the long product list; "Request a consultation" wording; contact form at the end of every page.
+- **Feels dated / avoid.** Stat tiles that would be invented in our case; generic "challenges" cards; the corporate flatness of an all-navy page; their cyan is louder than our accent will be. Siemens is a palette reference only.
 
 ### 4. Schneider Electric / EcoStruxure Building (se.com)
 
@@ -103,8 +103,8 @@ Raw extracted facts (titles, H1/H2, nav, CTAs, fonts, colors, video, transfer si
 - **Palette.** Near-black and white with a single red accent; grey photography. One accent, used only on buttons and arrows.
 - **Motion.** Muted hero video (with poster) and hover states only. Calm.
 - **Speed impression.** ~1.4 MB, fast. Best performer in the set apart from Crestron.
-- **Worth borrowing.** One headline + one CTA hero; the overlapping cards at the fold; numbered "how can we help" list; audience-specific entry points; a single accent colour discipline; eyebrow labels; header "Local contact" button.
-- **Feels dated / avoid.** Nothing structurally; the red would clash with our direction, and the page runs long.
+- **Worth borrowing.** One headline + one CTA hero; the overlapping cards at the fold; numbered "how can we help" list; audience-specific entry points; a single accent colour discipline; header "Local contact" button.
+- **Feels dated / avoid.** Nothing structurally; the red would clash with our direction, and the page runs long. We do **not** adopt Inter or any other typographic detail from Trane; typography is chosen for this brief and justified in `design/plan.md`.
 
 ### 7. Crestron (crestron.com)
 
@@ -149,16 +149,17 @@ Raw extracted facts (titles, H1/H2, nav, CTAs, fonts, colors, video, transfer si
 
 - **Advanced Control Corp:** (1) the "one integrator for the whole building" framing; (2) local phone numbers in the top bar; (3) an aerial-building hero — but ours reveals the systems, not just the façade.
 - **Johnson Controls:** (1) outcome-first solution blocks with "what's included" bullets; (2) a sticky page-level "Contact" on solutions pages; (3) explaining one platform as a small number of clear outcomes.
-- **Siemens:** (1) "what it is" explainer before "what we sell"; (2) an isometric layered-building illustration to show systems; (3) "Request a consultation" as the primary CTA wording.
+- **Siemens:** (1) "what it is" explainer before "what we sell"; (2) the *idea* of a layered-building illustration to show systems — ours is original in construction and style, with a quieter accent than their cyan; (3) "Request a consultation" as the primary CTA wording. Siemens is a palette reference only.
 - **Schneider Electric:** (1) "trusted by / works with" logo row under the fold; (2) framing by building size; (3) a guided "which solution fits" entry point (v2 idea).
 - **Honeywell:** (1) markets as tabs/anchors; (2) clean separation of solutions vs. service; (3) the category vocabulary facility managers actually use (BMS, access, video, intrusion).
-- **Trane:** (1) one headline + one CTA hero with cards overlapping the fold; (2) numbered "how we work" list; (3) strict one-accent colour and eyebrow-label typography.
+- **Trane:** (1) one headline + one CTA hero with cards overlapping the fold; (2) numbered "how we work" list; (3) strict one-accent colour discipline. Structure only; no typography is taken from Trane.
 - **Crestron:** (1) product-in-context imagery; (2) left-aligned copy beside large imagery with white space; (3) "works with" partner grid as our platform trust bar.
 - **Lutron:** (1) one sentence per section, no filler; (2) tall portrait tiles as a non-grid layout for solutions; (3) residential / commercial / hospitality audience switch for Markets.
 
 ## What we deliberately do differently
 
 - **Reveal the control layers, not just the building.** The hero overlays labelled system layers (HVAC, lighting & shades, access & video, energy, air quality) as the aerial pulls back. None of the eight sites shows what an integrator actually does in the hero.
+- **Group by system, lead with outcome.** Navigation, URLs and page titles stay grouped BY SYSTEM (BMS, Lutron lighting & shading, Crestron automation, access control & video, energy, air quality, service) because that is how local customers search. The OUTCOME goes in the first sentence of every solution block and every solution page. We do not regroup the families by outcome the way JCI and Siemens do.
 - **Say what platforms we integrate, on the home page.** Advanced Control never names Lutron, Crestron, Trane, BACnet or Niagara. We put them in a trust bar immediately after the hero and repeat "open protocols, no lock-in" as a differentiator.
 - **One accent, cool not warm, no neon.** Navy/graphite + white + a single electric-blue family for interaction only. No SE green, no Honeywell red, no Lutron champagne.
 - **No carousels, no chat widgets, no cookie theatre.** Static site, one orchestrated motion moment, everything else user-triggered.

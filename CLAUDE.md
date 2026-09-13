@@ -7,11 +7,12 @@ indoor air quality, service & support). Audience: property managers, HOA boards,
 architects/engineers, luxury homeowners.
 
 ## Stack rules (non-negotiable)
-- Plain HTML5 + ONE CSS file (`assets/css/main.css`, custom properties) + vanilla JS (`assets/js/main.js`).
-- No frameworks, no CSS/JS libraries, no build step required to view the site.
-- Header and footer are partials in `partials/`; `node scripts/build.mjs` injects them into every page.
-  Never hand-edit the header/footer inside a page — edit the partial and rebuild.
-- Self-hosted fonts or system stacks only. No external CDNs.
+- Plain HTML5 + ONE CSS file (`src/assets/css/main.css`, custom properties) + vanilla JS (`src/assets/js/main.js`).
+- No frameworks, no CSS/JS libraries, no external CDNs. Self-hosted fonts or system stacks only.
+- Source pages live in `src/`. Header and footer are partials in `src/partials/`.
+  `node scripts/build.mjs` injects the partials and brand tokens into every page and writes the final
+  site to `dist/`. `dist/` is committed and is the deploy target. Never hand-edit `dist/`; never hand-edit
+  the header/footer inside a page — edit the partial and rebuild.
 - Every page: unique `<title>` + meta description, Open Graph, canonical, one `<h1>`, semantic landmarks.
 - Mobile-first, 360px → 1920px. Lighthouse ≥ 90 across the board on Home and one Solutions page.
 - Motion budget: the Home hero only. Everything else static or user-triggered. Honour `prefers-reduced-motion`.
@@ -19,7 +20,7 @@ architects/engineers, luxury homeowners.
 
 ## Brand name variable
 The legal name is not final ("Prime Control" / "Prime Control Systems" / "Prime Control Corp").
-The name lives in ONE place: `partials/brand.json` (`name`, `shortName`, `legalName`). The build script
+The name lives in ONE place: `src/partials/brand.json` (`name`, `shortName`, `legalName`). The build script
 replaces `{{brand.name}}` / `{{brand.legalName}}` tokens in every page and partial. Do not hard-code the name.
 
 ## Placeholders (must stay visibly marked until the client provides real data)
@@ -33,7 +34,29 @@ Fort Lauderdale, Palm Beach — confirm with client). Full list in `TODO.md`.
 - No invented statistics, years in business, project counts or testimonials.
 - All text lives in HTML (no text in images) so a Spanish version can be added later.
 - Florida requires contractor license numbers on advertising: keep the `[FL LICENSE #]` slot in the footer.
+- Solutions are grouped BY SYSTEM in navigation, URLs and page titles (BMS, Lutron lighting & shading,
+  Crestron automation, access control & video, energy, air quality, service). The customer OUTCOME is the
+  first sentence of every solution block and every solution page. Do not regroup by outcome.
+- Brand marks in the trust bar stay as plain-text wordmarks until the client confirms authorized-dealer
+  status for Lutron, Crestron and Trane. Licensed logos are a blocker logged in `TODO.md`.
+
+## Process
+- Work in phases (0 research → 1 design plan → 2 Home → 3 inner pages → QA).
+- Stop at the end of every phase: summarize, and show screenshots at 390 / 820 / 1440 before continuing.
+- Commit after each phase with a clear message. Keep `CHANGELOG.md` and `TODO.md` current.
+
+## Publishing
+- `research/` and `design/` are internal. They must never be deployed or served: they live outside `src/`,
+  the build never copies them into `dist/`, and `.deployignore` / host config excludes them explicitly.
+- The repo stays private until the client approves the site (see `TODO.md`).
 
 ## Layout
-`/assets/{css,js,img,video}`, `/partials`, `/solutions/<slug>/index.html`, `/markets`, `/about`, `/contact`,
-`/privacy`, `/research`, `/design`, `/scripts`. Keep `CHANGELOG.md` and `TODO.md` current; commit after each phase.
+```
+src/                  source pages (index.html, solutions/<slug>/index.html, markets/, about/, contact/, privacy/, 404.html)
+src/partials/         header.html, footer.html, head.html, brand.json
+src/assets/{css,js,img,video,fonts}
+scripts/              build.mjs (src → dist), benchmark.mjs, screenshot/QA scripts
+dist/                 built site — deploy target (committed)
+research/             Phase 0 benchmarks — internal, never deployed
+design/               Phase 1 plan + tokens — internal, never deployed
+```
