@@ -360,6 +360,15 @@ No scroll-triggered reveals, no parallax, no hover lift on cards, no auto-advanc
 
 ---
 
+### Addendum (client request, 2026-09-13): pinned hero background
+
+The hero is `position: sticky; top: 0` and the sections after it carry `z-index: 1` with solid backgrounds,
+so as the user scrolls the page slides over the hero while the aerial stays put behind it. This is a
+scroll-linked layout, not an animation: nothing moves on its own, nothing is scrubbed, and it needs no
+JavaScript. It is kept under `prefers-reduced-motion` for that reason. The hero video pauses once the
+hero is fully covered. The placeholder aerial has been replaced by the client's own drone footage
+(`design/source/drone.mp4` → `src/assets/video/hero-drone.webm`, 10 s, VP9, under 4 MB).
+
 ## 5. Content principles
 
 - The outcome is the first sentence of every solution block and every solution page. Grouping stays by

@@ -30,3 +30,14 @@
 - Hero headline restructured to span the full width on desktop so it sets as two lines at 1440 and 1024 (plan updated).
 - QA scripts: `scripts/shots.mjs` (390/820/1440 full pages, hero frames with and without reduced motion), `scripts/lighthouse.mjs` (mobile + desktop), `scripts/make-og.mjs`, `scripts/make-hero-video.mjs`.
 - Lighthouse Home: mobile 98 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100 (performance / accessibility / best practices / SEO). CLS 0. Home weight 203 KB mobile; 1.7 MB desktop including the 1.38 MB clip.
+
+## Home review fixes + client requests (2026-09-13)
+- Diagram: full-page captures (and any viewport re-emulation, e.g. tablet rotation across 1024 px) restarted the CSS animation, leaving the layers invisible. JS now adds `is-done` after the sequence so the finished state is pinned and can never replay.
+- Mobile diagram: last label shortened to "HVAC and BMS"; at 360 px the labels end 60 px inside the viewport.
+- Mobile header: phone icon (`tel:` link, 44 px target) between the wordmark and the menu button below 1024 px.
+- Home header: `.js.home` selector fixed to `.js .home`, so the header is actually fixed and turns white on scroll.
+- Hero media: client drone footage (`design/source/drone.mp4`, never deployed) encoded to `src/assets/video/hero-drone.webm` (10 s, 1280×720, VP9, 3.74 MB) via Chrome MediaRecorder; posters from the 4.5 s frame. Placeholder aerial, its credit line and CREDITS entry removed.
+- Pinned hero (client request): hero is `position: sticky`, sections slide over it on scroll; video pauses once covered. Documented in plan §4 addendum.
+- TODO.md: "Strings to remove before launch" table with file and line; hero still request logged.
+- Client's previous site (caimanautomation.com) captured to `research/client-site/` as source material for About, Contact and Solutions (their own content, adapted, not copied verbatim).
+- Lighthouse Home after changes: mobile 98 / 100 / 100 / 100, desktop 100 / 100 / 100 / 100, CLS 0.

@@ -6,9 +6,9 @@
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "2.3 s",
+    "LCP": "2.2 s",
     "CLS": "0",
-    "bytes": "203 KB"
+    "bytes": "189 KB"
   },
   {
     "page": "/",
@@ -17,8 +17,8 @@
     "accessibility": 100,
     "best-practices": 100,
     "seo": 100,
-    "LCP": "0.6 s",
+    "LCP": "0.5 s",
     "CLS": "0",
-    "bytes": "1707 KB"
+    "bytes": "4049 KB"
   }
 ]

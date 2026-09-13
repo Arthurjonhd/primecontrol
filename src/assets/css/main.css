@@ -201,6 +201,14 @@ button { font: inherit; color: inherit; }
 .bg-dark .brand__tick, .home .site-header:not(.is-scrolled) .brand__tick, .site-footer .brand__tick { fill: var(--c-signal-light); }
 .brand__name { font-family: var(--f-edit); font-stretch: var(--w-head); font-weight: 600; font-size: 1.125rem; letter-spacing: -0.01em; white-space: nowrap; }
 
+.header-phone {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.75rem; height: 2.75rem; margin-left: auto; margin-right: var(--s-2);
+  color: inherit; border-radius: var(--radius-ctl);
+}
+.header-phone:hover { background: rgb(15 107 219 / 0.08); }
+@media (min-width: 64rem) { .header-phone { display: none; } }
+
 .menu-toggle {
   display: inline-flex; align-items: center; gap: var(--s-2);
   min-height: 2.75rem; padding: 0.4rem 0.6rem; margin-right: -0.6rem;
@@ -250,13 +258,14 @@ button { font: inherit; color: inherit; }
 
 /* Home: header sits over the hero, turns white on scroll (JS) */
 .home .site-header { position: absolute; left: 0; right: 0; top: 0; background: transparent; color: var(--c-white); border-color: transparent; }
-.js.home .site-header { position: fixed; }
+.js .home .site-header { position: fixed; }
 .home .site-header.is-scrolled { background: var(--c-white); color: var(--c-night); border-color: var(--c-rule); }
 .home .site-header.is-scrolled .brand__tick { fill: var(--c-signal); }
 
 /* ---------- Hero ---------- */
+/* The hero stays pinned behind the page: later sections slide over it as the user scrolls (client request). */
 .hero {
-  position: relative; isolation: isolate; overflow: hidden;
+  position: sticky; top: 0; z-index: 0; isolation: isolate; overflow: hidden;
   background: var(--c-night); color: var(--c-white);
   min-height: min(100svh, 56rem);
   display: grid; align-items: end;
@@ -297,10 +306,16 @@ button { font: inherit; color: inherit; }
 .dg__layer, .dg__link, .dg__node { transform-box: fill-box; transform-origin: center; }
 @keyframes dg-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
 @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
-  .dg.is-anim .dg__layer { animation: dg-in 300ms ease-out backwards; animation-delay: calc(600ms + var(--i) * 350ms); }
-  .dg.is-anim .dg__link { animation: dg-in 300ms ease-out backwards; animation-delay: 2350ms; }
-  .dg.is-anim .dg__node { animation: dg-in 300ms ease-out backwards; animation-delay: 2500ms; }
+  .dg.is-anim:not(.is-done) .dg__layer { animation: dg-in 300ms ease-out backwards; animation-delay: calc(600ms + var(--i) * 350ms); }
+  .dg.is-anim:not(.is-done) .dg__link { animation: dg-in 300ms ease-out backwards; animation-delay: 2350ms; }
+  .dg.is-anim:not(.is-done) .dg__node { animation: dg-in 300ms ease-out backwards; animation-delay: 2500ms; }
 }
+/* .is-done is set by JS after the sequence ends so a re-layout (viewport change, capture) can never replay it */
+
+/* everything after the hero rides over it */
+.home main > :not(.hero), .home .site-footer { position: relative; z-index: 1; }
+.section { background: var(--c-white); }
+.section--paper { background: var(--c-paper); }
 
 /* ---------- Trust bar ---------- */
 .trust { background: var(--c-white); }
@@ -443,12 +458,10 @@ button { font: inherit; color: inherit; }
   display: grid; gap: var(--s-3); color: var(--c-text-dark-muted);
 }
 .site-footer__social { list-style: none; display: flex; gap: var(--s-5); }
-.site-footer__credit { font-size: 0.8rem; }
 @media (min-width: 48rem) {
   .site-footer__grid { grid-template-columns: 1.4fr 1fr 0.7fr 1fr; }
   .site-footer__bottom { grid-template-columns: auto auto 1fr; align-items: baseline; }
   .site-footer__legal { justify-self: end; }
-  .site-footer__credit { grid-column: 1 / -1; }
 }
 
 /* ---------- Inner pages ---------- */

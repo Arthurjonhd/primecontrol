@@ -9,6 +9,20 @@
 - [ ] "We call within one business day" (form success message and "what happens next")
 - [ ] The three-step process after a request: call → site walk-through → written proposal
 
+## Strings to remove before launch (visible by design during review)
+| String | File | Line | Action at launch |
+|---|---|---|---|
+| "Names shown as text until authorized-dealer status is confirmed. [licensed logos pending]" | `src/index.html` | 96 | Delete the `<p class="trust__note">` once dealer status is confirmed; swap text wordmarks for licensed logos |
+| "Placeholders until the client provides photography and project details. [3 projects pending]" | `src/index.html` | 206 | Replace with the real intro sentence or delete |
+| "Image placeholder" tiles and "[Project name] / [Building type], [City]. [Systems installed]" | `src/index.html` | 210–219 | Replace with real project images and captions |
+| Hidden testimonials "[Quote] / [Name], [Role], [Property]" | `src/index.html` | 232–233 | Fill with real quotes and remove the `hidden` attribute, or delete the section |
+| "[confirm with client]" after the service area | `src/partials/footer.html` | 47 | Delete once the service area is confirmed |
+| Social links "LinkedIn [link]", "Instagram [link]" | `src/partials/footer.html` | 54–55 | Replace `href="#"` with real profiles and remove `[link]`, or delete the list |
+| `siteUrl: https://primecontrol.example` | `src/partials/brand.json` | 6 | Replace with the real domain (drives canonical, OG, sitemap, robots) |
+| `[PHONE]`, `[EMAIL]`, `[ADDRESS]`, `[FL LICENSE #]`, `[WEB3FORMS_KEY]` | `src/partials/brand.json` | 7–12 | Replace values; the `.ph` styling disappears with them |
+
+Run `grep -rn "\[" src --include=*.html --include=*.json` before launch: it must return nothing.
+
 ## Client inputs
 - [ ] Final legal name: Prime Control / Prime Control Systems / Prime Control Corp (single variable in `src/partials/brand.json`)
 - [ ] Logo (replaces provisional SVG wordmark in `src/assets/img/`)
@@ -23,7 +37,8 @@
 - [ ] Team names / photos for About
 - [ ] Web3Forms access key → `[WEB3FORMS_KEY]`
 - [ ] Domain name and hosting choice (GitHub Pages / Cloudflare Pages / other)
-- [ ] Hero video: client drone footage (WebM or MP4, under 4 MB, 16:9) to replace the placeholder push-in clip rendered from a CC BY-SA photo. When replaced, also replace the poster images in `src/assets/img/hero/` and remove the photo credit from the footer partial.
+- [x] Hero video: client drone footage received (`design/source/drone.mp4`, 10 s, 1280×720) and encoded to `src/assets/video/hero-drone.webm`.
+- [ ] Hero still for the top: the client wants a different image than the current one. The mobile/reduced-motion poster is currently the 4.5 s frame of the drone clip. Re-run `node scripts/make-hero-video.mjs 0 18 <seconds>` for a different frame, or drop a new 1920×1080 still into `src/assets/img/hero/` as `drone-{1920,1280,768}.{avif,webp,jpg}`.
 - [ ] `siteUrl` in `src/partials/brand.json` is `https://primecontrol.example` so canonical/OG/sitemap URLs are valid; replace with the real domain
 - [ ] Spanish translation (structure is ready; copy not yet translated)
 

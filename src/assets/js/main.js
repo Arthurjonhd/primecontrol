@@ -3,6 +3,7 @@
   'use strict';
 
   var doc = document;
+  var heroVideo = null;
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   var desktop = window.matchMedia('(min-width: 64rem)');
 
@@ -46,17 +47,36 @@
     desktop.addEventListener('change', function (e) { if (e.matches && nav.classList.contains('is-open')) closeMenu(); });
   }
 
-  /* ---------- Home header: white after the user scrolls ---------- */
+  /* ---------- Hero diagram: pin the finished state so nothing can replay the sequence ---------- */
+  var dg = doc.getElementById('hero-diagram');
+  if (dg) {
+    var node = dg.querySelector('.dg__node');
+    var done = function () { dg.classList.add('is-done'); };
+    if (dg.classList.contains('is-anim') && node) {
+      node.addEventListener('animationend', done, { once: true });
+      setTimeout(done, 3500); // safety net if the animation never ran (e.g. tab in background)
+    } else { done(); }
+  }
+
+  /* ---------- Home header: white after the user scrolls; hero video pauses once covered ---------- */
   var header = doc.querySelector('.home .site-header');
+  var hero = doc.querySelector('.hero');
   if (header) {
     var ticking = false;
-    function update() { header.classList.toggle('is-scrolled', window.scrollY > 24); ticking = false; }
+    function update() {
+      header.classList.toggle('is-scrolled', window.scrollY > 24);
+      if (hero && heroVideo && heroVideo.classList.contains('is-playing')) {
+        if (window.scrollY > hero.offsetHeight) heroVideo.pause(); else heroVideo.play().catch(function () {});
+      }
+      ticking = false;
+    }
     window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
     update();
   }
 
   /* ---------- Hero video: desktop, motion allowed, no data-saver ---------- */
   var video = doc.querySelector('[data-hero-video]');
+  heroVideo = video;
   if (video) {
     var conn = navigator.connection || {};
     var allow = desktop.matches && !reduceMotion.matches && !conn.saveData;
@@ -70,12 +90,6 @@
       var p = video.play();
       if (p && p.then) p.then(function () { video.classList.add('is-playing'); }).catch(function () { /* poster stays */ });
       video.addEventListener('playing', function () { video.classList.add('is-playing'); }, { once: true });
-      // pause when off screen
-      if ('IntersectionObserver' in window) {
-        new IntersectionObserver(function (entries) {
-          entries.forEach(function (en) { if (en.isIntersecting) { video.play().catch(function () {}); } else { video.pause(); } });
-        }, { threshold: 0.1 }).observe(video);
-      }
     }
   }
 
